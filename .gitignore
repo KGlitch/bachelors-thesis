@@ -33,8 +33,11 @@ ENV/
 
 # Project specific
 *.log
-partnership_articles.json
-partnership_articles.csv
+data/partnership_articles.json
+data/partnership_articles.csv
+
+# PDF files
+*.pdf
 
 # OS specific
 .DS_Store
