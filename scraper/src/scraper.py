@@ -95,6 +95,71 @@ class PartnershipScraper:
                 "https://www.mongodb.com/newsroom",
                 "https://www.mongodb.com/blog",
                 "https://www.mongodb.com/blog/channel/company"
+            ]),
+            ("Collibra", [
+                "https://www.collibra.com/news",
+                "https://www.collibra.com/blog",
+                "https://www.collibra.com/press-releases"
+            ]),
+            ("Confluent", [
+                "https://www.confluent.io/blog/",
+                "https://www.confluent.io/news/",
+                "https://www.confluent.io/press-releases/"
+            ]),
+            ("DataRobot", [
+                "https://www.datarobot.com/news/",
+                "https://www.datarobot.com/blog/",
+                "https://www.datarobot.com/press-releases/"
+            ]),
+            ("Google Cloud", [
+                "https://cloud.google.com/blog",
+                "https://cloud.google.com/news",
+                "https://cloud.google.com/blog/products/ai-machine-learning"
+            ]),
+            ("Palantir", [
+                "https://www.palantir.com/news/",
+                "https://www.palantir.com/blog/",
+                "https://investors.palantir.com/news-releases"
+            ]),
+            ("Informatica", [
+                "https://www.informatica.com/news.html",
+                "https://www.informatica.com/blogs.html",
+                "https://www.informatica.com/about-us/newsroom.html"
+            ]),
+            ("ServiceNow", [
+                "https://www.servicenow.com/newsroom.html",
+                "https://www.servicenow.com/blog.html",
+                "https://www.servicenow.com/community/tech-tips-and-tricks.html"
+            ]),
+            ("NASDAQ", [
+                "https://www.nasdaq.com/news-and-insights/tech",
+                "https://www.nasdaq.com/news-and-insights/company-news",
+                "https://www.nasdaq.com/news-and-insights/market-movers"
+            ]),
+            ("NYSE", [
+                "https://www.nyse.com/news-events",
+                "https://www.nyse.com/technology",
+                "https://www.nyse.com/ipo-center/news"
+            ]),
+            ("DAX", [
+                "https://www.deutsche-boerse.com/dbg-en/news-views",
+                "https://www.deutsche-boerse.com/dbg-en/technology",
+                "https://www.deutsche-boerse.com/dbg-en/company-news"
+            ]),
+            ("Reuters", [
+                "https://www.reuters.com/technology/",
+                "https://www.reuters.com/markets/",
+                "https://www.reuters.com/companies/"
+            ]),
+            ("Bloomberg", [
+                "https://www.bloomberg.com/technology",
+                "https://www.bloomberg.com/markets",
+                "https://www.bloomberg.com/companies"
+            ]),
+            ("Financial Times", [
+                "https://www.ft.com/technology",
+                "https://www.ft.com/markets",
+                "https://www.ft.com/companies"
             ])
         ]
         
@@ -102,7 +167,8 @@ class PartnershipScraper:
             "partnership", "integration", "data sharing",
             "data platform", "cloud platform", "data lake",
             "data warehouse", "collaboration", "joint solution",
-            "strategic alliance"
+            "strategic alliance", "SAP BDC", "Business Data Cloud",
+            "SAP Databricks"
         ]
         
         self.results_file = "partnership_articles.json"
@@ -307,6 +373,82 @@ class PartnershipScraper:
             logging.error(f"Error extracting article data from {url}: {str(e)}")
             return None
 
+    def save_webpage_content(self, url: str, company: str) -> str:
+        """Save webpage content as UTF-16 LE encoded text file.
+        
+        Args:
+            url: The URL of the webpage
+            company: The company name for the filename
+            
+        Returns:
+            The path to the saved file
+        """
+        try:
+            # Create a safe filename from the URL
+            safe_url = url.replace('https://', '').replace('http://', '').replace('/', '_')
+            filename = f"webpage_content/{company}_{safe_url}.txt"
+            
+            # Skip if file already exists
+            if os.path.exists(filename):
+                logging.info(f"File already exists, skipping: {filename}")
+                return filename
+            
+            # Ensure the directory exists
+            os.makedirs("webpage_content", exist_ok=True)
+            
+            # First try with requests
+            try:
+                response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+                response.raise_for_status()
+                html_content = response.text
+            except (requests.Timeout, requests.RequestException) as e:
+                logging.info(f"Requests failed for {url}, trying with Selenium: {str(e)}")
+                # If requests fails, try with Selenium
+                driver = self.setup_driver()
+                try:
+                    driver.get(url)
+                    # Wait for the page to load
+                    time.sleep(5)  # Give time for Cloudflare to process
+                    html_content = driver.page_source
+                finally:
+                    driver.quit()
+            
+            # Parse with BeautifulSoup to get clean text
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            # Remove script and style elements
+            for script in soup(["script", "style"]):
+                script.decompose()
+            
+            # Get text content
+            text = soup.get_text()
+            
+            # Clean up whitespace
+            lines = (line.strip() for line in text.splitlines())
+            chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+            text = '\n'.join(chunk for chunk in chunks if chunk)
+            
+            # Save as UTF-16 LE
+            with open(filename, 'w', encoding='utf-16le') as f:
+                f.write(text)
+            
+            logging.info(f"Saved webpage content to {filename}")
+            return filename
+            
+        except Exception as e:
+            logging.error(f"Error saving webpage content from {url}: {str(e)}")
+            return None
+
+    def save_all_processed_webpages(self):
+        """Save content of all processed URLs as UTF-16 LE encoded text files."""
+        try:
+            for article in self.results:
+                url = article['url']
+                company = article['company']
+                self.save_webpage_content(url, company)
+        except Exception as e:
+            logging.error(f"Error saving processed webpages: {str(e)}")
+
     def search_company_news(self, company: str, urls: List[str]):
         driver = None
         try:
@@ -314,6 +456,9 @@ class PartnershipScraper:
             for url in urls:
                 logging.info(f"Scraping {company} - {url}")
                 try:
+                    # Save the webpage content
+                    self.save_webpage_content(url, company)
+                    
                     driver.get(url)
                     self.scroll_page(driver)
                     
@@ -336,6 +481,9 @@ class PartnershipScraper:
                             continue
                             
                         try:
+                            # Save the article content
+                            self.save_webpage_content(link, company)
+                            
                             driver.get(link)
                             article_data = self.extract_article_data(driver, link, company)
                             if article_data:
@@ -359,14 +507,94 @@ class PartnershipScraper:
                 except:
                     pass
 
-    def run(self):
-        with tqdm(total=len(self.companies), desc="Scraping companies") as pbar:
-            for company, urls in self.companies:
+    def filter_companies(self, company_names: List[str]) -> List[tuple]:
+        """Filter companies by their names.
+        
+        Args:
+            company_names: List of company names to include in the search
+            
+        Returns:
+            List of tuples containing (company_name, urls) for filtered companies
+        """
+        filtered_companies = []
+        for company, urls in self.companies:
+            if company in company_names:
+                filtered_companies.append((company, urls))
+                logging.info(f"Included company: {company}")
+            else:
+                logging.info(f"Excluded company: {company}")
+        return filtered_companies
+
+    def run(self, selected_companies: Optional[List[str]] = None):
+        """Run the scraper for all companies or selected companies.
+        
+        Args:
+            selected_companies: Optional list of company names to scrape. If None, all companies will be scraped.
+        """
+        companies_to_scrape = self.filter_companies(selected_companies) if selected_companies else self.companies
+        
+        with tqdm(total=len(companies_to_scrape), desc="Scraping companies") as pbar:
+            for company, urls in companies_to_scrape:
                 logging.info(f"\nScraping {company}...")
                 self.search_company_news(company, urls)
                 self.save_results()
                 pbar.update(1)
 
+    def save_processed_urls_to_files(self):
+        """Save all processed URLs to text files, organized by company."""
+        try:
+            # Create a directory for URL files if it doesn't exist
+            os.makedirs("url_files", exist_ok=True)
+            
+            # Group URLs by company
+            company_urls = {}
+            for article in self.results:
+                company = article['company']
+                if company not in company_urls:
+                    company_urls[company] = []
+                company_urls[company].append(article['url'])
+            
+            # Save URLs for each company
+            for company, urls in company_urls.items():
+                # Create a safe filename
+                safe_company = company.replace(' ', '_').replace('/', '_')
+                filename = f"url_files/{safe_company}_urls.txt"
+                
+                # Save URLs as UTF-16 LE
+                with open(filename, 'w', encoding='utf-16le') as f:
+                    f.write(f"URLs for {company}:\n\n")
+                    for url in urls:
+                        f.write(f"{url}\n")
+                
+                logging.info(f"Saved {len(urls)} URLs for {company} to {filename}")
+            
+            # Save all URLs to a single file
+            all_urls_file = "url_files/all_processed_urls.txt"
+            with open(all_urls_file, 'w', encoding='utf-16le') as f:
+                f.write("All Processed URLs:\n\n")
+                for company, urls in company_urls.items():
+                    f.write(f"\n=== {company} ===\n")
+                    for url in urls:
+                        f.write(f"{url}\n")
+            
+            logging.info(f"Saved all URLs to {all_urls_file}")
+            
+        except Exception as e:
+            logging.error(f"Error saving URLs to files: {str(e)}")
+
 if __name__ == "__main__":
     scraper = PartnershipScraper()
-    scraper.run() 
+    
+    # First, save content of any existing processed URLs
+    scraper.save_all_processed_webpages()
+    
+    # Then run scraper for newly added companies and organizations
+    new_companies = [
+        "Collibra", "Confluent", "DataRobot", "Google Cloud", 
+        "Palantir", "Informatica", "ServiceNow", "NASDAQ", 
+        "NYSE", "DAX", "Reuters", "Bloomberg", "Financial Times"
+    ]
+    scraper.run(selected_companies=new_companies)
+    
+    # After scraping, save content of all processed URLs
+    scraper.save_all_processed_webpages() 

@@ -34,7 +34,6 @@ ENV/
 # Project specific
 *.log
 data/partnership_articles.json
-data/partnership_articles.csv
 company_network.png
 network_analysis/company_network.png
 
