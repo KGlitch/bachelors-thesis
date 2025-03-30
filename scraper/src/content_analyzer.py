@@ -27,6 +27,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+relevant_companies = ['SAP', 'Databricks', 'Google Cloud', 'Confluent', 'Collibra', 'Palantir', 'Informatica']
 
 class ContentAnalyzer:
     def __init__(self):
@@ -91,6 +92,9 @@ class ContentAnalyzer:
         
         self.stop_words = set(stopwords.words('english'))
         
+        # Definieren Sie die irrelevanten Schlüsselwörter hier
+        self.irrelevant_keywords = ['cookie', 'privacy', 'terms of service', 'legal notice']
+        
     def read_text_file(self, file_path: str) -> str:
         """Read a UTF-16 LE encoded text file."""
         try:
@@ -136,9 +140,45 @@ class ContentAnalyzer:
 
     def analyze_text(self, text: str) -> Dict:
         """Analyze text content for themes and key information."""
+        
         # Extract sentences
         sentences = sent_tokenize(text)
         
+        # Filter out irrelevant sentences
+        relevant_sentences = []
+        for sentence in sentences:
+            if any(keyword.lower() in sentence.lower() for keyword in self.irrelevant_keywords):
+                logging.info(f"Ignoring irrelevant sentence: {sentence}")
+                continue
+            relevant_sentences.append(sentence)
+
+        # Check if there are any relevant sentences left
+        is_relevant = len(relevant_sentences) > 0
+
+        # Initialize the result dictionary with default values
+        result = {
+            'num_sentences': len(relevant_sentences),
+            'num_words': 0,  # Default to 0
+            'theme_matches': {},
+            'key_phrases': [],
+            'entities': [],
+            'term_frequency': {},
+            'company_mentions': [],
+            'is_relevant': is_relevant
+        }
+
+        if not is_relevant:
+            logging.info("No relevant content found, skipping analysis.")
+            return result  # Return the result with is_relevant set to False
+
+        # Check for mentions of relevant companies
+        company_mentions = []
+        for sentence in relevant_sentences:
+            for company in relevant_companies:
+                if company.lower() in sentence.lower():
+                    company_mentions.append(company)
+                    break  # Stop checking after the first match in this sentence
+
         # Extract named entities
         entities = self.extract_named_entities(text)
         
@@ -151,7 +191,7 @@ class ContentAnalyzer:
             theme_matches[category] = {}
             for subtheme, details in subthemes.items():
                 matches = []
-                for sentence in sentences:
+                for sentence in relevant_sentences:
                     if any(keyword.lower() in sentence.lower() for keyword in details['keywords']):
                         matches.append({
                             'sentence': sentence,
@@ -164,19 +204,22 @@ class ContentAnalyzer:
         words = word_tokenize(text.lower())
         words = [word for word in words if word.isalnum() and word not in self.stop_words]
         term_frequency = Counter(words)
-        
-        return {
-            'num_sentences': len(sentences),
-            'num_words': len(words),
-            'theme_matches': theme_matches,
-            'key_phrases': key_phrases[:10],  # Top 10 key phrases
-            'entities': entities,
-            'term_frequency': dict(term_frequency.most_common(20))  # Top 20 terms
-        }
+
+        # Update the result dictionary with actual values
+        result['num_words'] = len(words)
+        result['theme_matches'] = theme_matches
+        result['key_phrases'] = key_phrases[:10]  # Top 10 key phrases
+        result['entities'] = entities
+        result['term_frequency'] = dict(term_frequency.most_common(20))  # Top 20 terms
+        result['company_mentions'] = list(set(company_mentions))  # Unique mentions of relevant companies
+
+        return result
 
     def analyze_directory(self, directory: str) -> List[Dict]:
         """Analyze all text files in a directory."""
         results = []
+        relevant_count = 0
+        irrelevant_count = 0
         
         # Load existing results if available
         existing_results = []
@@ -204,9 +247,28 @@ class ContentAnalyzer:
                     analysis = self.analyze_text(content)
                     analysis['filename'] = filename
                     results.append(analysis)
+                    
+                    # Count relevant and irrelevant files
+                    if analysis.get('is_relevant', False):
+                        relevant_count += 1
+                        # Rename the file to indicate relevance
+                        new_filename = filename.replace('.txt', '_relevant.txt')
+                    else:
+                        irrelevant_count += 1
+                        # Rename the file to indicate irrelevance
+                        new_filename = filename.replace('.txt', '_irrelevant.txt')
+                    
+                    # Rename the file in the directory
+                    new_file_path = os.path.join(directory, new_filename)
+                    os.rename(file_path, new_file_path)
+                    logging.info(f"Renamed {filename} to {new_filename}")
+        
+        # Log the counts
+        logging.info(f"Total relevant files: {relevant_count}")
+        logging.info(f"Total irrelevant files: {irrelevant_count}")
         
         # Combine new results with existing ones
-        return existing_results + results
+        return existing_results + results, relevant_count, irrelevant_count
 
     def generate_summary(self, results: List[Dict]) -> Dict:
         """Generate a summary of the analysis results."""
@@ -225,7 +287,9 @@ class ContentAnalyzer:
             for subtheme, details in subthemes.items():
                 theme_matches = []
                 for result in results:
-                    theme_matches.extend(result['theme_matches'][category][subtheme])
+                    # Check if the theme matches exist in the result
+                    if category in result['theme_matches'] and subtheme in result['theme_matches'][category]:
+                        theme_matches.extend(result['theme_matches'][category][subtheme])
                 summary['theme_statistics'][category][subtheme] = {
                     'num_matches': len(theme_matches),
                     'description': details['description'],
@@ -241,7 +305,7 @@ class ContentAnalyzer:
         
         return summary
 
-    def save_results(self, results: List[Dict], summary: Dict):
+    def save_results(self, results: List[Dict], summary: Dict, relevant_count: int, irrelevant_count: int):
         """Save analysis results to JSON files."""
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         
@@ -252,6 +316,8 @@ class ContentAnalyzer:
         
         # Save summary
         summary_file = f'content_analysis_summary_{timestamp}.json'
+        summary['relevant_count'] = relevant_count
+        summary['irrelevant_count'] = irrelevant_count
         with open(summary_file, 'w', encoding='utf-8') as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
         
@@ -262,7 +328,7 @@ def main():
     
     # Analyze webpage content
     logging.info("Starting content analysis...")
-    results = analyzer.analyze_directory('webpage_content')
+    results, relevant_count, irrelevant_count = analyzer.analyze_directory('webpage_content')
     
     # Generate summary
     logging.info("Generating summary...")
@@ -270,7 +336,7 @@ def main():
     
     # Save results
     logging.info("Saving results...")
-    analyzer.save_results(results, summary)
+    analyzer.save_results(results, summary, relevant_count, irrelevant_count)
     
     logging.info("Content analysis completed!")
 
