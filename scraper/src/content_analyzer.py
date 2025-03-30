@@ -33,7 +33,7 @@ class ContentAnalyzer:
         self.themes = {
             'type_of_partnership': {
                 'technology_partnership': {
-                    'keywords': ['technical integration', 'joint development', 'IT systems', 'seamless integration', 'zero-copy integration'],
+                    'keywords': ['technical integration', 'joint development', 'seamless integration', 'zero-copy integration'],
                     'description': 'Companies cooperate primarily for the integration of technologies, data exchange, or API interfaces.'
                 },
                 'market_partnership': {
@@ -47,7 +47,7 @@ class ContentAnalyzer:
             },
             'exchange_processes': {
                 'data_integration': {
-                    'keywords': ['zero-copy', 'data exchange', 'API interface', 'data platform', 'real-time data'],
+                    'keywords': ['zero-copy', 'data platform'],
                     'description': 'Partner companies enable data exchange without physically copying the data.'
                 },
                 'knowledge_transfer': {
@@ -55,7 +55,7 @@ class ContentAnalyzer:
                     'description': 'Partners exchange know-how, best practices, or research findings.'
                 },
                 'co_branding_marketing': {
-                    'keywords': ['joint advertising', 'trade show', 'co-marketing', 'co-branding', 'joint promotion'],
+                    'keywords': ['joint advertising', 'co-marketing', 'co-branding', 'joint promotion'],
                     'description': 'Companies appear together in external communication to promote their products or solutions.'
                 }
             },
