@@ -34,8 +34,7 @@ ENV/
 # Project specific
 *.log
 data/partnership_articles.json
-company_network.png
-network_analysis/company_network.png
+
 
 # PDF files
 *.pdf
