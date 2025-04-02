@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="level" attr.type="long"/>
+<graph edgedefault="undirected"><node id="SAP">
+  <data key="d0">0</data>
+</node>
+<node id="Collibra">
+  <data key="d0">1</data>
+</node>
+<node id="Databricks">
+  <data key="d0">1</data>
+</node>
+<node id="Google Cloud">
+  <data key="d0">1</data>
+</node>
+<node id="Confluent">
+  <data key="d0">1</data>
+</node>
+<node id="DataRobot">
+  <data key="d0">1</data>
+</node>
+<node id="Amazon Web Services">
+  <data key="d0">2</data>
+</node>
+<node id="Snowflake">
+  <data key="d0">2</data>
+</node>
+<node id="Microsoft Azure">
+  <data key="d0">2</data>
+</node>
+<node id="tableau">
+  <data key="d0">2</data>
+</node>
+<node id="DataOps.Live">
+  <data key="d0">2</data>
+</node>
+<node id="dbt Labs">
+  <data key="d0">2</data>
+</node>
+<node id="Denodo">
+  <data key="d0">2</data>
+</node>
+<node id="Hackolade">
+  <data key="d0">2</data>
+</node>
+<node id="Idera">
+  <data key="d0">2</data>
+</node>
+<node id="Matillion">
+  <data key="d0">2</data>
+</node>
+<node id="MicroStrategy">
+  <data key="d0">2</data>
+</node>
+<node id="MongoDB">
+  <data key="d0">2</data>
+</node>
+<node id="Ohalo">
+  <data key="d0">2</data>
+</node>
+<node id="Protegrity">
+  <data key="d0">2</data>
+</node>
+<node id="Reltio">
+  <data key="d0">2</data>
+</node>
+<node id="SecuPi">
+  <data key="d0">2</data>
+</node>
+<node id="SnapLogic">
+  <data key="d0">2</data>
+</node>
+<node id="Starburst">
+  <data key="d0">2</data>
+</node>
+<node id="Hivecell">
+  <data key="d0">2</data>
+</node>
+<node id="Imply">
+  <data key="d0">2</data>
+</node>
+<node id="Rockset">
+  <data key="d0">2</data>
+</node>
+<node id="Aerospike">
+  <data key="d0">2</data>
+</node>
+<node id="Celonis">
+  <data key="d0">2</data>
+</node>
+<node id="ClickHouse">
+  <data key="d0">2</data>
+</node>
+<node id="Cockroach Labs">
+  <data key="d0">2</data>
+</node>
+<node id="Couchbase">
+  <data key="d0">2</data>
+</node>
+<node id="Datadog">
+  <data key="d0">2</data>
+</node>
+<node id="Elastic">
+  <data key="d0">2</data>
+</node>
+<node id="HiveMQ">
+  <data key="d0">2</data>
+</node>
+<node id="Materialize">
+  <data key="d0">2</data>
+</node>
+<node id="Neo4j">
+  <data key="d0">2</data>
+</node>
+<node id="OneHouse">
+  <data key="d0">2</data>
+</node>
+<node id="Pure Storage">
+  <data key="d0">2</data>
+</node>
+<node id="Qlik">
+  <data key="d0">2</data>
+</node>
+<node id="Redis Labs">
+  <data key="d0">2</data>
+</node>
+<node id="SingleStore">
+  <data key="d0">2</data>
+</node>
+<node id="Startree">
+  <data key="d0">2</data>
+</node>
+<node id="SWIM.AI">
+  <data key="d0">2</data>
+</node>
+<node id="Tinybird">
+  <data key="d0">2</data>
+</node>
+<node id="Zilliz">
+  <data key="d0">2</data>
+</node>
+<node id="Power BI">
+  <data key="d0">2</data>
+</node>
+<node id="Looker">
+  <data key="d0">2</data>
+</node>
+<node id="Google BigQuery">
+  <data key="d0">2</data>
+</node>
+<node id="dremio">
+  <data key="d0">2</data>
+</node>
+<node id="AtScale">
+  <data key="d0">2</data>
+</node>
+<node id="Immuta">
+  <data key="d0">2</data>
+</node>
+<node id="Alation">
+  <data key="d0">2</data>
+</node>
+<node id="privacera">
+  <data key="d0">2</data>
+</node>
+<node id="Nasdaq">
+  <data key="d0">2</data>
+</node>
+<node id="NYSE">
+  <data key="d0">2</data>
+</node>
+<node id="S&amp;P Global">
+  <data key="d0">2</data>
+</node>
+<node id="Factset">
+  <data key="d0">2</data>
+</node>
+<node id="quandl">
+  <data key="d0">2</data>
+</node>
+<node id="precisly">
+  <data key="d0">2</data>
+</node>
+<node id="SafeGraph">
+  <data key="d0">2</data>
+</node>
+<node id="Atlassian">
+  <data key="d0">2</data>
+</node>
+<node id="FourSquare">
+  <data key="d0">2</data>
+</node>
+<node id="sequencebio">
+  <data key="d0">2</data>
+</node>
+<node id="veraset">
+  <data key="d0">2</data>
+</node>
+<node id="NVIDIA">
+  <data key="d0">2</data>
+</node>
+<node id="Salesforce">
+  <data key="d0">2</data>
+</node>
+<node id="Alteryx">
+  <data key="d0">2</data>
+</node>
+<node id="Airbyte">
+  <data key="d0">2</data>
+</node>
+<node id="Dataiku">
+  <data key="d0">2</data>
+</node>
+<node id="Fivetran">
+  <data key="d0">2</data>
+</node>
+<node id="Informatica">
+  <data key="d0">2</data>
+</node>
+<node id="Merkle">
+  <data key="d0">2</data>
+</node>
+<node id="Monte Carlo">
+  <data key="d0">2</data>
+</node>
+<node id="Rivery">
+  <data key="d0">2</data>
+</node>
+<node id="Twilio">
+  <data key="d0">2</data>
+</node>
+<node id="Sigma">
+  <data key="d0">2</data>
+</node>
+<node id="ThoughtSpot">
+  <data key="d0">2</data>
+</node>
+<node id="Wiiisdom">
+  <data key="d0">2</data>
+</node>
+<node id="Zuar">
+  <data key="d0">2</data>
+</node>
+<node id="1010data">
+  <data key="d0">2</data>
+</node>
+<node id="Automated Insights">
+  <data key="d0">2</data>
+</node>
+<node id="CapStorm">
+  <data key="d0">2</data>
+</node>
+<node id="EasyMorph">
+  <data key="d0">2</data>
+</node>
+<node id="Kyligence">
+  <data key="d0">2</data>
+</node>
+<node id="Kyvos Insights">
+  <data key="d0">2</data>
+</node>
+<node id="Talend">
+  <data key="d0">2</data>
+</node>
+<node id="Teradata">
+  <data key="d0">2</data>
+</node>
+<node id="Nutanix">
+  <data key="d0">2</data>
+</node>
+<node id="Evolutio">
+  <data key="d0">2</data>
+</node>
+<node id="Reply">
+  <data key="d0">2</data>
+</node>
+<node id="ALTR">
+  <data key="d0">2</data>
+</node>
+<node id="PowerBI"/>
+<node id="GoogleBigQuery"/>
+<node id="S&amp;PGlobal"/>
+<node id="Evolution"/>
+<node id="dbtLabs"/>
+<node id="CockroachLabs"/>
+<node id="PureStorage"/>
+<node id="RedisLabs"/>
+<node id="MonteCarlo"/>
+<node id="KyvosInsights"/>
+<edge source="SAP" target="Google Cloud"/>
+<edge source="SAP" target="Databricks"/>
+<edge source="SAP" target="DataRobot"/>
+<edge source="SAP" target="Confluent"/>
+<edge source="SAP" target="Collibra"/>
+<edge source="Collibra" target="Amazon Web Services"/>
+<edge source="Collibra" target="Databricks"/>
+<edge source="Collibra" target="Google Cloud"/>
+<edge source="Collibra" target="Snowflake"/>
+<edge source="Collibra" target="Microsoft Azure"/>
+<edge source="Collibra" target="tableau"/>
+<edge source="Collibra" target="Confluent"/>
+<edge source="Collibra" target="DataOps.Live"/>
+<edge source="Collibra" target="dbt Labs"/>
+<edge source="Collibra" target="Denodo"/>
+<edge source="Collibra" target="Hackolade"/>
+<edge source="Collibra" target="Idera"/>
+<edge source="Collibra" target="Matillion"/>
+<edge source="Collibra" target="MicroStrategy"/>
+<edge source="Collibra" target="MongoDB"/>
+<edge source="Collibra" target="Ohalo"/>
+<edge source="Collibra" target="Protegrity"/>
+<edge source="Collibra" target="Reltio"/>
+<edge source="Collibra" target="SecuPi"/>
+<edge source="Collibra" target="SnapLogic"/>
+<edge source="Collibra" target="Starburst"/>
+<edge source="Collibra" target="Immuta"/>
+<edge source="Databricks" target="Confluent"/>
+<edge source="Databricks" target="tableau"/>
+<edge source="Databricks" target="PowerBI"/>
+<edge source="Databricks" target="Qlik"/>
+<edge source="Databricks" target="Looker"/>
+<edge source="Databricks" target="Microsoft Azure"/>
+<edge source="Databricks" target="Starburst"/>
+<edge source="Databricks" target="GoogleBigQuery"/>
+<edge source="Databricks" target="dremio"/>
+<edge source="Databricks" target="AtScale"/>
+<edge source="Databricks" target="Immuta"/>
+<edge source="Databricks" target="Alation"/>
+<edge source="Databricks" target="privacera"/>
+<edge source="Databricks" target="Nasdaq"/>
+<edge source="Databricks" target="NYSE"/>
+<edge source="Databricks" target="S&amp;PGlobal"/>
+<edge source="Databricks" target="Factset"/>
+<edge source="Databricks" target="quandl"/>
+<edge source="Databricks" target="precisly"/>
+<edge source="Databricks" target="SafeGraph"/>
+<edge source="Databricks" target="Atlassian"/>
+<edge source="Databricks" target="FourSquare"/>
+<edge source="Databricks" target="sequencebio"/>
+<edge source="Databricks" target="veraset"/>
+<edge source="Databricks" target="Salesforce"/>
+<edge source="Databricks" target="Matillion"/>
+<edge source="Databricks" target="MongoDB"/>
+<edge source="Databricks" target="Amazon Web Services"/>
+<edge source="Google Cloud" target="DataRobot"/>
+<edge source="Google Cloud" target="GoogleBigQuery"/>
+<edge source="Google Cloud" target="Reply"/>
+<edge source="Google Cloud" target="Confluent"/>
+<edge source="Google Cloud" target="Snowflake"/>
+<edge source="Google Cloud" target="tableau"/>
+<edge source="Google Cloud" target="dbtLabs"/>
+<edge source="Google Cloud" target="Microsoft Azure"/>
+<edge source="Google Cloud" target="Idera"/>
+<edge source="Google Cloud" target="Matillion"/>
+<edge source="Google Cloud" target="MicroStrategy"/>
+<edge source="Google Cloud" target="MongoDB"/>
+<edge source="Google Cloud" target="Protegrity"/>
+<edge source="Google Cloud" target="Reltio"/>
+<edge source="Google Cloud" target="SecuPi"/>
+<edge source="Google Cloud" target="SnapLogic"/>
+<edge source="Google Cloud" target="Starburst"/>
+<edge source="Google Cloud" target="Aerospike"/>
+<edge source="Google Cloud" target="ClickHouse"/>
+<edge source="Google Cloud" target="CockroachLabs"/>
+<edge source="Google Cloud" target="Couchbase"/>
+<edge source="Google Cloud" target="Datadog"/>
+<edge source="Google Cloud" target="Elastic"/>
+<edge source="Google Cloud" target="HiveMQ"/>
+<edge source="Google Cloud" target="Neo4j"/>
+<edge source="Google Cloud" target="PureStorage"/>
+<edge source="Google Cloud" target="Qlik"/>
+<edge source="Google Cloud" target="RedisLabs"/>
+<edge source="Google Cloud" target="SingleStore"/>
+<edge source="Google Cloud" target="Startree"/>
+<edge source="Google Cloud" target="Tinybird"/>
+<edge source="Google Cloud" target="Zilliz"/>
+<edge source="Google Cloud" target="Looker"/>
+<edge source="Google Cloud" target="AtScale"/>
+<edge source="Google Cloud" target="Immuta"/>
+<edge source="Google Cloud" target="Alation"/>
+<edge source="Google Cloud" target="privacera"/>
+<edge source="Google Cloud" target="NVIDIA"/>
+<edge source="Google Cloud" target="Alteryx"/>
+<edge source="Google Cloud" target="Dataiku"/>
+<edge source="Google Cloud" target="Fivetran"/>
+<edge source="Google Cloud" target="Informatica"/>
+<edge source="Google Cloud" target="Merkle"/>
+<edge source="Google Cloud" target="MonteCarlo"/>
+<edge source="Google Cloud" target="Rivery"/>
+<edge source="Google Cloud" target="Twilio"/>
+<edge source="Google Cloud" target="Sigma"/>
+<edge source="Google Cloud" target="ThoughtSpot"/>
+<edge source="Google Cloud" target="CapStorm"/>
+<edge source="Google Cloud" target="Kyligence"/>
+<edge source="Google Cloud" target="KyvosInsights"/>
+<edge source="Google Cloud" target="Talend"/>
+<edge source="Google Cloud" target="Teradata"/>
+<edge source="Google Cloud" target="Nutanix"/>
+<edge source="Google Cloud" target="Evolutio"/>
+<edge source="Confluent" target="Hivecell"/>
+<edge source="Confluent" target="Imply"/>
+<edge source="Confluent" target="Rockset"/>
+<edge source="Confluent" target="MongoDB"/>
+<edge source="Confluent" target="Neo4j"/>
+<edge source="Confluent" target="OneHouse"/>
+<edge source="Confluent" target="Snowflake"/>
+<edge source="Confluent" target="Starburst"/>
+<edge source="Confluent" target="SWIM.AI"/>
+<edge source="Confluent" target="Tinybird"/>
+<edge source="Confluent" target="Zilliz"/>
+<edge source="Confluent" target="Aerospike"/>
+<edge source="Confluent" target="Celonis"/>
+<edge source="Confluent" target="ClickHouse"/>
+<edge source="Confluent" target="Cockroach Labs"/>
+<edge source="Confluent" target="Couchbase"/>
+<edge source="Confluent" target="Datadog"/>
+<edge source="Confluent" target="Elastic"/>
+<edge source="Confluent" target="HiveMQ"/>
+<edge source="Confluent" target="Materialize"/>
+<edge source="Confluent" target="Pure Storage"/>
+<edge source="Confluent" target="Qlik"/>
+<edge source="Confluent" target="Redis Labs"/>
+<edge source="Confluent" target="SingleStore"/>
+<edge source="Confluent" target="Startree"/>
+<edge source="Confluent" target="Microsoft Azure"/>
+<edge source="DataRobot" target="NVIDIA"/>
+<edge source="DataRobot" target="Nutanix"/>
+<edge source="DataRobot" target="Evolution"/>
+<edge source="DataRobot" target="Microsoft Azure"/>
+<edge source="DataRobot" target="Snowflake"/>
+<edge source="DataRobot" target="GoogleBigQuery"/>
+<edge source="DataRobot" target="Amazon Web Services"/>
+<edge source="DataRobot" target="tableau"/>
+<edge source="Amazon Web Services" target="Snowflake"/>
+<edge source="Amazon Web Services" target="Merkle"/>
+<edge source="Amazon Web Services" target="MongoDB"/>
+<edge source="Amazon Web Services" target="Neo4j"/>
+<edge source="Amazon Web Services" target="Informatica"/>
+<edge source="Amazon Web Services" target="Couchbase"/>
+<edge source="Amazon Web Services" target="precisly"/>
+<edge source="Amazon Web Services" target="Twilio"/>
+<edge source="Amazon Web Services" target="Reply"/>
+<edge source="Amazon Web Services" target="Denodo"/>
+<edge source="Amazon Web Services" target="Matillion"/>
+<edge source="Amazon Web Services" target="MicroStrategy"/>
+<edge source="Amazon Web Services" target="Protegrity"/>
+<edge source="Amazon Web Services" target="Reltio"/>
+<edge source="Amazon Web Services" target="SecuPi"/>
+<edge source="Amazon Web Services" target="SnapLogic"/>
+<edge source="Amazon Web Services" target="Starburst"/>
+<edge source="Amazon Web Services" target="ClickHouse"/>
+<edge source="Amazon Web Services" target="Imply"/>
+<edge source="Amazon Web Services" target="Rockset"/>
+<edge source="Amazon Web Services" target="Aerospike"/>
+<edge source="Amazon Web Services" target="Datadog"/>
+<edge source="Amazon Web Services" target="Celonis"/>
+<edge source="Amazon Web Services" target="Elastic"/>
+<edge source="Amazon Web Services" target="Cockroach Labs"/>
+<edge source="Amazon Web Services" target="NVIDIA"/>
+<edge source="Amazon Web Services" target="Materialize"/>
+<edge source="Amazon Web Services" target="OneHouse"/>
+<edge source="Amazon Web Services" target="Pure Storage"/>
+<edge source="Amazon Web Services" target="Qlik"/>
+<edge source="Amazon Web Services" target="Talend"/>
+<edge source="Amazon Web Services" target="Redis Labs"/>
+<edge source="Amazon Web Services" target="SingleStore"/>
+<edge source="Amazon Web Services" target="Startree"/>
+<edge source="Amazon Web Services" target="Tinybird"/>
+<edge source="Amazon Web Services" target="Zilliz"/>
+<edge source="Amazon Web Services" target="dremio"/>
+<edge source="Amazon Web Services" target="AtScale"/>
+<edge source="Amazon Web Services" target="Immuta"/>
+<edge source="Amazon Web Services" target="Alation"/>
+<edge source="Amazon Web Services" target="privacera"/>
+<edge source="Amazon Web Services" target="Nasdaq"/>
+<edge source="Amazon Web Services" target="S&amp;P Global"/>
+<edge source="Amazon Web Services" target="Factset"/>
+<edge source="Amazon Web Services" target="FourSquare"/>
+<edge source="Amazon Web Services" target="quandl"/>
+<edge source="Amazon Web Services" target="Alteryx"/>
+<edge source="Amazon Web Services" target="Airbyte"/>
+<edge source="Amazon Web Services" target="Dataiku"/>
+<edge source="Amazon Web Services" target="Fivetran"/>
+<edge source="Amazon Web Services" target="Monte Carlo"/>
+<edge source="Amazon Web Services" target="Rivery"/>
+<edge source="Amazon Web Services" target="ThoughtSpot"/>
+<edge source="Amazon Web Services" target="CapStorm"/>
+<edge source="Amazon Web Services" target="Kyligence"/>
+<edge source="Amazon Web Services" target="Kyvos Insights"/>
+<edge source="Amazon Web Services" target="Teradata"/>
+<edge source="Amazon Web Services" target="Nutanix"/>
+<edge source="Amazon Web Services" target="Evolutio"/>
+<edge source="Snowflake" target="Salesforce"/>
+<edge source="Snowflake" target="Alation"/>
+<edge source="Snowflake" target="Alteryx"/>
+<edge source="Snowflake" target="dbt Labs"/>
+<edge source="Snowflake" target="Airbyte"/>
+<edge source="Snowflake" target="Dataiku"/>
+<edge source="Snowflake" target="DataOps.Live"/>
+<edge source="Snowflake" target="dremio"/>
+<edge source="Snowflake" target="Fivetran"/>
+<edge source="Snowflake" target="Immuta"/>
+<edge source="Snowflake" target="Informatica"/>
+<edge source="Snowflake" target="Matillion"/>
+<edge source="Snowflake" target="Merkle"/>
+<edge source="Snowflake" target="Monte Carlo"/>
+<edge source="Snowflake" target="NVIDIA"/>
+<edge source="Snowflake" target="Qlik"/>
+<edge source="Snowflake" target="Rivery"/>
+<edge source="Snowflake" target="Twilio"/>
+<edge source="Snowflake" target="Sigma"/>
+<edge source="Snowflake" target="ThoughtSpot"/>
+<edge source="Snowflake" target="Microsoft Azure"/>
+<edge source="Snowflake" target="tableau"/>
+<edge source="Snowflake" target="Datadog"/>
+<edge source="Microsoft Azure" target="Salesforce"/>
+<edge source="Microsoft Azure" target="dbt Labs"/>
+<edge source="Microsoft Azure" target="Matillion"/>
+<edge source="Microsoft Azure" target="MicroStrategy"/>
+<edge source="Microsoft Azure" target="MongoDB"/>
+<edge source="Microsoft Azure" target="Protegrity"/>
+<edge source="Microsoft Azure" target="Reltio"/>
+<edge source="Microsoft Azure" target="SnapLogic"/>
+<edge source="Microsoft Azure" target="Starburst"/>
+<edge source="Microsoft Azure" target="Imply"/>
+<edge source="Microsoft Azure" target="Celonis"/>
+<edge source="Microsoft Azure" target="ClickHouse"/>
+<edge source="Microsoft Azure" target="Cockroach Labs"/>
+<edge source="Microsoft Azure" target="Couchbase"/>
+<edge source="Microsoft Azure" target="Datadog"/>
+<edge source="Microsoft Azure" target="Elastic"/>
+<edge source="Microsoft Azure" target="Neo4j"/>
+<edge source="Microsoft Azure" target="Pure Storage"/>
+<edge source="Microsoft Azure" target="SingleStore"/>
+<edge source="Microsoft Azure" target="Startree"/>
+<edge source="Microsoft Azure" target="Tinybird"/>
+<edge source="Microsoft Azure" target="dremio"/>
+<edge source="Microsoft Azure" target="AtScale"/>
+<edge source="Microsoft Azure" target="Immuta"/>
+<edge source="Microsoft Azure" target="Alation"/>
+<edge source="Microsoft Azure" target="privacera"/>
+<edge source="Microsoft Azure" target="NVIDIA"/>
+<edge source="Microsoft Azure" target="Alteryx"/>
+<edge source="Microsoft Azure" target="Dataiku"/>
+<edge source="Microsoft Azure" target="Fivetran"/>
+<edge source="Microsoft Azure" target="Sigma"/>
+<edge source="Microsoft Azure" target="ThoughtSpot"/>
+<edge source="Microsoft Azure" target="Kyligence"/>
+<edge source="Microsoft Azure" target="Teradata"/>
+<edge source="Microsoft Azure" target="Nutanix"/>
+<edge source="Microsoft Azure" target="Reply"/>
+<edge source="tableau" target="Salesforce"/>
+<edge source="tableau" target="Alation"/>
+<edge source="tableau" target="Wiiisdom"/>
+<edge source="tableau" target="Zuar"/>
+<edge source="tableau" target="1010data"/>
+<edge source="tableau" target="ALTR"/>
+<edge source="tableau" target="AtScale"/>
+<edge source="tableau" target="Dataiku"/>
+<edge source="tableau" target="Denodo"/>
+<edge source="tableau" target="Automated Insights"/>
+<edge source="tableau" target="CapStorm"/>
+<edge source="tableau" target="Couchbase"/>
+<edge source="tableau" target="dremio"/>
+<edge source="tableau" target="EasyMorph"/>
+<edge source="tableau" target="Immuta"/>
+<edge source="tableau" target="Informatica"/>
+<edge source="tableau" target="Kyligence"/>
+<edge source="tableau" target="Kyvos Insights"/>
+<edge source="tableau" target="Matillion"/>
+<edge source="tableau" target="MongoDB"/>
+<edge source="tableau" target="Rivery"/>
+<edge source="tableau" target="Starburst"/>
+<edge source="tableau" target="Talend"/>
+<edge source="tableau" target="Teradata"/>
+<edge source="DataOps.Live" target="Matillion"/>
+<edge source="dbt Labs" target="Starburst"/>
+<edge source="dbt Labs" target="Alation"/>
+<edge source="Hackolade" target="MongoDB"/>
+<edge source="Hackolade" target="Couchbase"/>
+<edge source="Matillion" target="Alation"/>
+<edge source="Matillion" target="ALTR"/>
+<edge source="Matillion" target="Dataiku"/>
+<edge source="Matillion" target="Sigma"/>
+<edge source="Matillion" target="ThoughtSpot"/>
+<edge source="Matillion" target="Google BigQuery"/>
+<edge source="MicroStrategy" target="Starburst"/>
+<edge source="MongoDB" target="Google BigQuery"/>
+<edge source="MongoDB" target="HiveMQ"/>
+<edge source="MongoDB" target="Datadog"/>
+<edge source="MongoDB" target="Power BI"/>
+<edge source="MongoDB" target="Informatica"/>
+<edge source="MongoDB" target="Reply"/>
+<edge source="MongoDB" target="ClickHouse"/>
+<edge source="Protegrity" target="Starburst"/>
+<edge source="SecuPi" target="Starburst"/>
+<edge source="Starburst" target="Aerospike"/>
+<edge source="Starburst" target="Qlik"/>
+<edge source="Starburst" target="AtScale"/>
+<edge source="Starburst" target="Immuta"/>
+<edge source="Starburst" target="Alation"/>
+<edge source="Starburst" target="privacera"/>
+<edge source="Starburst" target="Dataiku"/>
+<edge source="Starburst" target="ThoughtSpot"/>
+<edge source="Starburst" target="Reply"/>
+<edge source="ClickHouse" target="Fivetran"/>
+<edge source="ClickHouse" target="HiveMQ"/>
+<edge source="ClickHouse" target="Redis Labs"/>
+<edge source="ClickHouse" target="Looker"/>
+<edge source="Couchbase" target="Looker"/>
+<edge source="Couchbase" target="Informatica"/>
+<edge source="Looker" target="Alation"/>
+<edge source="Google BigQuery" target="Salesforce"/>
+<edge source="Google BigQuery" target="Immuta"/>
+<edge source="dremio" target="Alation"/>
+<edge source="AtScale" target="Alation"/>
+<edge source="Immuta" target="Alation"/>
+<edge source="Immuta" target="Reply"/>
+<edge source="Alation" target="Salesforce"/>
+<edge source="Alation" target="Fivetran"/>
+<edge source="Alation" target="Alteryx"/>
+<edge source="Alation" target="Dataiku"/>
+<edge source="Alation" target="Teradata"/>
+<edge source="Alation" target="Reply"/>
+</graph></graphml>

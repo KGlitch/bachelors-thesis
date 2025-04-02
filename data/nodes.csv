@@ -1,47 +1,93 @@
-company_name,size,industry,description,notes
-Collibra, , , ,
-Amazon Web Services, , , ,
-Databricks, , , ,
-SAP, , , ,
-Google Cloud, , , ,
-Snowflake, , , ,
-Microsoft, , , ,
-tableau, , , ,
-Confluent, , , ,
-DataOps.Live, , , ,
-dbt Labs, , , ,
-Denodo
-Hackolade, , , ,
-Idera, , , ,
-Matillion, , , ,
-MicroStrategy, , , ,
-MongoDB, , , ,
-Ohalo, , , ,
-Protegrity, , , ,
-Reltio, , , ,
-SecuPi, , , ,
-SnapLogic, , , ,
-Starburst, , , ,
-Hivecell, , , ,
-Imply, , , ,
-Rockset, , , ,
-Aerospike, , , ,
-Celonis, , , ,
-ClickHouse, , , ,
-Cockroach Labs, , , ,
-Coucbase, , , ,
-Datadog, , , ,
-DataRobot, , , ,
-Elastic, , , ,
-HiveMQ, , , ,
-Materialize, , , ,
-Neo4j, , , ,
-OneHouse, , , ,
-Pure Storage, , , ,
-Qlik, , , ,
-Redis Labs, , , ,
-SingleStore, , , ,
-Startree.AI, , , ,
-SWIM.AI, , , ,
-Tinybird, , , ,
-Zilliz, , , ,
+company_name,level,notes,degree
+SAP,0,,5
+Collibra,1,,25
+Databricks,1,,32
+Google Cloud,1,,60
+Confluent,1,,31
+DataRobot,1,,11
+Amazon Web Services,2,,67
+Snowflake,2,,29
+Microsoft Azure,2,,42
+tableau,2,,31
+DataOps.Live,2,,3
+dbt Labs,2,,5
+Denodo,2,,3
+Hackolade,2,,3
+Idera,2,,2
+Matillion,2,,15
+MicroStrategy,2,,5
+MongoDB,2,,15
+Ohalo,2,,1
+Protegrity,2,,5
+Reltio,2,,4
+SecuPi,2,,4
+SnapLogic,2,,4
+Starburst,2,,20
+Hivecell,2,,1
+Imply,2,,3
+Rockset,2,,2
+Aerospike,2,,4
+Celonis,2,,3
+ClickHouse,2,,10
+Cockroach Labs,2,,3
+Couchbase,2,,9
+Datadog,2,,7
+Elastic,2,,5
+HiveMQ,2,,4
+Materialize,2,,2
+Neo4j,2,,4
+OneHouse,2,,3
+Pure Storage,2,,3
+Qlik,2,,6
+Redis Labs,2,,3
+SingleStore,2,,4
+Startree,2,,4
+SWIM.AI,2,,1
+Tinybird,2,,4
+Zilliz,2,,3
+Power BI,2,,1
+Looker,2,,5
+Google BigQuery,2,,4
+dremio,2,,6
+AtScale,2,,7
+Immuta,2,,11
+Alation,2,,19
+privacera,2,,5
+Nasdaq,2,Data Enrichment,2
+NYSE,2,,1
+S&P Global,2,,1
+Factset,2,,2
+quandl,2,,2
+precisly,2,,2
+SafeGraph,2,,1
+Atlassian,2,,1
+FourSquare,2,,2
+sequencebio,2,,1
+veraset,2,,1
+NVIDIA,2,,5
+Salesforce,2,,6
+Alteryx,2,,5
+Airbyte,2,,2
+Dataiku,2,,8
+Fivetran,2,,6
+Informatica,2,,6
+Merkle,2,,3
+Monte Carlo,2,,2
+Rivery,2,,4
+Twilio,2,,3
+Sigma,2,,4
+ThoughtSpot,2,,6
+Wiiisdom,2,,1
+Zuar,2,,1
+1010data,2,,1
+Automated Insights,2,,1
+CapStorm,2,,3
+EasyMorph,2,,1
+Kyligence,2,,4
+Kyvos Insights,2,,2
+Talend,2,,3
+Teradata,2,,5
+Nutanix,2,,4
+Evolutio,2,,2
+Reply,2,,7
+ALTR,2,,2
