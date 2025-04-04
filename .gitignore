@@ -34,7 +34,7 @@ ENV/
 # Project specific
 *.log
 data/partnership_articles.json
-
+webpage_content/
 
 # PDF files
 *.pdf
