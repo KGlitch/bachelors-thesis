@@ -177,7 +177,7 @@
 <node id="quandl">
   <data key="d0">2</data>
 </node>
-<node id="precisly">
+<node id="Precisly">
   <data key="d0">2</data>
 </node>
 <node id="SafeGraph">
@@ -276,6 +276,9 @@
 <node id="ALTR">
   <data key="d0">2</data>
 </node>
+<node id="ServiceNow">
+  <data key="d0">2</data>
+</node>
 <node id="PowerBI"/>
 <node id="GoogleBigQuery"/>
 <node id="S&amp;PGlobal"/>
@@ -331,7 +334,7 @@
 <edge source="Databricks" target="S&amp;PGlobal"/>
 <edge source="Databricks" target="Factset"/>
 <edge source="Databricks" target="quandl"/>
-<edge source="Databricks" target="precisly"/>
+<edge source="Databricks" target="Precisly"/>
 <edge source="Databricks" target="SafeGraph"/>
 <edge source="Databricks" target="Atlassian"/>
 <edge source="Databricks" target="FourSquare"/>
@@ -436,7 +439,7 @@
 <edge source="Amazon Web Services" target="Neo4j"/>
 <edge source="Amazon Web Services" target="Informatica"/>
 <edge source="Amazon Web Services" target="Couchbase"/>
-<edge source="Amazon Web Services" target="precisly"/>
+<edge source="Amazon Web Services" target="Precisly"/>
 <edge source="Amazon Web Services" target="Twilio"/>
 <edge source="Amazon Web Services" target="Reply"/>
 <edge source="Amazon Web Services" target="Denodo"/>
@@ -490,10 +493,6 @@
 <edge source="Amazon Web Services" target="Nutanix"/>
 <edge source="Amazon Web Services" target="Evolutio"/>
 <edge source="Snowflake" target="Salesforce"/>
-<edge source="Snowflake" target="Alation"/>
-<edge source="Snowflake" target="Alteryx"/>
-<edge source="Snowflake" target="dbt Labs"/>
-<edge source="Snowflake" target="Airbyte"/>
 <edge source="Snowflake" target="Dataiku"/>
 <edge source="Snowflake" target="DataOps.Live"/>
 <edge source="Snowflake" target="dremio"/>
@@ -510,6 +509,7 @@
 <edge source="Snowflake" target="Sigma"/>
 <edge source="Snowflake" target="ThoughtSpot"/>
 <edge source="Snowflake" target="Microsoft Azure"/>
+<edge source="Snowflake" target="ServiceNow"/>
 <edge source="Snowflake" target="tableau"/>
 <edge source="Snowflake" target="Datadog"/>
 <edge source="Microsoft Azure" target="Salesforce"/>
@@ -573,8 +573,10 @@
 <edge source="tableau" target="Talend"/>
 <edge source="tableau" target="Teradata"/>
 <edge source="DataOps.Live" target="Matillion"/>
+<edge source="DataOps.Live" target="Datadog"/>
 <edge source="dbt Labs" target="Starburst"/>
 <edge source="dbt Labs" target="Alation"/>
+<edge source="Denodo" target="Datadog"/>
 <edge source="Hackolade" target="MongoDB"/>
 <edge source="Hackolade" target="Couchbase"/>
 <edge source="Matillion" target="Alation"/>
@@ -593,6 +595,7 @@
 <edge source="MongoDB" target="ClickHouse"/>
 <edge source="Protegrity" target="Starburst"/>
 <edge source="SecuPi" target="Starburst"/>
+<edge source="SnapLogic" target="Datadog"/>
 <edge source="Starburst" target="Aerospike"/>
 <edge source="Starburst" target="Qlik"/>
 <edge source="Starburst" target="AtScale"/>
@@ -602,12 +605,29 @@
 <edge source="Starburst" target="Dataiku"/>
 <edge source="Starburst" target="ThoughtSpot"/>
 <edge source="Starburst" target="Reply"/>
+<edge source="Starburst" target="Datadog"/>
+<edge source="Rockset" target="Datadog"/>
 <edge source="ClickHouse" target="Fivetran"/>
 <edge source="ClickHouse" target="HiveMQ"/>
 <edge source="ClickHouse" target="Redis Labs"/>
 <edge source="ClickHouse" target="Looker"/>
+<edge source="Cockroach Labs" target="Datadog"/>
 <edge source="Couchbase" target="Looker"/>
 <edge source="Couchbase" target="Informatica"/>
+<edge source="Couchbase" target="Datadog"/>
+<edge source="Datadog" target="Salesforce"/>
+<edge source="Datadog" target="Atlassian"/>
+<edge source="Datadog" target="Fivetran"/>
+<edge source="Datadog" target="HiveMQ"/>
+<edge source="Datadog" target="Monte Carlo"/>
+<edge source="Datadog" target="NVIDIA"/>
+<edge source="Datadog" target="Nutanix"/>
+<edge source="Datadog" target="Precisly"/>
+<edge source="Datadog" target="Pure Storage"/>
+<edge source="Datadog" target="Redis Labs"/>
+<edge source="Datadog" target="ServiceNow"/>
+<edge source="Datadog" target="Startree"/>
+<edge source="Datadog" target="Zilliz"/>
 <edge source="Looker" target="Alation"/>
 <edge source="Google BigQuery" target="Salesforce"/>
 <edge source="Google BigQuery" target="Immuta"/>

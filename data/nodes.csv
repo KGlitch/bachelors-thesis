@@ -5,74 +5,74 @@ Databricks,1,,32
 Google Cloud,1,,60
 Confluent,1,,31
 DataRobot,1,,11
-Amazon Web Services,2,,67
-Snowflake,2,,29
+Amazon Web Services,2,,66
+Snowflake,2,,26
 Microsoft Azure,2,,42
 tableau,2,,31
-DataOps.Live,2,,3
-dbt Labs,2,,5
-Denodo,2,,3
+DataOps.Live,2,,4
+dbt Labs,2,,4
+Denodo,2,,4
 Hackolade,2,,3
 Idera,2,,2
 Matillion,2,,15
 MicroStrategy,2,,5
-MongoDB,2,,15
+MongoDB,2,,16
 Ohalo,2,,1
 Protegrity,2,,5
 Reltio,2,,4
 SecuPi,2,,4
-SnapLogic,2,,4
-Starburst,2,,20
+SnapLogic,2,,5
+Starburst,2,,21
 Hivecell,2,,1
 Imply,2,,3
-Rockset,2,,2
+Rockset,2,,3
 Aerospike,2,,4
 Celonis,2,,3
 ClickHouse,2,,10
-Cockroach Labs,2,,3
-Couchbase,2,,9
-Datadog,2,,7
+Cockroach Labs,2,,4
+Couchbase,2,,10
+Datadog,2,,27
 Elastic,2,,5
-HiveMQ,2,,4
+HiveMQ,2,,5
 Materialize,2,,2
 Neo4j,2,,4
 OneHouse,2,,3
-Pure Storage,2,,3
+Pure Storage,2,,4
 Qlik,2,,6
-Redis Labs,2,,3
+Redis Labs,2,,4
 SingleStore,2,,4
-Startree,2,,4
+Startree,2,,5
 SWIM.AI,2,,1
 Tinybird,2,,4
-Zilliz,2,,3
+Zilliz,2,,4
 Power BI,2,,1
 Looker,2,,5
 Google BigQuery,2,,4
 dremio,2,,6
 AtScale,2,,7
 Immuta,2,,11
-Alation,2,,19
+Alation,2,,18
 privacera,2,,5
 Nasdaq,2,Data Enrichment,2
 NYSE,2,,1
 S&P Global,2,,1
 Factset,2,,2
 quandl,2,,2
-precisly,2,,2
+Precisly,2,,3
 SafeGraph,2,,1
-Atlassian,2,,1
+Atlassian,2,,2
 FourSquare,2,,2
 sequencebio,2,,1
 veraset,2,,1
-NVIDIA,2,,5
-Salesforce,2,,6
-Alteryx,2,,5
-Airbyte,2,,2
+NVIDIA,2,,6
+Salesforce,2,,7
+Alteryx,2,,4
+Airbyte,2,,1
 Dataiku,2,,8
-Fivetran,2,,6
+Fivetran,2,,7
 Informatica,2,,6
 Merkle,2,,3
-Monte Carlo,2,,2
+Monte Carlo,2,,3
 Rivery,2,,4
 Twilio,2,,3
 Sigma,2,,4
@@ -87,7 +87,8 @@ Kyligence,2,,4
 Kyvos Insights,2,,2
 Talend,2,,3
 Teradata,2,,5
-Nutanix,2,,4
+Nutanix,2,,5
 Evolutio,2,,2
 Reply,2,,7
 ALTR,2,,2
+ServiceNow,2,,2
