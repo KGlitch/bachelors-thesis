@@ -1,42 +1,210 @@
 Community Assignments:
 
-Community 4 (29 nodes):
-  - Aerospike
+Community 2 (40 nodes):
+  - 1010data
+  - ALTR
+  - Alation
   - Amazon Web Services
+  - AtScale
+  - Automated Insights
+  - CapStorm
+  - Databricks
+  - Dataiku
+  - EasyMorph
+  - Factset
+  - FourSquare
+  - Google BigQuery
+  - Immuta
+  - Kyligence
+  - Kyvos Insights
+  - Matillion
+  - Microsoft Azure
+  - NYSE
+  - Nasdaq
+  - Precisly
+  - Qlik
+  - Reply
+  - Rivery
+  - S&P Global
+  - S&PGlobal
+  - SafeGraph
+  - Salesforce
+  - Sigma
+  - Starburst
+  - Teradata
+  - ThoughtSpot
+  - Wiiisdom
+  - Zuar
+  - dremio
+  - privacera
+  - quandl
+  - sequencebio
+  - tableau
+  - veraset
+
+Community 9 (36 nodes):
+  - Aerospike
+  - Arista
+  - BMC
+  - Brocade
+  - Commvault
+  - D2iQ
+  - Dell
+  - DriveScale
+  - EDB
+  - Equinix
+  - G.V()
+  - Graphcore
+  - HashiCorp
+  - Huawei
+  - Infosys
+  - Intel
+  - Kioxia
+  - MariaDB
+  - Micron
+  - Model9
+  - Pure Storage
+  - Red Hat
+  - Redis Labs
+  - Rubrik
+  - SAS
+  - Samsung
+  - ScaleFlux
+  - Smart IOPS
+  - StreamNative
+  - Superna
+  - VMware
+  - Vertica
+  - Virtuozzo
+  - Wasabi
+  - Western Digital
+  - iguazio
+
+Community 3 (33 nodes):
+  -  Labs
   - Atlassian
-  - Celonis
-  - ClickHouse
   - Cockroach Labs
+  - CockroachLabs
   - Confluent
+  - DataRobot
   - Datadog
   - Elastic
-  - Fivetran
-  - HiveMQ
+  - Evolutio
+  - Evolution
+  - Google Cloud
+  - GoogleBigQuery
+  - Hasura
   - Hivecell
-  - Imply
+  - KyvosInsights
+  - Liquibase
   - Materialize
   - Monte Carlo
-  - Neo4j
+  - MonteCarlo
+  - NVIDIA
+  - Nutanix
   - OneHouse
-  - Precisly
-  - Pure Storage
-  - Qlik
-  - Redis Labs
+  - Ory
+  - RedisLabs
+  - Redpanda
   - Rockset
-  - S&P Global
+  - SAP
   - SWIM.AI
-  - ServiceNow
-  - SingleStore
   - Startree
   - Tinybird
+  - Xplenty
   - Zilliz
+  - vmware
 
-Community 0 (23 nodes):
+Community 7 (33 nodes):
+  - Anaplan
+  - Apigee
+  - Box
+  - Celonis
+  - Cloudera
+  - Cloudhub360
+  - CyberArk
+  - Data Interchange
+  - GitHub
+  - Gravitee
+  - Guidepoint
+  - HCLTech
+  - Incepta
+  - Intelizign Lifecycle Services
+  - Latbc
+  - NetSuite
+  - OneLogin
+  - Oracle
+  - PCS Security
+  - PingIdentity
+  - Pitney Bowes
+  - Protegrity
+  - Restlet
+  - ServiceNow
+  - SnapLogic
+  - Splunk
+  - Strateq
+  - Sumo Logic
+  - Winshuttle
+  - Workday
+  - b.telligent
+  - kyndryl
+  - plainID
+
+Community 1 (24 nodes):
+  - ActionIQ
+  - AecorSoft
+  - Agile Data Engine
+  - Aible
+  - Airbyte
+  - Altair
+  - Alteryx
+  - Collibra
+  - Datahub
+  - Datavault
+  - Denodo
+  - Exasol
+  - Idera
+  - LangChain
+  - Merkle
+  - MicroStrategy
+  - Ohalo
+  - OpenAI
+  - SingleStore
+  - Snowflake
+  - Twilio
+  - Vaultspeed
+  - acceldata
+  - dbt Labs
+
+Community 6 (22 nodes):
+  - Anthropic
+  - Anyscale
+  - ClickHouse
+  - Cohere
+  - CredalAI
+  - FireworksAI
+  - Fivetran
+  - HiveMQ
+  - Imply
+  - InfluxData
+  - LlamaIndex
+  - Looker
+  - MongoDB
+  - NetApp
+  - Nomic
+  - Opto22
+  - Power BI
+  - PureInsights
+  - TogetherAI
+  - Volt Active Data
+  - WeKan Enterprise Solutions
+  - aicas
+
+Community 4 (20 nodes):
   - AnjanaData
   - Atlan
   - Attunity
   - BigID
-  - CyberArk
   - DBeaver
   - DataOps.Live
   - EonCollective
@@ -45,7 +213,6 @@ Community 0 (23 nodes):
   - ITS Snowflake Solutions
   - LeitData
   - NTTData
-  - NetApp
   - OneTrust
   - SME
   - SNP
@@ -53,125 +220,28 @@ Community 0 (23 nodes):
   - Talend
   - coalesce
   - data.world
-  - dremio
   - slalom
 
-Community 6 (20 nodes):
-  - Alation
-  - AtScale
-  - Collibra
-  - Dataiku
-  - Google BigQuery
-  - Idera
-  - Immuta
-  - Matillion
-  - MicroStrategy
-  - Microsoft Azure
-  - Ohalo
-  - Reply
-  - Salesforce
-  - Sigma
-  - SnapLogic
-  - Starburst
-  - Teradata
-  - ThoughtSpot
-  - dbt Labs
-  - privacera
-
-Community 11 (16 nodes):
-  - Anthropic
-  - Anyscale
-  - Cohere
+Community 5 (17 nodes):
+  - CData
+  - Cisco
   - Couchbase
-  - CredalAI
-  - FireworksAI
+  - DataCurate
+  - Fortanix
+  - Gemini Data
   - Hackolade
+  - IBM
   - Informatica
-  - LangChain
-  - LlamaIndex
-  - Looker
-  - MongoDB
-  - Nomic
-  - Power BI
-  - PureInsights
-  - TogetherAI
+  - Kineviz
+  - Molo17
+  - Neo4j
+  - Quest
+  - Snowcat Cloud
+  - Thales
+  - aarth
+  - gluu
 
-Community 7 (15 nodes):
-  - Cloudera
-  - Exasol
-  - Guidepoint
-  - HCLTech
-  - Infosys
-  - Latbc
-  - Oracle
-  - PCS Security
-  - Protegrity
-  - Red Hat
-  - Strateq
-  - b.telligent
-  - kyndryl
-  - plainID
-  - splunk
-
-Community 3 (14 nodes):
-  - CockroachLabs
-  - DataRobot
-  - Evolutio
-  - Evolution
-  - Google Cloud
-  - GoogleBigQuery
-  - KyvosInsights
-  - MonteCarlo
-  - NVIDIA
-  - Nutanix
-  - PureStorage
-  - RedisLabs
-  - SAP
-  - dbtLabs
-
-Community 5 (14 nodes):
-  - ActionIQ
-  - AecorSoft
-  - Agile Data Engine
-  - Aible
-  - Airbyte
-  - Altair
-  - Alteryx
-  - Datahub
-  - Datavault
-  - Denodo
-  - Merkle
-  - Snowflake
-  - Twilio
-  - acceldata
-
-Community 2 (11 nodes):
-  - Databricks
-  - Factset
-  - FourSquare
-  - NYSE
-  - Nasdaq
-  - PowerBI
-  - S&PGlobal
-  - SafeGraph
-  - quandl
-  - sequencebio
-  - veraset
-
-Community 10 (11 nodes):
-  - 1010data
-  - ALTR
-  - Automated Insights
-  - CapStorm
-  - EasyMorph
-  - Kyligence
-  - Kyvos Insights
-  - Rivery
-  - Wiiisdom
-  - Zuar
-  - tableau
-
-Community 1 (7 nodes):
+Community 8 (7 nodes):
   - An Info Systems BV
   - Apptad
   - Blue Altair
@@ -180,9 +250,6 @@ Community 1 (7 nodes):
   - Reltio
   - Ulpia Tech
 
-Community 8 (1 nodes):
-  - Vaultspeed
-
-Community 9 (1 nodes):
+Community 0 (1 nodes):
   - AN Info Systems BV
 

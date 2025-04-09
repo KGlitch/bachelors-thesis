@@ -33,6 +33,22 @@ for index, row in edges_df.iterrows():
 # Save the graph in GraphML format
 nx.write_graphml(G, os.path.join(OUTPUT_DIR, 'company_network.graphml'))
 
+# Export adjacency matrix
+adj_matrix = nx.adjacency_matrix(G).todense()
+nodes = list(G.nodes())
+
+# Save as CSV with node labels
+adj_df = pd.DataFrame(adj_matrix, index=nodes, columns=nodes)
+adj_df.to_csv(os.path.join(OUTPUT_DIR, 'adjacency_matrix.csv'))
+
+# Save as numpy array
+np.save(os.path.join(OUTPUT_DIR, 'adjacency_matrix.npy'), adj_matrix)
+
+# Save node labels separately
+with open(os.path.join(OUTPUT_DIR, 'node_labels.txt'), 'w') as f:
+    for node in nodes:
+        f.write(f"{node}\n")
+
 # Set up the plot
 plt.figure(figsize=(15, 10))
 
@@ -116,4 +132,11 @@ plt.close()
 # Print only essential information
 print("Network analysis completed successfully.")
 print(f"Output files saved in: {OUTPUT_DIR}")
-print(f"NetworkX version: {nx.__version__}") 
+print(f"NetworkX version: {nx.__version__}")
+print("\nGenerated files:")
+print(f"- company_network.png (Network visualization)")
+print(f"- company_network.graphml (GraphML format)")
+print(f"- adjacency_matrix.csv (Adjacency matrix with labels)")
+print(f"- adjacency_matrix.npy (Adjacency matrix in numpy format)")
+print(f"- node_labels.txt (List of node labels)")
+print(f"- community_assignments.txt (Community information)") 

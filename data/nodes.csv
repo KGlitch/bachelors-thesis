@@ -52,7 +52,7 @@ dremio,2,,6,ISV,SQL Query Engine & Datenvirtualisierung
 AtScale,2,,7,ENABLER,Semantic Layer & OLAP-Engine
 Immuta,2,,11,TOOLING,Data Access & Governance
 Alation,2,,18,ENABLER,Data Cataloging & Governance
-privacera,2,,5,TOOLING,Datenschutz und Zugriffskontrolle
+Privacera,2,,5,TOOLING,Datenschutz und Zugriffskontrolle
 Nasdaq,2,Data Enrichment,2,SERVICE,Börsen- und Finanzdatenanbieter
 NYSE,2,,1,SERVICE,Börsen- und Finanzdatenanbieter
 S&P Global,2,,1,SERVICE,Finanzdaten & Ratings
@@ -92,6 +92,7 @@ Evolutio,2,,2,SI,Cloud-/Datenintegrator aus Spanien
 Reply,2,,7,SI,Europäischer IT-Dienstleister & Systemintegrator
 ALTR,2,,2,TOOLING,"Datensicherheit, Tokenisierung, Zugriffskontrolle"
 ServiceNow,2,,2,PLATFORM,Workflow-Plattform mit Analytics und AI
+
 Datavault,3,,1,ENABLER,Plattform für Data Vault Architektur
 acceldata,3,,1,TOOLING,Data Observability & Monitoring
 Datahub,3,,1,ENABLER,Open Source Data Catalog (LinkedIn)
@@ -133,7 +134,7 @@ Oracle,3,,1,PLATFORM,Enterprise-Datenbank & Analytics
 PCS Security,3,,1,SERVICE,Cybersecurity-Anbieter
 plainID,3,,1,TOOLING,Authorization / Policy-as-Code Plattform
 Red Hat,3,,1,HCP,Container- & Infrastruktur (OpenShift)
-splunk,3,,1,TOOLING,Log- und Eventdatenanalyse
+Splunk,3,,1,TOOLING,Log- und Eventdatenanalyse
 Strateq,3,,1,SI,IT-Dienstleister aus ASEAN
 IQVIA,3,,1,SERVICE,Life Sciences Daten- & Analyseanbieter
 Blumetra,3,,1,SI,Snowflake & Data Engineering Beratung
@@ -149,3 +150,73 @@ Attunity,3,,1,TOOLING,Datenreplikation (jetzt Qlik Replicate)
 NetApp,3,,1,HCP,Speicher-Infrastrukturplattform
 BigID,3,,1,TOOLING,Datenschutz & Data Discovery
 AnjanaData,3,,1,TOOLING,Data Governance Plattform
+Anaplan,3,,1,TOOLING,Cloud-basierte Planung & Budgetierung
+Apigee,3,,1,TOOLING,API-Management & Microservices
+Box,3,,1,TOOLING,Cloud-basierte Dokumenten- und Dateimanagement
+Data Interchange,3,,1,TOOLING,Datenintegration & -transformation
+GitHub,3,,1,TOOLING,Software-Entwicklung & -Management
+Gravitee,3,,1,TOOLING,API-Gateway & Management
+HashiCorp,3,,1,TOOLING,Infrastructure-as-Code & Automation
+Incepta,3,,1,TOOLING,Data Integration & Governance
+Intelizign Lifecycle Services,3,,1,TOOLING,Data Governance & Compliance
+NetSuite,3,,1,TOOLING,Cloud-basierte ERP-Lösung
+OneLogin,3,,1,TOOLING,Identity & Access Management
+PingIdentity,3,,1,TOOLING,Identity & Access Management
+Pitney Bowes,3,,1,TOOLING,Mail & Document Processing
+Restlet,3,,1,TOOLING,API-Management & Microservices
+Sumo Logic,3,,1,TOOLING,Cloud-basierte Log- und Event-Analyse
+Samsung,3,,1,HCP,Hardware- & Softwareplattform
+Micron,3,,1,HCP,Speicher- & Datenbankplattform
+Smart IOPS,3,,1,HCP,Speicher- & Datenbankplattform
+Kioxia,3,,1,HCP,Speicher- & Datenbankplattform
+Western Digital,3,,1,HCP,Speicher- & Datenbankplattform
+ScaleFlux,3,,1,HCP,Speicher- & Datenbankplattform
+Redpanda,3,,1,HCP,Speicher- & Datenbankplattform
+G.V(),3,,1,HCP,Speicher- & Datenbankplattform
+StreamNative,3,,1,HCP,Speicher- & Datenbankplattform
+D2iQ,3,,1,HCP,Speicher- & Datenbankplattform
+Molo17,3,,1,HCP,Speicher- & Datenbankplattform
+DriveScale,3,,1,HCP,Speicher- & Datenbankplattform
+Huawei,3,,1,HCP,Speicher- & Datenbankplattform
+Dell,3,,1,HCP,Speicher- & Datenbankplattform
+Cloudhub360,3,,1,HCP,Datenintegration
+Winshuttle,3,,1,HCP,Datenintegration
+Hasura,3,,1,HCP,Datenintegration
+Liquibase,3,,1,HCP,Datenbankplattform
+vmware,3,,1,HCP,Speicher- & Datenbankplattform
+Xplenty,3,,1,HCP,Datenintegration
+Ory,3,,1,HCP,Identity & Access Management
+Cisco,3,,1,HCP,Infrastrukturplattform
+CData,3,,1,HCP,Datenintegration
+Fortanix,3,,1,HCP,Datenschutz & Datensicherheit
+gluu,3,,1,HCP,Identity & Access Management
+Quest,3,,1,HCP,Datengovernance & -management
+Thales,3,,1,HCP,Datenschutz & Datensicherheit
+aicas,3,,1,HCP,Datenintegration
+InfluxData,3,,1,HCP,Datenintegration
+Opto22,3,,1,HCP,Hardware- & Softwareplattform
+Volt Active Data,3,,1,HCP,Datenintegration
+WeKan Enterprise Solutions,3,,1,HCP,Datenintegration
+aarth,3,,1,HCP,Datenintegration
+DataCurate,3,,1,HCP,Datenintegration
+Gemini Data,3,,1,HCP,no-Code graph platform
+Kineviz,3,,1,HCP,Analyseplattform
+Snowcat Cloud,3,,1,HCP,Datengovernance & -management
+BMC,3,,1,HCP,Datengovernance & -management
+Arista,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
+Brocade,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
+Commvault,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
+EDB,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
+Equinix,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
+Graphcore,3,,1,HCP,Architekturplattform
+iguazio,3,,1,HCP,Datascience
+Intel,3,,1,HCP,Datencenter
+MariaDB,3,,1,HCP,Datenbankplattform
+Model9,3,,1,HCP,Datenintegration
+Rubrik,3,,1,HCP,Datensicherheit
+Superna,3,,1,HCP,Datensicherheit
+Vertica,3,,1,HCP,Datenbankplattform
+Virtuozzo,3,,1,HCP,Container- & Cloud-Infrastruktur
+Wasabi,3,,1,HCP,Cloud-speicher
+OpenAI,3,,1,HCP,Generative AI
+InterSystems,3,,1,HCP,Datenbankplattform

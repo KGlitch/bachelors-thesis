@@ -1,0 +1,233 @@
+SAP
+Collibra
+Databricks
+Google Cloud
+Confluent
+DataRobot
+Amazon Web Services
+Snowflake
+Microsoft Azure
+tableau
+DataOps.Live
+dbt Labs
+Denodo
+Hackolade
+Idera
+Matillion
+MicroStrategy
+MongoDB
+Ohalo
+Protegrity
+Reltio
+SecuPi
+SnapLogic
+Starburst
+Hivecell
+Imply
+Rockset
+Aerospike
+Celonis
+ClickHouse
+Cockroach Labs
+Couchbase
+Datadog
+Elastic
+HiveMQ
+Materialize
+Neo4j
+OneHouse
+Pure Storage
+Qlik
+Redis Labs
+SingleStore
+Startree
+SWIM.AI
+Tinybird
+Zilliz
+Power BI
+Looker
+Google BigQuery
+dremio
+AtScale
+Immuta
+Alation
+privacera
+Nasdaq
+NYSE
+S&P Global
+Factset
+quandl
+Precisly
+SafeGraph
+Atlassian
+FourSquare
+sequencebio
+veraset
+NVIDIA
+Salesforce
+Alteryx
+Airbyte
+Dataiku
+Fivetran
+Informatica
+Merkle
+Monte Carlo
+Rivery
+Twilio
+Sigma
+ThoughtSpot
+Wiiisdom
+Zuar
+1010data
+Automated Insights
+CapStorm
+EasyMorph
+Kyligence
+Kyvos Insights
+Talend
+Teradata
+Nutanix
+Evolutio
+Reply
+ALTR
+ServiceNow
+Datavault
+acceldata
+Datahub
+ActionIQ
+Agile Data Engine
+AecorSoft
+Aible
+Altair
+Hex
+Vaultspeed
+EonCollective
+Hakkoda
+ITS Snowflake Solutions
+LeitData
+NTTData
+SME
+Atlan
+coalesce
+Infosys
+slalom
+Exasol
+Anthropic
+Cohere
+LangChain
+LlamaIndex
+TogetherAI
+Anyscale
+FireworksAI
+Nomic
+CredalAI
+PureInsights
+Cloudera
+b.telligent
+Guidepoint
+HCLTech
+kyndryl
+Latbc
+Oracle
+PCS Security
+plainID
+Red Hat
+Splunk
+Strateq
+IQVIA
+Blumetra
+Blue Altair
+Ulpia Tech
+AN Info Systems BV
+Apptad
+SNP
+CyberArk
+DBeaver
+OneTrust
+Attunity
+NetApp
+BigID
+AnjanaData
+Anaplan
+Apigee
+Box
+Data Interchange
+GitHub
+Gravitee
+HashiCorp
+Incepta
+Intelizign Lifecycle Services
+NetSuite
+OneLogin
+PingIdentity
+Pitney Bowes
+Restlet
+Sumo Logic
+Samsung
+Micron
+Smart IOPS
+Kioxia
+Western Digital
+ScaleFlux
+Redpanda
+G.V()
+StreamNative
+D2iQ
+Molo17
+DriveScale
+Huawei
+Dell
+Cloudhub360
+Winshuttle
+Hasura
+Liquibase
+vmware
+Xplenty
+Ory
+Cisco
+CData
+Fortanix
+gluu
+Quest
+Thales
+aicas
+InfluxData
+Opto22
+Volt Active Data
+WeKan Enterprise Solutions
+aarth
+DataCurate
+Gemini Data
+Kineviz
+Snowcat Cloud
+BMC
+Arista
+Brocade
+Commvault
+EDB
+Equinix
+Graphcore
+iguazio
+Intel
+MariaDB
+Model9
+Rubrik
+Superna
+Vertica
+Virtuozzo
+Wasabi
+OpenAI
+GoogleBigQuery
+S&PGlobal
+Evolution
+CockroachLabs
+RedisLabs
+ Labs
+MonteCarlo
+KyvosInsights
+data.world
+An Info Systems BV
+IBM
+Workday
+SAS
+VMware
