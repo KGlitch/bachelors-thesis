@@ -1,0 +1,8 @@
+partner_1,partner_2,exchange_tag
+ISV,PLATFORM,Data Integration
+ENABLER,PLATFORM,Data Integration
+SI,ISV,Knowledge Transfer
+SI,PLATFORM,Knowledge Transfer
+ISV,ISV,Co-Branding/Marketing
+ISV,ENABLER,Co-Branding/Marketing
+SI,SI,Knowledge Transfer
