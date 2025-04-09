@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/Users/konrad/Documents/DHBW/Bachelorarbeit/network_analysis/src')
 import pandas as pd
 
 # Pfade zu CSV-Dateien

@@ -1,0 +1,188 @@
+Community Assignments:
+
+Community 4 (29 nodes):
+  - Aerospike
+  - Amazon Web Services
+  - Atlassian
+  - Celonis
+  - ClickHouse
+  - Cockroach Labs
+  - Confluent
+  - Datadog
+  - Elastic
+  - Fivetran
+  - HiveMQ
+  - Hivecell
+  - Imply
+  - Materialize
+  - Monte Carlo
+  - Neo4j
+  - OneHouse
+  - Precisly
+  - Pure Storage
+  - Qlik
+  - Redis Labs
+  - Rockset
+  - S&P Global
+  - SWIM.AI
+  - ServiceNow
+  - SingleStore
+  - Startree
+  - Tinybird
+  - Zilliz
+
+Community 0 (23 nodes):
+  - AnjanaData
+  - Atlan
+  - Attunity
+  - BigID
+  - CyberArk
+  - DBeaver
+  - DataOps.Live
+  - EonCollective
+  - Hakkoda
+  - Hex
+  - ITS Snowflake Solutions
+  - LeitData
+  - NTTData
+  - NetApp
+  - OneTrust
+  - SME
+  - SNP
+  - SecuPi
+  - Talend
+  - coalesce
+  - data.world
+  - dremio
+  - slalom
+
+Community 6 (20 nodes):
+  - Alation
+  - AtScale
+  - Collibra
+  - Dataiku
+  - Google BigQuery
+  - Idera
+  - Immuta
+  - Matillion
+  - MicroStrategy
+  - Microsoft Azure
+  - Ohalo
+  - Reply
+  - Salesforce
+  - Sigma
+  - SnapLogic
+  - Starburst
+  - Teradata
+  - ThoughtSpot
+  - dbt Labs
+  - privacera
+
+Community 11 (16 nodes):
+  - Anthropic
+  - Anyscale
+  - Cohere
+  - Couchbase
+  - CredalAI
+  - FireworksAI
+  - Hackolade
+  - Informatica
+  - LangChain
+  - LlamaIndex
+  - Looker
+  - MongoDB
+  - Nomic
+  - Power BI
+  - PureInsights
+  - TogetherAI
+
+Community 7 (15 nodes):
+  - Cloudera
+  - Exasol
+  - Guidepoint
+  - HCLTech
+  - Infosys
+  - Latbc
+  - Oracle
+  - PCS Security
+  - Protegrity
+  - Red Hat
+  - Strateq
+  - b.telligent
+  - kyndryl
+  - plainID
+  - splunk
+
+Community 3 (14 nodes):
+  - CockroachLabs
+  - DataRobot
+  - Evolutio
+  - Evolution
+  - Google Cloud
+  - GoogleBigQuery
+  - KyvosInsights
+  - MonteCarlo
+  - NVIDIA
+  - Nutanix
+  - PureStorage
+  - RedisLabs
+  - SAP
+  - dbtLabs
+
+Community 5 (14 nodes):
+  - ActionIQ
+  - AecorSoft
+  - Agile Data Engine
+  - Aible
+  - Airbyte
+  - Altair
+  - Alteryx
+  - Datahub
+  - Datavault
+  - Denodo
+  - Merkle
+  - Snowflake
+  - Twilio
+  - acceldata
+
+Community 2 (11 nodes):
+  - Databricks
+  - Factset
+  - FourSquare
+  - NYSE
+  - Nasdaq
+  - PowerBI
+  - S&PGlobal
+  - SafeGraph
+  - quandl
+  - sequencebio
+  - veraset
+
+Community 10 (11 nodes):
+  - 1010data
+  - ALTR
+  - Automated Insights
+  - CapStorm
+  - EasyMorph
+  - Kyligence
+  - Kyvos Insights
+  - Rivery
+  - Wiiisdom
+  - Zuar
+  - tableau
+
+Community 1 (7 nodes):
+  - An Info Systems BV
+  - Apptad
+  - Blue Altair
+  - Blumetra
+  - IQVIA
+  - Reltio
+  - Ulpia Tech
+
+Community 8 (1 nodes):
+  - Vaultspeed
+
+Community 9 (1 nodes):
+  - AN Info Systems BV
+

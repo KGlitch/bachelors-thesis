@@ -1,461 +1,461 @@
 source_company,target_company,partnership_type,notes,level,exchange_tags
-SAP,Google Cloud,Technology,,1,
-SAP,Databricks,Technology,,1,Data Integration
-SAP,DataRobot,Technology,,1,Data Integration
-SAP,Confluent,Technology,,1,Data Integration
-SAP,Collibra,Technology,,1,Data Integration
-Collibra,Amazon Web Services,Technology,,2,
-Collibra,Databricks,Technology,,2,
-Collibra,Google Cloud,Technology,,2,
-Collibra,Snowflake,Technology,,2,Data Integration
-Collibra,Microsoft Azure,Technology,,2,
-Collibra,tableau,Technology,,2,
-Collibra,Confluent,Technology,,2,
-Collibra,DataOps.Live,Technology,,2,
-Collibra,dbt Labs,Technology,,2,
-Collibra,Denodo,Technology,,2,
-Collibra,Hackolade,Technology,,2,
-Collibra,Idera,Technology,,2,
-Collibra,Matillion,Technology,,2,
-Collibra,MicroStrategy,Technology,,2,
-Collibra,MongoDB,Technology,,2,Data Integration
-Collibra,Ohalo,Technology,,2,
-Collibra,Protegrity,Technology,,2,
-Collibra,Reltio,Technology,,2,
-Collibra,SecuPi,Technology,,2,
-Collibra,SnapLogic,Technology,,2,
-Collibra,Starburst,Technology,,2,
-Collibra,Immuta,Technology,,2,
-Confluent,Databricks,Technology,,2,Co-Branding/Marketing
-Confluent,Hivecell,Technology,,2,Co-Branding/Marketing
-Confluent,Imply,Technology,,2,Co-Branding/Marketing
-Confluent,Rockset,Technology,,2,Co-Branding/Marketing
-Confluent,MongoDB,Technology,,2,Data Integration
-Confluent,Neo4j,Technology,,2,Co-Branding/Marketing
-Confluent,OneHouse,Technology,,2,Co-Branding/Marketing
-Confluent,Snowflake,Technology,,2,Data Integration
-Confluent,Starburst,Technology,,2,Co-Branding/Marketing
-Confluent,SWIM.AI,Technology,,2,Co-Branding/Marketing
-Confluent,Tinybird,Technology,,2,Co-Branding/Marketing
-Confluent,Zilliz,Technology,,2,Co-Branding/Marketing
-Confluent,Aerospike,Technology,,2,Co-Branding/Marketing
-Confluent,Celonis,Technology,,2,Co-Branding/Marketing
-Confluent,ClickHouse,Technology,,2,Co-Branding/Marketing
-Confluent,Cockroach Labs,Technology,,2,Co-Branding/Marketing
-Confluent,Couchbase,Technology,,2,Co-Branding/Marketing
-Confluent,Datadog,Technology,,2,
-Confluent,Elastic,Technology,,2,Co-Branding/Marketing
-Confluent,HiveMQ,Technology,,2,Co-Branding/Marketing
-Confluent,Materialize,Technology,,2,Co-Branding/Marketing
-Confluent,OneHouse,Technology,,2,Co-Branding/Marketing
-Confluent,Pure Storage,Technology,,2,
-Confluent,Qlik,Technology,,2,
-Confluent,Redis Labs,Technology,,2,Co-Branding/Marketing
-Confluent,SingleStore,Technology,,2,Co-Branding/Marketing
-Confluent,Startree,Technology,,2,Co-Branding/Marketing
-Confluent,Microsoft Azure,Technology,,2,
-Databricks,tableau,Technology,Business Intelligence,2,
-Databricks,PowerBI,Technology,BusinessIntelligence,2,
-Databricks,Qlik,Technology,BusinessIntelligence,2,
-Databricks,Looker,Technology,BusinessIntelligence,2,
-Databricks,Microsoft Azure,Technology,Analytics,2,
-Databricks,Starburst,Technology,Analytics,2,Co-Branding/Marketing
-Databricks,GoogleBigQuery,Technology,Analytics,2,
-Databricks,dremio,Technology,Analytics,2,Co-Branding/Marketing
-Databricks,AtScale,Technology,Analytics,2,Co-Branding/Marketing
-Databricks,Immuta,Technology,Governance,2,
-Databricks,Alation,Technology,Governance,2,Co-Branding/Marketing
-Databricks,privacera,Technology,Governance,2,
-Databricks,Collibra,Technology,Governance,2,Co-Branding/Marketing
-Databricks,Nasdaq,Technology,DataIntegration,2,
-Databricks,NYSE,Technology,DataIntegration,2,
-Databricks,S&PGlobal,Technology,DataIntegration,2,
-Databricks,Factset,Technology,DataIntegration,2,
-Databricks,quandl,Technology,DataIntegration,2,
-Databricks,Precisly,Technology,DataIntegration,2,Co-Branding/Marketing
-Databricks,SafeGraph,Technology,DataIntegration,2,
-Databricks,Atlassian,Technology,DataIntegration,2,
-Databricks,FourSquare,Technology,DataIntegration,2,
-Databricks,sequencebio,Technology,DataIntegration,2,
-Databricks,veraset,Technology,DataIntegration,2,
-Databricks,Salesforce,Technology,DataIntegration,2,Data Integration
-Databricks,Matillion,Strategic Alliance,DataIntegration,2,Co-Branding/Marketing
-Databricks,MongoDB,Technology,Database,2,Data Integration
+SAP,Google Cloud,Technology,,1.0,
+SAP,Databricks,Technology,,1.0,Data Integration
+SAP,DataRobot,Technology,,1.0,Data Integration
+SAP,Confluent,Technology,,1.0,Data Integration
+SAP,Collibra,Technology,,1.0,Data Integration
+Collibra,Amazon Web Services,Technology,,2.0,
+Collibra,Databricks,Technology,,2.0,Co-Branding/Marketing
+Collibra,Google Cloud,Technology,,2.0,
+Collibra,Snowflake,Technology,,2.0,Data Integration
+Collibra,Microsoft Azure,Technology,,2.0,
+Collibra,tableau,Technology,,2.0,
+Collibra,Confluent,Technology,,2.0,Co-Branding/Marketing
+Collibra,DataOps.Live,Technology,,2.0,
+Collibra,dbt Labs,Technology,,2.0,
+Collibra,Denodo,Technology,,2.0,Co-Branding/Marketing
+Collibra,Hackolade,Technology,,2.0,
+Collibra,Idera,Technology,,2.0,
+Collibra,Matillion,Technology,,2.0,Co-Branding/Marketing
+Collibra,MicroStrategy,Technology,,2.0,
+Collibra,MongoDB,Technology,,2.0,Data Integration
+Collibra,Ohalo,Technology,,2.0,
+Collibra,Protegrity,Technology,,2.0,
+Collibra,Reltio,Technology,,2.0,Co-Branding/Marketing
+Collibra,SecuPi,Technology,,2.0,
+Collibra,SnapLogic,Technology,,2.0,Co-Branding/Marketing
+Collibra,Starburst,Technology,,2.0,Co-Branding/Marketing
+Collibra,Immuta,Technology,,2.0,
+Confluent,Databricks,Technology,,2.0,Co-Branding/Marketing
+Confluent,Hivecell,Technology,,2.0,Co-Branding/Marketing
+Confluent,Imply,Technology,,2.0,Co-Branding/Marketing
+Confluent,Rockset,Technology,,2.0,Co-Branding/Marketing
+Confluent,MongoDB,Technology,,2.0,Data Integration
+Confluent,Neo4j,Technology,,2.0,Co-Branding/Marketing
+Confluent,OneHouse,Technology,,2.0,Co-Branding/Marketing
+Confluent,Snowflake,Technology,,2.0,Data Integration
+Confluent,Starburst,Technology,,2.0,Co-Branding/Marketing
+Confluent,SWIM.AI,Technology,,2.0,Co-Branding/Marketing
+Confluent,Tinybird,Technology,,2.0,Co-Branding/Marketing
+Confluent,Zilliz,Technology,,2.0,Co-Branding/Marketing
+Confluent,Aerospike,Technology,,2.0,Co-Branding/Marketing
+Confluent,Celonis,Technology,,2.0,Co-Branding/Marketing
+Confluent,ClickHouse,Technology,,2.0,Co-Branding/Marketing
+Confluent,Cockroach Labs,Technology,,2.0,Co-Branding/Marketing
+Confluent,Couchbase,Technology,,2.0,Co-Branding/Marketing
+Confluent,Datadog,Technology,,2.0,
+Confluent,Elastic,Technology,,2.0,Co-Branding/Marketing
+Confluent,HiveMQ,Technology,,2.0,Co-Branding/Marketing
+Confluent,Materialize,Technology,,2.0,Co-Branding/Marketing
+Confluent,OneHouse,Technology,,2.0,Co-Branding/Marketing
+Confluent,Pure Storage,Technology,,2.0,
+Confluent,Qlik,Technology,,2.0,
+Confluent,Redis Labs,Technology,,2.0,Co-Branding/Marketing
+Confluent,SingleStore,Technology,,2.0,Co-Branding/Marketing
+Confluent,Startree,Technology,,2.0,Co-Branding/Marketing
+Confluent,Microsoft Azure,Technology,,2.0,
+Databricks,tableau,Technology,Business Intelligence,2.0,
+Databricks,PowerBI,Technology,BusinessIntelligence,2.0,
+Databricks,Qlik,Technology,BusinessIntelligence,2.0,
+Databricks,Looker,Technology,BusinessIntelligence,2.0,
+Databricks,Microsoft Azure,Technology,Analytics,2.0,
+Databricks,Starburst,Technology,Analytics,2.0,Co-Branding/Marketing
+Databricks,GoogleBigQuery,Technology,Analytics,2.0,
+Databricks,dremio,Technology,Analytics,2.0,Co-Branding/Marketing
+Databricks,AtScale,Technology,Analytics,2.0,Co-Branding/Marketing
+Databricks,Immuta,Technology,Governance,2.0,
+Databricks,Alation,Technology,Governance,2.0,Co-Branding/Marketing
+Databricks,privacera,Technology,Governance,2.0,
+Databricks,Collibra,Technology,Governance,2.0,Co-Branding/Marketing
+Databricks,Nasdaq,Technology,DataIntegration,2.0,
+Databricks,NYSE,Technology,DataIntegration,2.0,
+Databricks,S&PGlobal,Technology,DataIntegration,2.0,
+Databricks,Factset,Technology,DataIntegration,2.0,
+Databricks,quandl,Technology,DataIntegration,2.0,
+Databricks,Precisly,Technology,DataIntegration,2.0,Co-Branding/Marketing
+Databricks,SafeGraph,Technology,DataIntegration,2.0,
+Databricks,Atlassian,Technology,DataIntegration,2.0,
+Databricks,FourSquare,Technology,DataIntegration,2.0,
+Databricks,sequencebio,Technology,DataIntegration,2.0,
+Databricks,veraset,Technology,DataIntegration,2.0,
+Databricks,Salesforce,Technology,DataIntegration,2.0,Data Integration
+Databricks,Matillion,Strategic Alliance,DataIntegration,2.0,Co-Branding/Marketing
+Databricks,MongoDB,Technology,Database,2.0,Data Integration
 DataRobot,NVIDIA,Technology,2,,Co-Branding/Marketing
-DataRobot,Nutanix,Technology,On-PremiseAI,2,
-DataRobot,Google Cloud,Technology,AI,2,
-DataRobot,Evolution,Technology,AI,2,
-DataRobot,Microsoft Azure,Technology,AI,2,
-DataRobot,Snowflake,Technology,AI,2,Data Integration
-DataRobot,GoogleBigQuery,Technology,AI,2,
+DataRobot,Nutanix,Technology,On-PremiseAI,2.0,
+DataRobot,Google Cloud,Technology,AI,2.0,
+DataRobot,Evolution,Technology,AI,2.0,
+DataRobot,Microsoft Azure,Technology,AI,2.0,
+DataRobot,Snowflake,Technology,AI,2.0,Data Integration
+DataRobot,GoogleBigQuery,Technology,AI,2.0,
 Google Cloud,GoogleBigQuery,Technology,2,,
 Google Cloud,Reply,Technology,2,,Knowledge Transfer
-Google Cloud,Confluent,Technology,DataStreaming,2,
-Google Cloud,DataRobot,Technology,AI,2,
-Google Cloud,Snowflake,Technology,DataAnalytics,2,
-Google Cloud,tableau,Technology,DataAnalytics,2,
-Google Cloud,dbtLabs,Technology,DataAnalytics,2,
-Google Cloud,Microsoft Azure,Technology,Denodo,2,
-Google Cloud,Idera,Technology,DataGovernance,2,
-Google Cloud,Matillion,Technology,DataGovernance,2,
-Google Cloud,MicroStrategy,Technology,DataAnalytics,2,
-Google Cloud,MongoDB,Technology,Database,2,
-Google Cloud,Protegrity,Technology,DataProtection,2,
-Google Cloud,Reltio,Technology,DataIntegration,2,
-Google Cloud,SecuPi,Technology,DataProtection,2,
-Google Cloud,SnapLogic,Technology,DataIntegration,2,
-Google Cloud,Starburst,Technology,DataMovement,2,
-Google Cloud,Aerospike,Technology,Database,2,
-Google Cloud,ClickHouse,Technology,DataAnalytics,2,
-Google Cloud,CockroachLabs,Technology,Database,2,
-Google Cloud,Couchbase,Technology,Database,2,
-Google Cloud,Datadog,Technology,Monitoring,2,
-Google Cloud,Elastic,Technology,DataAnalytics,2,
-Google Cloud,HiveMQ,Technology,DataStreaming,2,
-Google Cloud,Neo4j,Technology,DataIntegrations,2,
-Google Cloud,PureStorage,Technology,DataAnalytics,2,
-Google Cloud,Qlik,Technology,DataAnalytics,2,
-Google Cloud,RedisLabs,Technology,Database,2,
-Google Cloud,SingleStore,Technology,Database,2,
-Google Cloud,Startree,Technology,DataAnalytics,2,
-Google Cloud,Tinybird,Technology,DataStreaming,2,
-Google Cloud,Zilliz,Technology,Database,2,
-Google Cloud,Looker,Technology,BusinessIntelligence,2,
-Google Cloud,AtScale,Technology,DataAnalytics,2,
-Google Cloud,Immuta,Technology,DataIntelligence,2,
-Google Cloud,Alation,Technology,DataIntelligence,2,
-Google Cloud,privacera,Technology,DataGovernance,2,
-Google Cloud,NVIDIA,Technology,DataCenter,2,
-Google Cloud,Alteryx,Technology,DataAnalytics,2,
-Google Cloud,Dataiku,Technology,DataIntegration,2,
-Google Cloud,Fivetran,Technology,DataReplication,2,
-Google Cloud,dbtLabs,Technology,DataTransformation,2,
-Google Cloud,Informatica,Technology,DataManagement,2,
-Google Cloud,Merkle,Technology,DataIntegration,2,Knowledge Transfer
-Google Cloud,MonteCarlo,Technology,DataQuality,2,
-Google Cloud,Rivery,Technology,DataAnalytics,2,
-Google Cloud,Twilio,Technology,DaaS,2,
-Google Cloud,Sigma,Technology,DataAnalytics,2,
-Google Cloud,ThoughtSpot,Technology,DataAnalytics,2,
-Google Cloud,CapStorm,Technology,DataReplication,2,
-Google Cloud,Kyligence,Technology,DataAnalytics,2,
-Google Cloud,KyvosInsights,Technology,DataAnalytics,2,
-Google Cloud,Talend,Technology,DataIntegration,2,
-Google Cloud,Teradata,Technology,DataAnalytics,2,
-Google Cloud,Nutanix,Technology,DataInfrastructure,2,
-Google Cloud,Evolutio,Technology,DataIntegration,2,Knowledge Transfer
-Amazon Web Services,Databricks,Technology,Data Integration,2,
-Amazon Web Services,Snowflake,Technology,Zero Copy,3,
-Amazon Web Services,Merkle,Technology,Data Transformation,3,Knowledge Transfer
-Amazon Web Services,MongoDB,Technology,Zero Copy,3,
-Amazon Web Services,Neo4j,Technology,DaaS,3,
-Amazon Web Services,Informatica,Technology,Data Management,3,
-Amazon Web Services,DataRobot,Technology,AI,3,
-Amazon Web Services,Couchbase,Technology,Database,3,
-Amazon Web Services,Precisly,Technology,Data Integration,3,
-Amazon Web Services,Twilio,Technology,Data Governance,3,
-Amazon Web Services,Reply,Technology,Data Governance,3,Knowledge Transfer
-Amazon Web Services,Denodo,Technology,Data Management,3,
-Amazon Web Services,Matillion,Strategic Alliance,Data Transformation,3,
-Amazon Web Services,MicroStrategy,Technology,Data Intelligence,3,
-Amazon Web Services,Protegrity,Technology,Data Protection,3,
-Amazon Web Services,Reltio,Technology,Data Management,3,
-Amazon Web Services,SecuPi,Technology,Data Protection,3,
-Amazon Web Services,SnapLogic,Technology,Data Integration,3,
-Amazon Web Services,Starburst,Technology,Data Management,3,
-Amazon Web Services,ClickHouse,Technology,Data Analytics,3,
-Amazon Web Services,Imply,Technology,Data Analytics,3,
-Amazon Web Services,Rockset,Technology,Database,3,
-Amazon Web Services,Aerospike,Technology,Database,3,
-Amazon Web Services,Datadog,Technology,Monitoring,3,
-Amazon Web Services,Celonis,Technology,Process Mining,3,
-Amazon Web Services,Elastic,Technology,Data Analytics,3,
-Amazon Web Services,ClickHouse,Technology,Database,3,
-Amazon Web Services,Cockroach Labs,Technology,Database,3,
-Amazon Web Services,Couchbase,Technology,Database,3,
-Amazon Web Services,Elastic,Technology,AI,3,
-Amazon Web Services,NVIDIA,Technology,Data Streaming,3,
-Amazon Web Services,Materialize,Technology,Database,3,
-Amazon Web Services,OneHouse,Technology,Data Management,3,
-Amazon Web Services,Pure Storage,Technology,Data Cloud,3,
-Amazon Web Services,Qlik,Technology,Data Integration,3,
-Amazon Web Services,Talend,Technology,Data Integration,3,
-Amazon Web Services,Redis Labs,Technology,Database,3,
-Amazon Web Services,SingleStore,Technology,Database,3,
-Amazon Web Services,Startree,Technology,Data Analytics,3,
-Amazon Web Services,Tinybird,Technology,Data Streaming,3,
-Amazon Web Services,Zilliz,Technology,Database,3,
-Amazon Web Services,dremio,Technology,Business Intelligence,3,
-Amazon Web Services,AtScale,Technology,Data Analytics,3,
-Amazon Web Services,Immuta,Technology,Data Governance,3,
-Amazon Web Services,Alation,Technology,AI,3,
-Amazon Web Services,privacera,Technology,Data Security,3,
-Amazon Web Services,Nasdaq,Technology,Data Enrichment,3,
-Amazon Web Services,S&P Global,Technology,Data Enrichment,3,
-Amazon Web Services,Factset,Technology,Data Analytics,3,
-Amazon Web Services,FourSquare,Technology,Business Intelligence,3,
-Amazon Web Services,quandl,Technology,Data Analytics,3,
-Amazon Web Services,Alteryx,Technology,Data Analytics,3,
-Amazon Web Services,Airbyte,Technology,Data Analytics,3,
-Amazon Web Services,Dataiku,Technology,AI,3,
-Amazon Web Services,Fivetran,Technology,Data Replication,3,
-Amazon Web Services,Monte Carlo,Technology,Data Transformation,3,
-Amazon Web Services,Rivery,Technology,Data Transformation,3,
-Amazon Web Services,ThoughtSpot,Technology,Data Analytics,3,
-Amazon Web Services,CapStorm,Technology,Data Transformation,3,
-Amazon Web Services,Kyligence,Technology,Data Intelligence,3,
-Amazon Web Services,Kyvos Insights,Technology,Data Analytics,3,
-Amazon Web Services,Teradata,Technology,Data Analytics,3,
-Amazon Web Services,Nutanix,Technology,Data Infrastructure,3,
-Amazon Web Services,Evolutio,Technology,Data Integration,3,Knowledge Transfer
-Salesforce,Google BigQuery,Technology,Zero Copy,3,
-Salesforce,Microsoft Azure,Technology,Zero Copy,3,
-Salesforce,Snowflake,Technology,Zero Copy,3,
-Salesforce,tableau,Market,Zero Copy,3,
-Salesforce,Datadog,Technology,Cloud Products Partner,3,
-Snowflake,Dataiku,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,DataOps.Live,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,dremio,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Fivetran,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Google Cloud,Technology,Cloud Products Partner,3,
-Snowflake,Immuta,Technology,Cloud Products Partner,3,
-Snowflake,Informatica,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Matillion,Strategic Alliance,Cloud Products Partner,3,Data Integration
-Snowflake,Merkle,Technology,Cloud Products Partner,3,Knowledge Transfer
-Snowflake,Monte Carlo,Technology,Cloud Products Partner,3,
-Snowflake,NVIDIA,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Qlik,Technology,Cloud Products Partner,3,
-Snowflake,Rivery,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Twilio,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Sigma,Technology,Cloud Products Partner,3,
-Snowflake,ThoughtSpot,Technology,Cloud Products Partner,3,
-Snowflake,Microsoft Azure,Technology,Cloud Products Partner,3,
-Snowflake,ServiceNow,Technology,Cloud Products Partner,3,
-Snowflake,Alteryx,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,dbt Labs,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Datavault,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,acceldata,Technology,Cloud Products Partner,3,
-Snowflake,Datahub,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,ActionIQ,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Agile Data Engine,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,AecorSoft,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Aible,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Airbyte,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Altair,Technology,Cloud Products Partner,3,Data Integration
-Snowflake,Hex,Technology,Cloud Products Partner,3,
-tableau,Alation,Technology,,3,
-tableau,Collibra,Technology,,2,
-tableau,Snowflake,Technology,,3,
-tableau,Wiiisdom,Technology,,3,
-tableau,Zuar,Technology,,3,
-tableau,1010data,Technology,,3,
-tableau,ALTR,Technology,,3,
-tableau,AtScale,Technology,,3,
-tableau,DataRobot,Technology,,2,
-tableau,Dataiku,Technology,,3,
-tableau,Denodo,Technology,,3,
-tableau,Automated Insights,Technology,,3,
-tableau,CapStorm,Technology,,3,
-tableau,Couchbase,Technology,,3,
-tableau,Databricks,Technology,,2,
-tableau,dremio,Technology,,3,
-tableau,EasyMorph,Technology,,3,
-tableau,Immuta,Technology,,3,
-tableau,Informatica,Technology,,3,
-tableau,Kyligence,Technology,,3,
-tableau,Kyvos Insights,Technology,,3,
-tableau,Matillion,Technology,,3,
-tableau,MongoDB,Technology,,3,
-tableau,Rivery,Technology,,3,
-tableau,Starburst,Technology,,3,
-tableau,Talend,Technology,,3,
-tableau,Teradata,Technology,,3,
-Microsoft Azure,dbt Labs,Technology,,3,
-Microsoft Azure,Matillion,Strategic Alliance,,3,
-Microsoft Azure,MicroStrategy,Technology,,3,
-Microsoft Azure,MongoDB,Technology,,3,
-Microsoft Azure,Protegrity,Technology,,3,
-Microsoft Azure,Reltio,Technology,,3,
-Microsoft Azure,SnapLogic,Technology,,3,
-Microsoft Azure,Starburst,Technology,,3,
-Microsoft Azure,Imply,Technology,,3,
-Microsoft Azure,Celonis,Technology,,3,
-Microsoft Azure,ClickHouse,Technology,,3,
-Microsoft Azure,Cockroach Labs,Technology,,3,
-Microsoft Azure,Couchbase,Technology,,3,
-Microsoft Azure,Datadog,Technology,,3,
-Microsoft Azure,Elastic,Technology,,3,
-Microsoft Azure,Neo4j,Technology,,3,
-Microsoft Azure,Pure Storage,Technology,,3,
-Microsoft Azure,SingleStore,Technology,,3,
-Microsoft Azure,Startree,Technology,,3,
-Microsoft Azure,Tinybird,Technology,,3,
-Microsoft Azure,dremio,Technology,,3,
-Microsoft Azure,AtScale,Technology,,3,
-Microsoft Azure,Immuta,Technology,,3,
-Microsoft Azure,Alation,Technology,,3,
-Microsoft Azure,privacera,Technology,,3,
-Microsoft Azure,NVIDIA,Technology,,3,
-Microsoft Azure,Alteryx,Technology,,3,
-Microsoft Azure,Dataiku,Technology,,3,
-Microsoft Azure,Fivetran,Technology,,3,
-Microsoft Azure,Sigma,Technology,,3,
-Microsoft Azure,ThoughtSpot,Technology,,3,
-Microsoft Azure,Kyligence,Technology,,3,
-Microsoft Azure,Teradata,Technology,,3,
-Microsoft Azure,Nutanix,Technology,,3,
-Microsoft Azure,Reply,Technology,,3,Knowledge Transfer
-Starburst,dbt Labs,Technology,,3,Co-Branding/Marketing
-Starburst,MicroStrategy,Technology,,3,
-Starburst,Protegrity,Technology,,3,
-Starburst,SecuPi,Technology,,3,
-Starburst,Aerospike,Technology,,3,Co-Branding/Marketing
-Starburst,Qlik,Technology,,3,
-Starburst,AtScale,Technology,,3,Co-Branding/Marketing
-Starburst,Immuta,Technology,,3,
-Starburst,Alation,Technology,,3,Co-Branding/Marketing
-Starburst,privacera,Technology,,3,
-Starburst,Dataiku,Technology,,3,Co-Branding/Marketing
-Starburst,ThoughtSpot,Technology,,3,
-Starburst,Reply,Technology,,3,Knowledge Transfer
-Matillion,Alation,Technology,,3,Co-Branding/Marketing
-Matillion,ALTR,Technology,,3,
-Matillion,Amazon Web Services,Technology,,3,
-Matillion,Dataiku,Technology,,3,Co-Branding/Marketing
-Matillion,DataOps.Live,Technology,,3,Co-Branding/Marketing
-Matillion,Sigma,Technology,,3,
-Matillion,ThoughtSpot,Technology,,3,
-Matillion,Google BigQuery,Technology,,3,Data Integration
-MongoDB,Google BigQuery,Technology,,3,
-MongoDB,Hackolade,Technology,,3,
-MongoDB,HiveMQ,Technology,,3,Data Integration
-MongoDB,Datadog,Technology,,3,
-MongoDB,Power BI,Technology,,3,
-MongoDB,Informatica,Technology,,3,Data Integration
-MongoDB,Reply,Technology,,3,Knowledge Transfer
-MongoDB,Anthropic,Technology,,4,Data Integration
-MongoDB,Cohere,Technology,,4,Data Integration
-MongoDB,LangChain,Technology,,4,Data Integration
-MongoDB,LlamaIndex,Technology,,4,Data Integration
-MongoDB,TogetherAI,Technology,,4,Data Integration
-MongoDB,Anyscale,Technology,,4,Data Integration
-MongoDB,FireworksAI,Technology,,4,Data Integration
-MongoDB,Nomic,Technology,,4,
-MongoDB,CredalAI,Technology,,4,Data Integration
-MongoDB,PureInsights,Technology,,4,Data Integration
-Couchbase,Hackolade,Technology,,3,
-Couchbase,Looker,Technology,,3,
-Couchbase,Informatica,Technology,,3,Co-Branding/Marketing
-Immuta,Google BigQuery,Technology,,3,
-Immuta,Alation,Technology,,3,
-Immuta,Reply,Technology,,3,Knowledge Transfer
-Alation,Salesforce,Technology,,3,Data Integration
-Alation,Fivetran,Technology,,3,
-Alation,Alteryx,Technology,,3,
-Alation,AtScale,Technology,,3,
-Alation,Dataiku,Technology,,3,
-Alation,dbt Labs,Technology,,3,
-Alation,dremio,Technology,,3,
-Alation,Looker,Technology,,3,
-Alation,Teradata,Technology,,3,Data Integration
-Alation,Reply,Technology,,3,Knowledge Transfer
-ClickHouse,Fivetran,Technology,,3,Co-Branding/Marketing
-ClickHouse,HiveMQ,Technology,,3,Co-Branding/Marketing
-ClickHouse,MongoDB,Technology,,3,Data Integration
-ClickHouse,Redis Labs,Technology,,3,Co-Branding/Marketing
-ClickHouse,Looker,Technology,,3,
-Datadog,Snowflake,Technology,,3,
-Datadog,Atlassian,Technology,,3,
-Datadog,Cockroach Labs,Technology,,3,
-Datadog,Couchbase,Technology,,3,
-Datadog,DataOps.Live,Technology,,3,
-Datadog,Denodo,Technology,,3,
-Datadog,Fivetran,Technology,,3,
-Datadog,HiveMQ,Technology,,3,
-Datadog,MongoDB,Technology,,3,
-Datadog,Monte Carlo,Technology,,3,
-Datadog,NVIDIA,Technology,,3,
-Datadog,Nutanix,Technology,,3,
-Datadog,Precisly,Technology,,3,
-Datadog,Pure Storage,Technology,,3,
-Datadog,Redis Labs,Technology,,3,
-Datadog,Rockset,Technology,,3,
-Datadog,ServiceNow,Technology,,3,
-Datadog,SnapLogic,Technology,,3,
-Datadog,Starburst,Technology,,3,
-Datadog,Startree,Technology,,3,
-Datadog,Zilliz,Technology,,3,
-DataOps.Live,data.world,Technology,,4,
-DataOps.Live,dbt Labs,Technology,,3,
-DataOps.Live,Dataiku,Technology,,3,
-DataOps.Live,Fivetran,Technology,,3,
-DataOps.Live,Sigma,Technology,,3,
-DataOps.Live,EonCollective,Technology,,4,
-DataOps.Live,Hakkoda,Technology,,4,Knowledge Transfer
-DataOps.Live,ITS Snowflake Solutions,Technology,,4,Knowledge Transfer
-DataOps.Live,LeitData,Technology,,4,Knowledge Transfer
-DataOps.Live,NTTData,Technology,,3,Knowledge Transfer
-DataOps.Live,SME,Technology,,3,Knowledge Transfer
-DataOps.Live,Alation,Technology,,3,
-DataOps.Live,Atlan,Technology,,3,
-DataOps.Live,coalesce,Technology,,4,
-DataOps.Live,Dataiku,Technology,,3,
-DataOps.Live,Hex,Technology,,4,
-DataOps.Live,Immuta,Technology,,3,
-DataOps.Live,Informatica,Technology,,3,
-DataOps.Live,Infosys,Technology,,3,Knowledge Transfer
-DataOps.Live,Monte Carlo,Technology,,3,
-DataOps.Live,Matillion,Technology,,3,
-DataOps.Live,SecuPi,Technology,,3,
-DataOps.Live,Starburst,Technology,,3,
-DataOps.Live,slalom,Technology,,4,Knowledge Transfer
-DataOps.Live,Talend,Technology,,3,
-Denodo,Altair,Technology,,4,Co-Branding/Marketing
-Denodo,Alteryx,Technology,,4,Co-Branding/Marketing
-MicroStrategy,Exasol,Technology,,4,
-Protegrity,Snowflake,Technology,,4,
-Protegrity,Teradata,Technology,,4,
-Protegrity,Databricks,Technology,,4,
-Protegrity,Cloudera,Technology,,4,
-Protegrity,b.telligent,Technology,,4,Knowledge Transfer
-Protegrity,Guidepoint,Technology,,4,
-Protegrity,HCLTech,Technology,,4,Knowledge Transfer
-Protegrity,Infosys,Technology,,4,Knowledge Transfer
-Protegrity,Denodo,Technology,,4,
-Protegrity,dremio,Technology,,4,
-Protegrity,Exasol,Technology,,4,
-Protegrity,Guidepoint,Technology,,4,
-Protegrity,kyndryl,Technology,,4,Knowledge Transfer
-Protegrity,Latbc,Technology,,4,Knowledge Transfer
-Protegrity,Oracle,Technology,,4,
-Protegrity,PCS Security,Technology,,4,
-Protegrity,plainID,Technology,,4,
-Protegrity,Red Hat,Technology,,4,
-Protegrity,Snowflake,Technology,,4,
-Protegrity,splunk,Technology,,4,
-Protegrity,Strateq,Technology,,4,Knowledge Transfer
-Reltio,IQVIA,Technology,,4,
-Reltio,Blumetra,Technology,,4,Knowledge Transfer
-Reltio,Blue Altair,Technology,,4,Knowledge Transfer
-Reltio,Ulpia Tech,Technology,,4,Knowledge Transfer
-Reltio,An Info Systems BV,Technology,,4,
-Reltio,Apptad,Technology,,4,Knowledge Transfer
-SecuPi,Microsoft Azure,Technology,,3,
-SecuPi,Snowflake,Technology,,3,
-SecuPi,Databricks,Technology,,2,
-SecuPi,Qlik,Technology,,3,
-SecuPi,Confluent,Technology,,2,
-SecuPi,dremio,Technology,,3,
-SecuPi,Denodo,Technology,,3,
-SecuPi,SNP,Technology,,4,
-SecuPi,CyberArk,Technology,,4,
-SecuPi,DBeaver,Technology,,4,
-SecuPi,OneTrust,Technology,,4,
-SecuPi,Aerospike,Technology,,3,
-SecuPi,Attunity,Technology,,4,
-SecuPi,NetApp,Technology,,3,
-SecuPi,BigID,Technology,,4,
-SecuPi,AnjanaData,Technology,,4,
-SecuPi,Looker,Technology,,4,
-SecuPi,Reply,Technology,,4,Knowledge Transfer
-SecuPi,NTTData,Technology,,4,Knowledge Transfer
+Google Cloud,Confluent,Technology,DataStreaming,2.0,
+Google Cloud,DataRobot,Technology,AI,2.0,
+Google Cloud,Snowflake,Technology,DataAnalytics,2.0,
+Google Cloud,tableau,Technology,DataAnalytics,2.0,
+Google Cloud,dbtLabs,Technology,DataAnalytics,2.0,
+Google Cloud,Microsoft Azure,Technology,Denodo,2.0,
+Google Cloud,Idera,Technology,DataGovernance,2.0,
+Google Cloud,Matillion,Technology,DataGovernance,2.0,
+Google Cloud,MicroStrategy,Technology,DataAnalytics,2.0,
+Google Cloud,MongoDB,Technology,Database,2.0,
+Google Cloud,Protegrity,Technology,DataProtection,2.0,
+Google Cloud,Reltio,Technology,DataIntegration,2.0,
+Google Cloud,SecuPi,Technology,DataProtection,2.0,
+Google Cloud,SnapLogic,Technology,DataIntegration,2.0,
+Google Cloud,Starburst,Technology,DataMovement,2.0,
+Google Cloud,Aerospike,Technology,Database,2.0,
+Google Cloud,ClickHouse,Technology,DataAnalytics,2.0,
+Google Cloud,CockroachLabs,Technology,Database,2.0,
+Google Cloud,Couchbase,Technology,Database,2.0,
+Google Cloud,Datadog,Technology,Monitoring,2.0,
+Google Cloud,Elastic,Technology,DataAnalytics,2.0,
+Google Cloud,HiveMQ,Technology,DataStreaming,2.0,
+Google Cloud,Neo4j,Technology,DataIntegrations,2.0,
+Google Cloud,PureStorage,Technology,DataAnalytics,2.0,
+Google Cloud,Qlik,Technology,DataAnalytics,2.0,
+Google Cloud,RedisLabs,Technology,Database,2.0,
+Google Cloud,SingleStore,Technology,Database,2.0,
+Google Cloud,Startree,Technology,DataAnalytics,2.0,
+Google Cloud,Tinybird,Technology,DataStreaming,2.0,
+Google Cloud,Zilliz,Technology,Database,2.0,
+Google Cloud,Looker,Technology,BusinessIntelligence,2.0,
+Google Cloud,AtScale,Technology,DataAnalytics,2.0,
+Google Cloud,Immuta,Technology,DataIntelligence,2.0,
+Google Cloud,Alation,Technology,DataIntelligence,2.0,
+Google Cloud,privacera,Technology,DataGovernance,2.0,
+Google Cloud,NVIDIA,Technology,DataCenter,2.0,
+Google Cloud,Alteryx,Technology,DataAnalytics,2.0,
+Google Cloud,Dataiku,Technology,DataIntegration,2.0,
+Google Cloud,Fivetran,Technology,DataReplication,2.0,
+Google Cloud,dbtLabs,Technology,DataTransformation,2.0,
+Google Cloud,Informatica,Technology,DataManagement,2.0,
+Google Cloud,Merkle,Technology,DataIntegration,2.0,Knowledge Transfer
+Google Cloud,MonteCarlo,Technology,DataQuality,2.0,
+Google Cloud,Rivery,Technology,DataAnalytics,2.0,
+Google Cloud,Twilio,Technology,DaaS,2.0,
+Google Cloud,Sigma,Technology,DataAnalytics,2.0,
+Google Cloud,ThoughtSpot,Technology,DataAnalytics,2.0,
+Google Cloud,CapStorm,Technology,DataReplication,2.0,
+Google Cloud,Kyligence,Technology,DataAnalytics,2.0,
+Google Cloud,KyvosInsights,Technology,DataAnalytics,2.0,
+Google Cloud,Talend,Technology,DataIntegration,2.0,
+Google Cloud,Teradata,Technology,DataAnalytics,2.0,
+Google Cloud,Nutanix,Technology,DataInfrastructure,2.0,
+Google Cloud,Evolutio,Technology,DataIntegration,2.0,Knowledge Transfer
+Amazon Web Services,Databricks,Technology,Data Integration,2.0,
+Amazon Web Services,Snowflake,Technology,Zero Copy,3.0,
+Amazon Web Services,Merkle,Technology,Data Transformation,3.0,Knowledge Transfer
+Amazon Web Services,MongoDB,Technology,Zero Copy,3.0,
+Amazon Web Services,Neo4j,Technology,DaaS,3.0,
+Amazon Web Services,Informatica,Technology,Data Management,3.0,
+Amazon Web Services,DataRobot,Technology,AI,3.0,
+Amazon Web Services,Couchbase,Technology,Database,3.0,
+Amazon Web Services,Precisly,Technology,Data Integration,3.0,
+Amazon Web Services,Twilio,Technology,Data Governance,3.0,
+Amazon Web Services,Reply,Technology,Data Governance,3.0,Knowledge Transfer
+Amazon Web Services,Denodo,Technology,Data Management,3.0,
+Amazon Web Services,Matillion,Strategic Alliance,Data Transformation,3.0,
+Amazon Web Services,MicroStrategy,Technology,Data Intelligence,3.0,
+Amazon Web Services,Protegrity,Technology,Data Protection,3.0,
+Amazon Web Services,Reltio,Technology,Data Management,3.0,
+Amazon Web Services,SecuPi,Technology,Data Protection,3.0,
+Amazon Web Services,SnapLogic,Technology,Data Integration,3.0,
+Amazon Web Services,Starburst,Technology,Data Management,3.0,
+Amazon Web Services,ClickHouse,Technology,Data Analytics,3.0,
+Amazon Web Services,Imply,Technology,Data Analytics,3.0,
+Amazon Web Services,Rockset,Technology,Database,3.0,
+Amazon Web Services,Aerospike,Technology,Database,3.0,
+Amazon Web Services,Datadog,Technology,Monitoring,3.0,
+Amazon Web Services,Celonis,Technology,Process Mining,3.0,
+Amazon Web Services,Elastic,Technology,Data Analytics,3.0,
+Amazon Web Services,ClickHouse,Technology,Database,3.0,
+Amazon Web Services,Cockroach Labs,Technology,Database,3.0,
+Amazon Web Services,Couchbase,Technology,Database,3.0,
+Amazon Web Services,Elastic,Technology,AI,3.0,
+Amazon Web Services,NVIDIA,Technology,Data Streaming,3.0,
+Amazon Web Services,Materialize,Technology,Database,3.0,
+Amazon Web Services,OneHouse,Technology,Data Management,3.0,
+Amazon Web Services,Pure Storage,Technology,Data Cloud,3.0,
+Amazon Web Services,Qlik,Technology,Data Integration,3.0,
+Amazon Web Services,Talend,Technology,Data Integration,3.0,
+Amazon Web Services,Redis Labs,Technology,Database,3.0,
+Amazon Web Services,SingleStore,Technology,Database,3.0,
+Amazon Web Services,Startree,Technology,Data Analytics,3.0,
+Amazon Web Services,Tinybird,Technology,Data Streaming,3.0,
+Amazon Web Services,Zilliz,Technology,Database,3.0,
+Amazon Web Services,dremio,Technology,Business Intelligence,3.0,
+Amazon Web Services,AtScale,Technology,Data Analytics,3.0,
+Amazon Web Services,Immuta,Technology,Data Governance,3.0,
+Amazon Web Services,Alation,Technology,AI,3.0,
+Amazon Web Services,privacera,Technology,Data Security,3.0,
+Amazon Web Services,Nasdaq,Technology,Data Enrichment,3.0,
+Amazon Web Services,S&P Global,Technology,Data Enrichment,3.0,
+Amazon Web Services,Factset,Technology,Data Analytics,3.0,
+Amazon Web Services,FourSquare,Technology,Business Intelligence,3.0,
+Amazon Web Services,quandl,Technology,Data Analytics,3.0,
+Amazon Web Services,Alteryx,Technology,Data Analytics,3.0,
+Amazon Web Services,Airbyte,Technology,Data Analytics,3.0,
+Amazon Web Services,Dataiku,Technology,AI,3.0,
+Amazon Web Services,Fivetran,Technology,Data Replication,3.0,
+Amazon Web Services,Monte Carlo,Technology,Data Transformation,3.0,
+Amazon Web Services,Rivery,Technology,Data Transformation,3.0,
+Amazon Web Services,ThoughtSpot,Technology,Data Analytics,3.0,
+Amazon Web Services,CapStorm,Technology,Data Transformation,3.0,
+Amazon Web Services,Kyligence,Technology,Data Intelligence,3.0,
+Amazon Web Services,Kyvos Insights,Technology,Data Analytics,3.0,
+Amazon Web Services,Teradata,Technology,Data Analytics,3.0,
+Amazon Web Services,Nutanix,Technology,Data Infrastructure,3.0,
+Amazon Web Services,Evolutio,Technology,Data Integration,3.0,Knowledge Transfer
+Salesforce,Google BigQuery,Technology,Zero Copy,3.0,
+Salesforce,Microsoft Azure,Technology,Zero Copy,3.0,
+Salesforce,Snowflake,Technology,Zero Copy,3.0,
+Salesforce,tableau,Market,Zero Copy,3.0,
+Salesforce,Datadog,Technology,Cloud Products Partner,3.0,
+Snowflake,Dataiku,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,DataOps.Live,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,dremio,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Fivetran,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Google Cloud,Technology,Cloud Products Partner,3.0,
+Snowflake,Immuta,Technology,Cloud Products Partner,3.0,
+Snowflake,Informatica,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Matillion,Strategic Alliance,Cloud Products Partner,3.0,Data Integration
+Snowflake,Merkle,Technology,Cloud Products Partner,3.0,Knowledge Transfer
+Snowflake,Monte Carlo,Technology,Cloud Products Partner,3.0,
+Snowflake,NVIDIA,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Qlik,Technology,Cloud Products Partner,3.0,
+Snowflake,Rivery,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Twilio,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Sigma,Technology,Cloud Products Partner,3.0,
+Snowflake,ThoughtSpot,Technology,Cloud Products Partner,3.0,
+Snowflake,Microsoft Azure,Technology,Cloud Products Partner,3.0,
+Snowflake,ServiceNow,Technology,Cloud Products Partner,3.0,
+Snowflake,Alteryx,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,dbt Labs,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Datavault,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,acceldata,Technology,Cloud Products Partner,3.0,
+Snowflake,Datahub,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,ActionIQ,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Agile Data Engine,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,AecorSoft,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Aible,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Airbyte,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Altair,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,Hex,Technology,Cloud Products Partner,3.0,
+tableau,Alation,Technology,,3.0,
+tableau,Collibra,Technology,,2.0,
+tableau,Snowflake,Technology,,3.0,
+tableau,Wiiisdom,Technology,,3.0,
+tableau,Zuar,Technology,,3.0,
+tableau,1010data,Technology,,3.0,
+tableau,ALTR,Technology,,3.0,
+tableau,AtScale,Technology,,3.0,
+tableau,DataRobot,Technology,,2.0,
+tableau,Dataiku,Technology,,3.0,
+tableau,Denodo,Technology,,3.0,
+tableau,Automated Insights,Technology,,3.0,
+tableau,CapStorm,Technology,,3.0,
+tableau,Couchbase,Technology,,3.0,
+tableau,Databricks,Technology,,2.0,
+tableau,dremio,Technology,,3.0,
+tableau,EasyMorph,Technology,,3.0,
+tableau,Immuta,Technology,,3.0,
+tableau,Informatica,Technology,,3.0,
+tableau,Kyligence,Technology,,3.0,
+tableau,Kyvos Insights,Technology,,3.0,
+tableau,Matillion,Technology,,3.0,
+tableau,MongoDB,Technology,,3.0,
+tableau,Rivery,Technology,,3.0,
+tableau,Starburst,Technology,,3.0,
+tableau,Talend,Technology,,3.0,
+tableau,Teradata,Technology,,3.0,
+Microsoft Azure,dbt Labs,Technology,,3.0,
+Microsoft Azure,Matillion,Strategic Alliance,,3.0,
+Microsoft Azure,MicroStrategy,Technology,,3.0,
+Microsoft Azure,MongoDB,Technology,,3.0,
+Microsoft Azure,Protegrity,Technology,,3.0,
+Microsoft Azure,Reltio,Technology,,3.0,
+Microsoft Azure,SnapLogic,Technology,,3.0,
+Microsoft Azure,Starburst,Technology,,3.0,
+Microsoft Azure,Imply,Technology,,3.0,
+Microsoft Azure,Celonis,Technology,,3.0,
+Microsoft Azure,ClickHouse,Technology,,3.0,
+Microsoft Azure,Cockroach Labs,Technology,,3.0,
+Microsoft Azure,Couchbase,Technology,,3.0,
+Microsoft Azure,Datadog,Technology,,3.0,
+Microsoft Azure,Elastic,Technology,,3.0,
+Microsoft Azure,Neo4j,Technology,,3.0,
+Microsoft Azure,Pure Storage,Technology,,3.0,
+Microsoft Azure,SingleStore,Technology,,3.0,
+Microsoft Azure,Startree,Technology,,3.0,
+Microsoft Azure,Tinybird,Technology,,3.0,
+Microsoft Azure,dremio,Technology,,3.0,
+Microsoft Azure,AtScale,Technology,,3.0,
+Microsoft Azure,Immuta,Technology,,3.0,
+Microsoft Azure,Alation,Technology,,3.0,
+Microsoft Azure,privacera,Technology,,3.0,
+Microsoft Azure,NVIDIA,Technology,,3.0,
+Microsoft Azure,Alteryx,Technology,,3.0,
+Microsoft Azure,Dataiku,Technology,,3.0,
+Microsoft Azure,Fivetran,Technology,,3.0,
+Microsoft Azure,Sigma,Technology,,3.0,
+Microsoft Azure,ThoughtSpot,Technology,,3.0,
+Microsoft Azure,Kyligence,Technology,,3.0,
+Microsoft Azure,Teradata,Technology,,3.0,
+Microsoft Azure,Nutanix,Technology,,3.0,
+Microsoft Azure,Reply,Technology,,3.0,Knowledge Transfer
+Starburst,dbt Labs,Technology,,3.0,Co-Branding/Marketing
+Starburst,MicroStrategy,Technology,,3.0,
+Starburst,Protegrity,Technology,,3.0,
+Starburst,SecuPi,Technology,,3.0,
+Starburst,Aerospike,Technology,,3.0,Co-Branding/Marketing
+Starburst,Qlik,Technology,,3.0,
+Starburst,AtScale,Technology,,3.0,Co-Branding/Marketing
+Starburst,Immuta,Technology,,3.0,
+Starburst,Alation,Technology,,3.0,Co-Branding/Marketing
+Starburst,privacera,Technology,,3.0,
+Starburst,Dataiku,Technology,,3.0,Co-Branding/Marketing
+Starburst,ThoughtSpot,Technology,,3.0,
+Starburst,Reply,Technology,,3.0,Knowledge Transfer
+Matillion,Alation,Technology,,3.0,Co-Branding/Marketing
+Matillion,ALTR,Technology,,3.0,
+Matillion,Amazon Web Services,Technology,,3.0,
+Matillion,Dataiku,Technology,,3.0,Co-Branding/Marketing
+Matillion,DataOps.Live,Technology,,3.0,Co-Branding/Marketing
+Matillion,Sigma,Technology,,3.0,
+Matillion,ThoughtSpot,Technology,,3.0,
+Matillion,Google BigQuery,Technology,,3.0,Data Integration
+MongoDB,Google BigQuery,Technology,,3.0,
+MongoDB,Hackolade,Technology,,3.0,
+MongoDB,HiveMQ,Technology,,3.0,Data Integration
+MongoDB,Datadog,Technology,,3.0,
+MongoDB,Power BI,Technology,,3.0,
+MongoDB,Informatica,Technology,,3.0,Data Integration
+MongoDB,Reply,Technology,,3.0,Knowledge Transfer
+MongoDB,Anthropic,Technology,,4.0,Data Integration
+MongoDB,Cohere,Technology,,4.0,Data Integration
+MongoDB,LangChain,Technology,,4.0,Data Integration
+MongoDB,LlamaIndex,Technology,,4.0,Data Integration
+MongoDB,TogetherAI,Technology,,4.0,Data Integration
+MongoDB,Anyscale,Technology,,4.0,Data Integration
+MongoDB,FireworksAI,Technology,,4.0,Data Integration
+MongoDB,Nomic,Technology,,4.0,
+MongoDB,CredalAI,Technology,,4.0,Data Integration
+MongoDB,PureInsights,Technology,,4.0,Data Integration
+Couchbase,Hackolade,Technology,,3.0,
+Couchbase,Looker,Technology,,3.0,
+Couchbase,Informatica,Technology,,3.0,Co-Branding/Marketing
+Immuta,Google BigQuery,Technology,,3.0,
+Immuta,Alation,Technology,,3.0,
+Immuta,Reply,Technology,,3.0,Knowledge Transfer
+Alation,Salesforce,Technology,,3.0,Data Integration
+Alation,Fivetran,Technology,,3.0,Co-Branding/Marketing
+Alation,Alteryx,Technology,,3.0,Co-Branding/Marketing
+Alation,AtScale,Technology,,3.0,
+Alation,Dataiku,Technology,,3.0,Co-Branding/Marketing
+Alation,dbt Labs,Technology,,3.0,
+Alation,dremio,Technology,,3.0,Co-Branding/Marketing
+Alation,Looker,Technology,,3.0,
+Alation,Teradata,Technology,,3.0,Data Integration
+Alation,Reply,Technology,,3.0,Knowledge Transfer
+ClickHouse,Fivetran,Technology,,3.0,Co-Branding/Marketing
+ClickHouse,HiveMQ,Technology,,3.0,Co-Branding/Marketing
+ClickHouse,MongoDB,Technology,,3.0,Data Integration
+ClickHouse,Redis Labs,Technology,,3.0,Co-Branding/Marketing
+ClickHouse,Looker,Technology,,3.0,
+Datadog,Snowflake,Technology,,3.0,
+Datadog,Atlassian,Technology,,3.0,
+Datadog,Cockroach Labs,Technology,,3.0,
+Datadog,Couchbase,Technology,,3.0,
+Datadog,DataOps.Live,Technology,,3.0,
+Datadog,Denodo,Technology,,3.0,
+Datadog,Fivetran,Technology,,3.0,
+Datadog,HiveMQ,Technology,,3.0,
+Datadog,MongoDB,Technology,,3.0,
+Datadog,Monte Carlo,Technology,,3.0,
+Datadog,NVIDIA,Technology,,3.0,
+Datadog,Nutanix,Technology,,3.0,
+Datadog,Precisly,Technology,,3.0,
+Datadog,Pure Storage,Technology,,3.0,
+Datadog,Redis Labs,Technology,,3.0,
+Datadog,Rockset,Technology,,3.0,
+Datadog,ServiceNow,Technology,,3.0,
+Datadog,SnapLogic,Technology,,3.0,
+Datadog,Starburst,Technology,,3.0,
+Datadog,Startree,Technology,,3.0,
+Datadog,Zilliz,Technology,,3.0,
+DataOps.Live,data.world,Technology,,4.0,
+DataOps.Live,dbt Labs,Technology,,3.0,
+DataOps.Live,Dataiku,Technology,,3.0,Co-Branding/Marketing
+DataOps.Live,Fivetran,Technology,,3.0,Co-Branding/Marketing
+DataOps.Live,Sigma,Technology,,3.0,
+DataOps.Live,EonCollective,Technology,,4.0,
+DataOps.Live,Hakkoda,Technology,,4.0,Knowledge Transfer
+DataOps.Live,ITS Snowflake Solutions,Technology,,4.0,Knowledge Transfer
+DataOps.Live,LeitData,Technology,,4.0,Knowledge Transfer
+DataOps.Live,NTTData,Technology,,3.0,Knowledge Transfer
+DataOps.Live,SME,Technology,,3.0,Knowledge Transfer
+DataOps.Live,Alation,Technology,,3.0,
+DataOps.Live,Atlan,Technology,,3.0,
+DataOps.Live,coalesce,Technology,,4.0,
+DataOps.Live,Dataiku,Technology,,3.0,Co-Branding/Marketing
+DataOps.Live,Hex,Technology,,4.0,
+DataOps.Live,Immuta,Technology,,3.0,
+DataOps.Live,Informatica,Technology,,3.0,Co-Branding/Marketing
+DataOps.Live,Infosys,Technology,,3.0,Knowledge Transfer
+DataOps.Live,Monte Carlo,Technology,,3.0,
+DataOps.Live,Matillion,Technology,,3.0,Co-Branding/Marketing
+DataOps.Live,SecuPi,Technology,,3.0,
+DataOps.Live,Starburst,Technology,,3.0,Co-Branding/Marketing
+DataOps.Live,slalom,Technology,,4.0,Knowledge Transfer
+DataOps.Live,Talend,Technology,,3.0,Co-Branding/Marketing
+Denodo,Altair,Technology,,4.0,Co-Branding/Marketing
+Denodo,Alteryx,Technology,,4.0,Co-Branding/Marketing
+MicroStrategy,Exasol,Technology,,4.0,
+Protegrity,Snowflake,Technology,,4.0,
+Protegrity,Teradata,Technology,,4.0,
+Protegrity,Databricks,Technology,,4.0,
+Protegrity,Cloudera,Technology,,4.0,
+Protegrity,b.telligent,Technology,,4.0,Knowledge Transfer
+Protegrity,Guidepoint,Technology,,4.0,
+Protegrity,HCLTech,Technology,,4.0,Knowledge Transfer
+Protegrity,Infosys,Technology,,4.0,Knowledge Transfer
+Protegrity,Denodo,Technology,,4.0,
+Protegrity,dremio,Technology,,4.0,
+Protegrity,Exasol,Technology,,4.0,
+Protegrity,Guidepoint,Technology,,4.0,
+Protegrity,kyndryl,Technology,,4.0,Knowledge Transfer
+Protegrity,Latbc,Technology,,4.0,Knowledge Transfer
+Protegrity,Oracle,Technology,,4.0,
+Protegrity,PCS Security,Technology,,4.0,
+Protegrity,plainID,Technology,,4.0,
+Protegrity,Red Hat,Technology,,4.0,
+Protegrity,Snowflake,Technology,,4.0,
+Protegrity,splunk,Technology,,4.0,
+Protegrity,Strateq,Technology,,4.0,Knowledge Transfer
+Reltio,IQVIA,Technology,,4.0,
+Reltio,Blumetra,Technology,,4.0,Knowledge Transfer
+Reltio,Blue Altair,Technology,,4.0,Knowledge Transfer
+Reltio,Ulpia Tech,Technology,,4.0,Knowledge Transfer
+Reltio,An Info Systems BV,Technology,,4.0,
+Reltio,Apptad,Technology,,4.0,Knowledge Transfer
+SecuPi,Microsoft Azure,Technology,,3.0,
+SecuPi,Snowflake,Technology,,3.0,
+SecuPi,Databricks,Technology,,2.0,
+SecuPi,Qlik,Technology,,3.0,
+SecuPi,Confluent,Technology,,2.0,
+SecuPi,dremio,Technology,,3.0,
+SecuPi,Denodo,Technology,,3.0,
+SecuPi,SNP,Technology,,4.0,
+SecuPi,CyberArk,Technology,,4.0,
+SecuPi,DBeaver,Technology,,4.0,
+SecuPi,OneTrust,Technology,,4.0,
+SecuPi,Aerospike,Technology,,3.0,
+SecuPi,Attunity,Technology,,4.0,
+SecuPi,NetApp,Technology,,3.0,
+SecuPi,BigID,Technology,,4.0,
+SecuPi,AnjanaData,Technology,,4.0,
+SecuPi,Looker,Technology,,4.0,
+SecuPi,Reply,Technology,,4.0,Knowledge Transfer
+SecuPi,NTTData,Technology,,4.0,Knowledge Transfer

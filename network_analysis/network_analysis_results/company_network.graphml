@@ -279,6 +279,177 @@
 <node id="ServiceNow">
   <data key="d0">2</data>
 </node>
+<node id="Datavault">
+  <data key="d0">3</data>
+</node>
+<node id="acceldata">
+  <data key="d0">3</data>
+</node>
+<node id="Datahub">
+  <data key="d0">3</data>
+</node>
+<node id="ActionIQ">
+  <data key="d0">3</data>
+</node>
+<node id="Agile Data Engine">
+  <data key="d0">3</data>
+</node>
+<node id="AecorSoft">
+  <data key="d0">3</data>
+</node>
+<node id="Aible">
+  <data key="d0">3</data>
+</node>
+<node id="Altair">
+  <data key="d0">3</data>
+</node>
+<node id="Hex">
+  <data key="d0">3</data>
+</node>
+<node id="Vaultspeed">
+  <data key="d0">3</data>
+</node>
+<node id="EonCollective">
+  <data key="d0">3</data>
+</node>
+<node id="Hakkoda">
+  <data key="d0">3</data>
+</node>
+<node id="ITS Snowflake Solutions">
+  <data key="d0">3</data>
+</node>
+<node id="LeitData">
+  <data key="d0">3</data>
+</node>
+<node id="NTTData">
+  <data key="d0">3</data>
+</node>
+<node id="SME">
+  <data key="d0">3</data>
+</node>
+<node id="Atlan">
+  <data key="d0">3</data>
+</node>
+<node id="coalesce">
+  <data key="d0">3</data>
+</node>
+<node id="Infosys">
+  <data key="d0">3</data>
+</node>
+<node id="slalom">
+  <data key="d0">3</data>
+</node>
+<node id="Exasol">
+  <data key="d0">3</data>
+</node>
+<node id="Anthropic">
+  <data key="d0">3</data>
+</node>
+<node id="Cohere">
+  <data key="d0">3</data>
+</node>
+<node id="LangChain">
+  <data key="d0">3</data>
+</node>
+<node id="LlamaIndex">
+  <data key="d0">3</data>
+</node>
+<node id="TogetherAI">
+  <data key="d0">3</data>
+</node>
+<node id="Anyscale">
+  <data key="d0">3</data>
+</node>
+<node id="FireworksAI">
+  <data key="d0">3</data>
+</node>
+<node id="Nomic">
+  <data key="d0">3</data>
+</node>
+<node id="CredalAI">
+  <data key="d0">3</data>
+</node>
+<node id="PureInsights">
+  <data key="d0">3</data>
+</node>
+<node id="Cloudera">
+  <data key="d0">3</data>
+</node>
+<node id="b.telligent">
+  <data key="d0">3</data>
+</node>
+<node id="Guidepoint">
+  <data key="d0">3</data>
+</node>
+<node id="HCLTech">
+  <data key="d0">3</data>
+</node>
+<node id="kyndryl">
+  <data key="d0">3</data>
+</node>
+<node id="Latbc">
+  <data key="d0">3</data>
+</node>
+<node id="Oracle">
+  <data key="d0">3</data>
+</node>
+<node id="PCS Security">
+  <data key="d0">3</data>
+</node>
+<node id="plainID">
+  <data key="d0">3</data>
+</node>
+<node id="Red Hat">
+  <data key="d0">3</data>
+</node>
+<node id="splunk">
+  <data key="d0">3</data>
+</node>
+<node id="Strateq">
+  <data key="d0">3</data>
+</node>
+<node id="IQVIA">
+  <data key="d0">3</data>
+</node>
+<node id="Blumetra">
+  <data key="d0">3</data>
+</node>
+<node id="Blue Altair">
+  <data key="d0">3</data>
+</node>
+<node id="Ulpia Tech">
+  <data key="d0">3</data>
+</node>
+<node id="AN Info Systems BV">
+  <data key="d0">3</data>
+</node>
+<node id="Apptad">
+  <data key="d0">3</data>
+</node>
+<node id="SNP">
+  <data key="d0">3</data>
+</node>
+<node id="CyberArk">
+  <data key="d0">3</data>
+</node>
+<node id="DBeaver">
+  <data key="d0">3</data>
+</node>
+<node id="OneTrust">
+  <data key="d0">3</data>
+</node>
+<node id="Attunity">
+  <data key="d0">3</data>
+</node>
+<node id="NetApp">
+  <data key="d0">3</data>
+</node>
+<node id="BigID">
+  <data key="d0">3</data>
+</node>
+<node id="AnjanaData">
+  <data key="d0">3</data>
+</node>
 <node id="PowerBI"/>
 <node id="GoogleBigQuery"/>
 <node id="S&amp;PGlobal"/>
@@ -289,6 +460,8 @@
 <node id="RedisLabs"/>
 <node id="MonteCarlo"/>
 <node id="KyvosInsights"/>
+<node id="data.world"/>
+<node id="An Info Systems BV"/>
 <edge source="SAP" target="Google Cloud"/>
 <edge source="SAP" target="Databricks"/>
 <edge source="SAP" target="DataRobot"/>
@@ -344,6 +517,8 @@
 <edge source="Databricks" target="Matillion"/>
 <edge source="Databricks" target="MongoDB"/>
 <edge source="Databricks" target="Amazon Web Services"/>
+<edge source="Databricks" target="Protegrity"/>
+<edge source="Databricks" target="SecuPi"/>
 <edge source="Google Cloud" target="DataRobot"/>
 <edge source="Google Cloud" target="GoogleBigQuery"/>
 <edge source="Google Cloud" target="Reply"/>
@@ -425,6 +600,7 @@
 <edge source="Confluent" target="SingleStore"/>
 <edge source="Confluent" target="Startree"/>
 <edge source="Confluent" target="Microsoft Azure"/>
+<edge source="Confluent" target="SecuPi"/>
 <edge source="DataRobot" target="NVIDIA"/>
 <edge source="DataRobot" target="Nutanix"/>
 <edge source="DataRobot" target="Evolution"/>
@@ -510,8 +686,22 @@
 <edge source="Snowflake" target="ThoughtSpot"/>
 <edge source="Snowflake" target="Microsoft Azure"/>
 <edge source="Snowflake" target="ServiceNow"/>
+<edge source="Snowflake" target="Alteryx"/>
+<edge source="Snowflake" target="dbt Labs"/>
+<edge source="Snowflake" target="Datavault"/>
+<edge source="Snowflake" target="acceldata"/>
+<edge source="Snowflake" target="Datahub"/>
+<edge source="Snowflake" target="ActionIQ"/>
+<edge source="Snowflake" target="Agile Data Engine"/>
+<edge source="Snowflake" target="AecorSoft"/>
+<edge source="Snowflake" target="Aible"/>
+<edge source="Snowflake" target="Airbyte"/>
+<edge source="Snowflake" target="Altair"/>
+<edge source="Snowflake" target="Hex"/>
 <edge source="Snowflake" target="tableau"/>
 <edge source="Snowflake" target="Datadog"/>
+<edge source="Snowflake" target="Protegrity"/>
+<edge source="Snowflake" target="SecuPi"/>
 <edge source="Microsoft Azure" target="Salesforce"/>
 <edge source="Microsoft Azure" target="dbt Labs"/>
 <edge source="Microsoft Azure" target="Matillion"/>
@@ -548,6 +738,7 @@
 <edge source="Microsoft Azure" target="Teradata"/>
 <edge source="Microsoft Azure" target="Nutanix"/>
 <edge source="Microsoft Azure" target="Reply"/>
+<edge source="Microsoft Azure" target="SecuPi"/>
 <edge source="tableau" target="Salesforce"/>
 <edge source="tableau" target="Alation"/>
 <edge source="tableau" target="Wiiisdom"/>
@@ -574,9 +765,36 @@
 <edge source="tableau" target="Teradata"/>
 <edge source="DataOps.Live" target="Matillion"/>
 <edge source="DataOps.Live" target="Datadog"/>
+<edge source="DataOps.Live" target="data.world"/>
+<edge source="DataOps.Live" target="dbt Labs"/>
+<edge source="DataOps.Live" target="Dataiku"/>
+<edge source="DataOps.Live" target="Fivetran"/>
+<edge source="DataOps.Live" target="Sigma"/>
+<edge source="DataOps.Live" target="EonCollective"/>
+<edge source="DataOps.Live" target="Hakkoda"/>
+<edge source="DataOps.Live" target="ITS Snowflake Solutions"/>
+<edge source="DataOps.Live" target="LeitData"/>
+<edge source="DataOps.Live" target="NTTData"/>
+<edge source="DataOps.Live" target="SME"/>
+<edge source="DataOps.Live" target="Alation"/>
+<edge source="DataOps.Live" target="Atlan"/>
+<edge source="DataOps.Live" target="coalesce"/>
+<edge source="DataOps.Live" target="Hex"/>
+<edge source="DataOps.Live" target="Immuta"/>
+<edge source="DataOps.Live" target="Informatica"/>
+<edge source="DataOps.Live" target="Infosys"/>
+<edge source="DataOps.Live" target="Monte Carlo"/>
+<edge source="DataOps.Live" target="SecuPi"/>
+<edge source="DataOps.Live" target="Starburst"/>
+<edge source="DataOps.Live" target="slalom"/>
+<edge source="DataOps.Live" target="Talend"/>
 <edge source="dbt Labs" target="Starburst"/>
 <edge source="dbt Labs" target="Alation"/>
 <edge source="Denodo" target="Datadog"/>
+<edge source="Denodo" target="Altair"/>
+<edge source="Denodo" target="Alteryx"/>
+<edge source="Denodo" target="Protegrity"/>
+<edge source="Denodo" target="SecuPi"/>
 <edge source="Hackolade" target="MongoDB"/>
 <edge source="Hackolade" target="Couchbase"/>
 <edge source="Matillion" target="Alation"/>
@@ -586,15 +804,62 @@
 <edge source="Matillion" target="ThoughtSpot"/>
 <edge source="Matillion" target="Google BigQuery"/>
 <edge source="MicroStrategy" target="Starburst"/>
+<edge source="MicroStrategy" target="Exasol"/>
 <edge source="MongoDB" target="Google BigQuery"/>
 <edge source="MongoDB" target="HiveMQ"/>
 <edge source="MongoDB" target="Datadog"/>
 <edge source="MongoDB" target="Power BI"/>
 <edge source="MongoDB" target="Informatica"/>
 <edge source="MongoDB" target="Reply"/>
+<edge source="MongoDB" target="Anthropic"/>
+<edge source="MongoDB" target="Cohere"/>
+<edge source="MongoDB" target="LangChain"/>
+<edge source="MongoDB" target="LlamaIndex"/>
+<edge source="MongoDB" target="TogetherAI"/>
+<edge source="MongoDB" target="Anyscale"/>
+<edge source="MongoDB" target="FireworksAI"/>
+<edge source="MongoDB" target="Nomic"/>
+<edge source="MongoDB" target="CredalAI"/>
+<edge source="MongoDB" target="PureInsights"/>
 <edge source="MongoDB" target="ClickHouse"/>
 <edge source="Protegrity" target="Starburst"/>
+<edge source="Protegrity" target="Teradata"/>
+<edge source="Protegrity" target="Cloudera"/>
+<edge source="Protegrity" target="b.telligent"/>
+<edge source="Protegrity" target="Guidepoint"/>
+<edge source="Protegrity" target="HCLTech"/>
+<edge source="Protegrity" target="Infosys"/>
+<edge source="Protegrity" target="dremio"/>
+<edge source="Protegrity" target="Exasol"/>
+<edge source="Protegrity" target="kyndryl"/>
+<edge source="Protegrity" target="Latbc"/>
+<edge source="Protegrity" target="Oracle"/>
+<edge source="Protegrity" target="PCS Security"/>
+<edge source="Protegrity" target="plainID"/>
+<edge source="Protegrity" target="Red Hat"/>
+<edge source="Protegrity" target="splunk"/>
+<edge source="Protegrity" target="Strateq"/>
+<edge source="Reltio" target="IQVIA"/>
+<edge source="Reltio" target="Blumetra"/>
+<edge source="Reltio" target="Blue Altair"/>
+<edge source="Reltio" target="Ulpia Tech"/>
+<edge source="Reltio" target="An Info Systems BV"/>
+<edge source="Reltio" target="Apptad"/>
 <edge source="SecuPi" target="Starburst"/>
+<edge source="SecuPi" target="Qlik"/>
+<edge source="SecuPi" target="dremio"/>
+<edge source="SecuPi" target="SNP"/>
+<edge source="SecuPi" target="CyberArk"/>
+<edge source="SecuPi" target="DBeaver"/>
+<edge source="SecuPi" target="OneTrust"/>
+<edge source="SecuPi" target="Aerospike"/>
+<edge source="SecuPi" target="Attunity"/>
+<edge source="SecuPi" target="NetApp"/>
+<edge source="SecuPi" target="BigID"/>
+<edge source="SecuPi" target="AnjanaData"/>
+<edge source="SecuPi" target="Looker"/>
+<edge source="SecuPi" target="Reply"/>
+<edge source="SecuPi" target="NTTData"/>
 <edge source="SnapLogic" target="Datadog"/>
 <edge source="Starburst" target="Aerospike"/>
 <edge source="Starburst" target="Qlik"/>
