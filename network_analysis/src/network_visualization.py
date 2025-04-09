@@ -50,73 +50,75 @@ with open(os.path.join(OUTPUT_DIR, 'node_labels.txt'), 'w') as f:
         f.write(f"{node}\n")
 
 # Set up the plot
-plt.figure(figsize=(15, 10))
-
-# First pass with spring layout
-pos = nx.spring_layout(G, 
-                      k=2.0,  # Increased optimal distance between nodes
-                      iterations=200,  # More iterations for better convergence
-                      scale=3.0,  # Increased scale for more spread
-                      seed=42)
-
-# Second pass with force-directed layout to further improve spacing
-pos = nx.spring_layout(G, 
-                      pos=pos,  # Use previous positions as starting point
-                      k=3.0,  # Even larger optimal distance
-                      iterations=100,
-                      scale=3.0,
-                      seed=42)
-
-# Calculate node sizes based on degree, but cap the maximum size
-max_degree = max(dict(G.degree()).values())
-node_sizes = [min(G.degree(node) * 50, 1000) for node in G.nodes()]
+plt.figure(figsize=(20, 15))  # Increased figure size for better separation
 
 # Detect communities using the Louvain method
 partition = community.best_partition(G)
 
-# Process community assignments
-community_dict = {}
-for node, community_id in partition.items():
-    if community_id not in community_dict:
-        community_dict[community_id] = []
-    community_dict[community_id].append(node)
+# Calculate positions for each community separately and then combine
+pos = {}
+communities = set(partition.values())
+community_graphs = {i: nx.Graph() for i in communities}
 
-# Sort communities by size
-sorted_communities = sorted(community_dict.items(), key=lambda x: len(x[1]), reverse=True)
+# Separate nodes by community
+for node, comm in partition.items():
+    community_graphs[comm].add_node(node)
+    
+for edge in G.edges():
+    comm1 = partition[edge[0]]
+    comm2 = partition[edge[1]]
+    if comm1 == comm2:  # If nodes are in the same community
+        community_graphs[comm1].add_edge(*edge)
 
-# Save community information to a separate file
-with open(os.path.join(OUTPUT_DIR, 'community_assignments.txt'), 'w') as f:
-    f.write("Community Assignments:\n\n")
-    for community_id, nodes in sorted_communities:
-        f.write(f"Community {community_id} ({len(nodes)} nodes):\n")
-        for node in sorted(nodes):
-            f.write(f"  - {node}\n")
-        f.write("\n")
+# Position each community separately
+for comm in communities:
+    if len(community_graphs[comm].nodes()) > 0:
+        # Get position for this community
+        comm_pos = nx.spring_layout(community_graphs[comm], k=2.0, iterations=100, seed=42)
+        pos.update(comm_pos)
 
-# Add community as a node attribute for visualization
-for node, community_id in partition.items():
-    G.nodes[node]['community'] = community_id
+# Arrange communities in a circular layout
+num_communities = len(communities)
+R = 4.0  # Radius of the circle on which to place communities
+for comm in communities:
+    # Calculate the center for this community
+    theta = 2 * np.pi * list(communities).index(comm) / num_communities
+    center = np.array([R * np.cos(theta), R * np.sin(theta)])
+    
+    # Move all nodes in this community
+    comm_nodes = [node for node in G.nodes() if partition[node] == comm]
+    if comm_nodes:
+        # Calculate current center of mass for this community
+        com_center = np.mean([pos[node] for node in comm_nodes], axis=0)
+        # Move nodes to new position
+        for node in comm_nodes:
+            pos[node] = pos[node] - com_center + center
+
+# Calculate node sizes based on degree, but with a more reasonable scale
+max_degree = max(dict(G.degree()).values())
+node_sizes = [min(G.degree(node) * 100, 2000) for node in G.nodes()]
 
 # Set node colors based on community
-node_colors = [G.nodes[node]['community'] for node in G.nodes()]
+node_colors = [partition[node] for node in G.nodes()]
 
 # Draw the network with community colors
 nx.draw(G, pos,
         with_labels=True,
         node_color=node_colors,
         node_size=node_sizes,
-        font_size=8,
+        font_size=10,
         font_weight='bold',
         arrows=False,
         edge_color='gray',
-        width=1,
-        alpha=0.8)
+        width=0.5,
+        alpha=0.8,
+        cmap=plt.cm.tab20)
 
 # Add legend for communities
 from matplotlib.lines import Line2D
 legend_elements = [Line2D([0], [0], marker='o', color='w', label=f'Community {i}',
                          markerfacecolor=plt.cm.tab20(i % 20), markersize=10)
-                  for i in range(len(community_dict))]
+                  for i in sorted(communities)]
 plt.legend(handles=legend_elements, title='Communities', bbox_to_anchor=(1.05, 1), loc='upper left')
 
 # Add title
