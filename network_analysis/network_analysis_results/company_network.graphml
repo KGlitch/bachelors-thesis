@@ -159,7 +159,7 @@
 <node id="Alation">
   <data key="d0">2</data>
 </node>
-<node id="privacera">
+<node id="Privacera">
   <data key="d0">2</data>
 </node>
 <node id="Nasdaq">
@@ -657,6 +657,54 @@
 <node id="OpenAI">
   <data key="d0">3</data>
 </node>
+<node id="InterSystems">
+  <data key="d0">3</data>
+</node>
+<node id="Alexandria">
+  <data key="d0">3</data>
+</node>
+<node id="BlackRock">
+  <data key="d0">3</data>
+</node>
+<node id="BMLL">
+  <data key="d0">3</data>
+</node>
+<node id="CoinMetrics">
+  <data key="d0">3</data>
+</node>
+<node id="Emmi">
+  <data key="d0">3</data>
+</node>
+<node id="Goldman Sachs">
+  <data key="d0">3</data>
+</node>
+<node id="MSCI">
+  <data key="d0">3</data>
+</node>
+<node id="Nikkei">
+  <data key="d0">3</data>
+</node>
+<node id="VanEck">
+  <data key="d0">3</data>
+</node>
+<node id="Vanguard">
+  <data key="d0">3</data>
+</node>
+<node id="Wilshire">
+  <data key="d0">3</data>
+</node>
+<node id="Adobe">
+  <data key="d0">3</data>
+</node>
+<node id="Figma">
+  <data key="d0">3</data>
+</node>
+<node id="Qualtrics">
+  <data key="d0">3</data>
+</node>
+<node id="X">
+  <data key="d0">3</data>
+</node>
 <node id="GoogleBigQuery"/>
 <node id="S&amp;PGlobal"/>
 <node id="Evolution"/>
@@ -666,11 +714,12 @@
 <node id="MonteCarlo"/>
 <node id="KyvosInsights"/>
 <node id="data.world"/>
-<node id="An Info Systems BV"/>
 <node id="IBM"/>
 <node id="Workday"/>
 <node id="SAS"/>
 <node id="VMware"/>
+<node id="Microsoft"/>
+<node id="Hex Hat"/>
 <edge source="SAP" target="Google Cloud"/>
 <edge source="SAP" target="Databricks"/>
 <edge source="SAP" target="DataRobot"/>
@@ -700,6 +749,9 @@
 <edge source="Collibra" target="Starburst"/>
 <edge source="Collibra" target="Immuta"/>
 <edge source="Collibra" target="SingleStore"/>
+<edge source="Collibra" target="dremio"/>
+<edge source="Collibra" target="Precisly"/>
+<edge source="Collibra" target="Fivetran"/>
 <edge source="Databricks" target="Confluent"/>
 <edge source="Databricks" target="tableau"/>
 <edge source="Databricks" target="Power BI"/>
@@ -712,7 +764,7 @@
 <edge source="Databricks" target="AtScale"/>
 <edge source="Databricks" target="Immuta"/>
 <edge source="Databricks" target="Alation"/>
-<edge source="Databricks" target="privacera"/>
+<edge source="Databricks" target="Privacera"/>
 <edge source="Databricks" target="Nasdaq"/>
 <edge source="Databricks" target="NYSE"/>
 <edge source="Databricks" target="S&amp;PGlobal"/>
@@ -732,6 +784,12 @@
 <edge source="Databricks" target="SecuPi"/>
 <edge source="Databricks" target="Redis Labs"/>
 <edge source="Databricks" target="Startree"/>
+<edge source="Databricks" target="Alteryx"/>
+<edge source="Databricks" target="Airbyte"/>
+<edge source="Databricks" target="Fivetran"/>
+<edge source="Databricks" target="Rivery"/>
+<edge source="Databricks" target="Sigma"/>
+<edge source="Databricks" target="ThoughtSpot"/>
 <edge source="Google Cloud" target="DataRobot"/>
 <edge source="Google Cloud" target="GoogleBigQuery"/>
 <edge source="Google Cloud" target="Reply"/>
@@ -768,7 +826,7 @@
 <edge source="Google Cloud" target="AtScale"/>
 <edge source="Google Cloud" target="Immuta"/>
 <edge source="Google Cloud" target="Alation"/>
-<edge source="Google Cloud" target="privacera"/>
+<edge source="Google Cloud" target="Privacera"/>
 <edge source="Google Cloud" target="NVIDIA"/>
 <edge source="Google Cloud" target="Alteryx"/>
 <edge source="Google Cloud" target="Dataiku"/>
@@ -790,6 +848,8 @@
 <edge source="Google Cloud" target="Evolutio"/>
 <edge source="Google Cloud" target="Cockroach Labs"/>
 <edge source="Google Cloud" target="Redis Labs"/>
+<edge source="Google Cloud" target="Factset"/>
+<edge source="Google Cloud" target="Airbyte"/>
 <edge source="Confluent" target="Hivecell"/>
 <edge source="Confluent" target="Imply"/>
 <edge source="Confluent" target="Rockset"/>
@@ -817,6 +877,8 @@
 <edge source="Confluent" target="Startree"/>
 <edge source="Confluent" target="Microsoft Azure"/>
 <edge source="Confluent" target="SecuPi"/>
+<edge source="Confluent" target="Precisly"/>
+<edge source="Confluent" target="Teradata"/>
 <edge source="DataRobot" target="NVIDIA"/>
 <edge source="DataRobot" target="Nutanix"/>
 <edge source="DataRobot" target="Evolution"/>
@@ -825,6 +887,10 @@
 <edge source="DataRobot" target="GoogleBigQuery"/>
 <edge source="DataRobot" target="Amazon Web Services"/>
 <edge source="DataRobot" target="tableau"/>
+<edge source="DataRobot" target="AtScale"/>
+<edge source="DataRobot" target="Factset"/>
+<edge source="DataRobot" target="Alteryx"/>
+<edge source="DataRobot" target="ThoughtSpot"/>
 <edge source="Amazon Web Services" target="Snowflake"/>
 <edge source="Amazon Web Services" target="Merkle"/>
 <edge source="Amazon Web Services" target="MongoDB"/>
@@ -865,7 +931,7 @@
 <edge source="Amazon Web Services" target="AtScale"/>
 <edge source="Amazon Web Services" target="Immuta"/>
 <edge source="Amazon Web Services" target="Alation"/>
-<edge source="Amazon Web Services" target="privacera"/>
+<edge source="Amazon Web Services" target="Privacera"/>
 <edge source="Amazon Web Services" target="Nasdaq"/>
 <edge source="Amazon Web Services" target="S&amp;P Global"/>
 <edge source="Amazon Web Services" target="Factset"/>
@@ -885,6 +951,7 @@
 <edge source="Amazon Web Services" target="Nutanix"/>
 <edge source="Amazon Web Services" target="Evolutio"/>
 <edge source="Amazon Web Services" target="HiveMQ"/>
+<edge source="Amazon Web Services" target="SafeGraph"/>
 <edge source="Snowflake" target="Salesforce"/>
 <edge source="Snowflake" target="Dataiku"/>
 <edge source="Snowflake" target="DataOps.Live"/>
@@ -924,6 +991,9 @@
 <edge source="Snowflake" target="Cockroach Labs"/>
 <edge source="Snowflake" target="HiveMQ"/>
 <edge source="Snowflake" target="Pure Storage"/>
+<edge source="Snowflake" target="AtScale"/>
+<edge source="Snowflake" target="Precisly"/>
+<edge source="Snowflake" target="SafeGraph"/>
 <edge source="Microsoft Azure" target="Salesforce"/>
 <edge source="Microsoft Azure" target="dbt Labs"/>
 <edge source="Microsoft Azure" target="Matillion"/>
@@ -949,7 +1019,7 @@
 <edge source="Microsoft Azure" target="AtScale"/>
 <edge source="Microsoft Azure" target="Immuta"/>
 <edge source="Microsoft Azure" target="Alation"/>
-<edge source="Microsoft Azure" target="privacera"/>
+<edge source="Microsoft Azure" target="Privacera"/>
 <edge source="Microsoft Azure" target="NVIDIA"/>
 <edge source="Microsoft Azure" target="Alteryx"/>
 <edge source="Microsoft Azure" target="Dataiku"/>
@@ -963,6 +1033,7 @@
 <edge source="Microsoft Azure" target="SecuPi"/>
 <edge source="Microsoft Azure" target="HiveMQ"/>
 <edge source="Microsoft Azure" target="Redis Labs"/>
+<edge source="Microsoft Azure" target="Rivery"/>
 <edge source="tableau" target="Salesforce"/>
 <edge source="tableau" target="Alation"/>
 <edge source="tableau" target="Wiiisdom"/>
@@ -992,6 +1063,7 @@
 <edge source="tableau" target="Neo4j"/>
 <edge source="tableau" target="SingleStore"/>
 <edge source="tableau" target="Startree"/>
+<edge source="tableau" target="Precisly"/>
 <edge source="DataOps.Live" target="Matillion"/>
 <edge source="DataOps.Live" target="Datadog"/>
 <edge source="DataOps.Live" target="data.world"/>
@@ -1020,6 +1092,11 @@
 <edge source="dbt Labs" target="Starburst"/>
 <edge source="dbt Labs" target="Alation"/>
 <edge source="dbt Labs" target="SingleStore"/>
+<edge source="dbt Labs" target="dremio"/>
+<edge source="dbt Labs" target="Airbyte"/>
+<edge source="dbt Labs" target="Fivetran"/>
+<edge source="dbt Labs" target="Sigma"/>
+<edge source="dbt Labs" target="ThoughtSpot"/>
 <edge source="Denodo" target="Datadog"/>
 <edge source="Denodo" target="Altair"/>
 <edge source="Denodo" target="Alteryx"/>
@@ -1029,6 +1106,7 @@
 <edge source="Hackolade" target="MongoDB"/>
 <edge source="Hackolade" target="Couchbase"/>
 <edge source="Hackolade" target="Neo4j"/>
+<edge source="Idera" target="Teradata"/>
 <edge source="Matillion" target="Alation"/>
 <edge source="Matillion" target="ALTR"/>
 <edge source="Matillion" target="Dataiku"/>
@@ -1038,6 +1116,7 @@
 <edge source="MicroStrategy" target="Starburst"/>
 <edge source="MicroStrategy" target="Exasol"/>
 <edge source="MicroStrategy" target="SingleStore"/>
+<edge source="MicroStrategy" target="dremio"/>
 <edge source="MongoDB" target="Google BigQuery"/>
 <edge source="MongoDB" target="HiveMQ"/>
 <edge source="MongoDB" target="Datadog"/>
@@ -1077,7 +1156,7 @@
 <edge source="Reltio" target="Blumetra"/>
 <edge source="Reltio" target="Blue Altair"/>
 <edge source="Reltio" target="Ulpia Tech"/>
-<edge source="Reltio" target="An Info Systems BV"/>
+<edge source="Reltio" target="AN Info Systems BV"/>
 <edge source="Reltio" target="Apptad"/>
 <edge source="SecuPi" target="Starburst"/>
 <edge source="SecuPi" target="Qlik"/>
@@ -1120,7 +1199,7 @@
 <edge source="Starburst" target="AtScale"/>
 <edge source="Starburst" target="Immuta"/>
 <edge source="Starburst" target="Alation"/>
-<edge source="Starburst" target="privacera"/>
+<edge source="Starburst" target="Privacera"/>
 <edge source="Starburst" target="Dataiku"/>
 <edge source="Starburst" target="ThoughtSpot"/>
 <edge source="Starburst" target="Reply"/>
@@ -1204,6 +1283,8 @@
 <edge source="Neo4j" target="Snowcat Cloud"/>
 <edge source="Neo4j" target="Thales"/>
 <edge source="Neo4j" target="IBM"/>
+<edge source="Neo4j" target="Precisly"/>
+<edge source="Neo4j" target="Informatica"/>
 <edge source="Pure Storage" target="NVIDIA"/>
 <edge source="Pure Storage" target="BMC"/>
 <edge source="Pure Storage" target="Arista"/>
@@ -1229,7 +1310,11 @@
 <edge source="Pure Storage" target="Virtuozzo"/>
 <edge source="Pure Storage" target="VMware"/>
 <edge source="Pure Storage" target="Wasabi"/>
+<edge source="Pure Storage" target="dremio"/>
 <edge source="Qlik" target="SingleStore"/>
+<edge source="Qlik" target="dremio"/>
+<edge source="Qlik" target="Alteryx"/>
+<edge source="Qlik" target="Teradata"/>
 <edge source="Redis Labs" target="Infosys"/>
 <edge source="Redis Labs" target="Intel"/>
 <edge source="Redis Labs" target="Red Hat"/>
@@ -1251,11 +1336,38 @@
 <edge source="SingleStore" target="ThoughtSpot"/>
 <edge source="SingleStore" target="Vaultspeed"/>
 <edge source="Startree" target="Redpanda"/>
+<edge source="Zilliz" target="Microsoft"/>
+<edge source="Zilliz" target="NVIDIA"/>
+<edge source="Zilliz" target="OpenAI"/>
+<edge source="Zilliz" target="Cohere"/>
+<edge source="Zilliz" target="LangChain"/>
+<edge source="Zilliz" target="LlamaIndex"/>
+<edge source="Zilliz" target="Airbyte"/>
+<edge source="Power BI" target="AtScale"/>
 <edge source="Looker" target="Alation"/>
+<edge source="Looker" target="dremio"/>
+<edge source="Looker" target="AtScale"/>
+<edge source="Looker" target="Fivetran"/>
 <edge source="Google BigQuery" target="Salesforce"/>
 <edge source="Google BigQuery" target="Immuta"/>
 <edge source="dremio" target="Alation"/>
+<edge source="dremio" target="Airbyte"/>
+<edge source="dremio" target="Alteryx"/>
+<edge source="dremio" target="Dell"/>
+<edge source="dremio" target="Fivetran"/>
+<edge source="dremio" target="Hex Hat"/>
+<edge source="dremio" target="IBM"/>
+<edge source="dremio" target="Intel"/>
+<edge source="dremio" target="Microsoft"/>
+<edge source="dremio" target="NetApp"/>
+<edge source="dremio" target="Nutanix"/>
+<edge source="dremio" target="plainID"/>
+<edge source="dremio" target="Privacera"/>
+<edge source="dremio" target="SAS"/>
+<edge source="dremio" target="ThoughtSpot"/>
 <edge source="AtScale" target="Alation"/>
+<edge source="AtScale" target="Dataiku"/>
+<edge source="AtScale" target="InterSystems"/>
 <edge source="Immuta" target="Alation"/>
 <edge source="Immuta" target="Reply"/>
 <edge source="Alation" target="Salesforce"/>
@@ -1264,4 +1376,68 @@
 <edge source="Alation" target="Dataiku"/>
 <edge source="Alation" target="Teradata"/>
 <edge source="Alation" target="Reply"/>
+<edge source="Alation" target="Sigma"/>
+<edge source="Alation" target="ThoughtSpot"/>
+<edge source="Factset" target="Alexandria"/>
+<edge source="Factset" target="BlackRock"/>
+<edge source="Factset" target="BMLL"/>
+<edge source="Factset" target="CoinMetrics"/>
+<edge source="Factset" target="Emmi"/>
+<edge source="Factset" target="Goldman Sachs"/>
+<edge source="Factset" target="MSCI"/>
+<edge source="Factset" target="Nikkei"/>
+<edge source="Factset" target="VanEck"/>
+<edge source="Factset" target="Vanguard"/>
+<edge source="Factset" target="Wilshire"/>
+<edge source="Precisly" target="BMC"/>
+<edge source="Precisly" target="Cloudera"/>
+<edge source="Precisly" target="Dell"/>
+<edge source="Precisly" target="IBM"/>
+<edge source="Precisly" target="Infosys"/>
+<edge source="Precisly" target="Microsoft"/>
+<edge source="Precisly" target="NTTData"/>
+<edge source="Precisly" target="Oracle"/>
+<edge source="Precisly" target="ServiceNow"/>
+<edge source="Precisly" target="Splunk"/>
+<edge source="Precisly" target="Teradata"/>
+<edge source="NVIDIA" target="Teradata"/>
+<edge source="Salesforce" target="Alteryx"/>
+<edge source="Salesforce" target="Informatica"/>
+<edge source="Salesforce" target="Merkle"/>
+<edge source="Alteryx" target="Adobe"/>
+<edge source="Alteryx" target="ThoughtSpot"/>
+<edge source="Alteryx" target="Cloudera"/>
+<edge source="Alteryx" target="Exasol"/>
+<edge source="Alteryx" target="NetSuite"/>
+<edge source="Alteryx" target="Oracle"/>
+<edge source="Alteryx" target="Teradata"/>
+<edge source="Dataiku" target="Teradata"/>
+<edge source="Fivetran" target="Teradata"/>
+<edge source="Fivetran" target="Sigma"/>
+<edge source="Fivetran" target="ThoughtSpot"/>
+<edge source="Informatica" target="Oracle"/>
+<edge source="Informatica" target="Teradata"/>
+<edge source="Informatica" target="IBM"/>
+<edge source="Informatica" target="Cloudera"/>
+<edge source="Informatica" target="Workday"/>
+<edge source="Merkle" target="Adobe"/>
+<edge source="Merkle" target="Figma"/>
+<edge source="Merkle" target="Qualtrics"/>
+<edge source="Monte Carlo" target="Sigma"/>
+<edge source="Rivery" target="Sigma"/>
+<edge source="Rivery" target="X"/>
+<edge source="Sigma" target="Atlan"/>
+<edge source="ThoughtSpot" target="Atlan"/>
+<edge source="ThoughtSpot" target="Dell"/>
+<edge source="ThoughtSpot" target="Teradata"/>
+<edge source="Teradata" target="ActionIQ"/>
+<edge source="Teradata" target="Dell"/>
+<edge source="Teradata" target="CData"/>
+<edge source="Teradata" target="Cisco"/>
+<edge source="Teradata" target="Cloudera"/>
+<edge source="Teradata" target="iguazio"/>
+<edge source="Teradata" target="NetApp"/>
+<edge source="Teradata" target="SAS"/>
+<edge source="Teradata" target="Thales"/>
+<edge source="Teradata" target="Volt Active Data"/>
 </graph></graphml>

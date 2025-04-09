@@ -3,8 +3,8 @@ sys.path.append('/Users/konrad/Documents/DHBW/Bachelorarbeit/network_analysis/sr
 import pandas as pd
 
 # Pfade zu CSV-Dateien
-nodes_path = "data/nodes.csv"
-edges_path = "data/edges.csv"
+nodes_path = "/Users/konrad/Documents/DHBW/Bachelorarbeit/data/nodes.csv"
+edges_path = "/Users/konrad/Documents/DHBW/Bachelorarbeit/data/edges.csv"
 
 # Dateien einlesen
 nodes_df = pd.read_csv(nodes_path)

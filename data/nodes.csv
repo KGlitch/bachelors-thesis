@@ -1,222 +1,236 @@
-company_name,level,notes,degree,type,description
-SAP,0,,5,PLATFORM,Zentrale Datenplattform (SAP BDC)
-Collibra,1,,25,ENABLER,Data Governance & Cataloging
-Databricks,1,,32,ISV,"Lakehouse, AI/ML-Plattform"
-Google Cloud,1,,60,HCP,"Hyperscaler, Infrastruktur"
-Confluent,1,,31,ISV,"Event-Streaming, Kafka-as-a-Service"
-DataRobot,1,,11,ISV,AutoML/ML-Ops Plattform
-Amazon Web Services,2,,66,HCP,"Hyperscaler, Infrastruktur"
-Snowflake,2,,26,PLATFORM,"Datenplattform (DWH, Data Sharing)"
-Microsoft Azure,2,,42,HCP,"Hyperscaler, Infrastruktur"
-tableau,2,,31,TOOLING,Visual Analytics Tool
-DataOps.Live,2,,4,ENABLER,DataOps-Plattform
-dbt Labs,2,,4,ENABLER,Transformationslogik / Semantic Layer
-Denodo,2,,4,ISV,Datenvirtualisierung
-Hackolade,2,,3,TOOLING,Datenmodellierung (v. a. NoSQL)
-Idera,2,,2,TOOLING,Datenbankmanagement & Tools
-Matillion,2,,15,ISV,ELT-Plattform
-MicroStrategy,2,,5,TOOLING,BI-Plattform
-MongoDB,2,,16,PLATFORM,"Datenplattform (Atlas, Vector Search)"
-Ohalo,2,,1,TOOLING,Datenschutz- und Klassifizierungs-Tool
-Protegrity,2,,5,TOOLING,Data Protection & Masking
-Reltio,2,,4,ISV,Master Data Management Plattform
-SecuPi,2,,4,TOOLING,Data Security / Access Control
-SnapLogic,2,,5,ISV,iPaaS / Datenintegration
-Starburst,2,,21,ISV,Datenvirtualisierung / Trino
-Hivecell,2,,1,ISV,Edge-native Datenverarbeitung
-Imply,2,,3,ISV,Echtzeit-Analytics auf Apache Druid
-Rockset,2,,3,ISV,Realtime Indexing Engine
-Aerospike,2,,4,ISV,High-Performance NoSQL DB
-Celonis,2,,3,ISV,Process Mining Plattform
-ClickHouse,2,,10,ISV,Open Source Datenbank für Analytics
-Cockroach Labs,2,,4,ISV,Verteilte SQL-Datenbank (CockroachDB)
-Couchbase,2,,10,ISV,NoSQL-Datenbankplattform
-Datadog,2,,27,TOOLING,Monitoring- und Observability-Plattform
-Elastic,2,,5,ISV,Such- & Analyseplattform (Elasticsearch)
-HiveMQ,2,,5,ISV,MQTT-Plattform für IoT-Streaming
-Materialize,2,,2,ISV,Streaming SQL-Plattform für Echtzeit-Analytik
-Neo4j,2,,4,ISV,Graphdatenbank
-OneHouse,2,,3,ISV,Lakehouse-Management (Apache Hudi)
-Pure Storage,2,,4,TOOLING,Enterprise-Datenspeicherlösungen
-Qlik,2,,6,TOOLING,Datenvisualisierung & BI-Tool
-Redis Labs,2,,4,ISV,In-Memory-Datenbank Redis
-SingleStore,2,,4,ISV,Verteilte SQL-Datenbank
-Startree,2,,5,ISV,Echtzeit-OLAP auf Apache Pinot
-SWIM.AI,2,,1,ISV,Edge-native Echtzeitverarbeitung
-Tinybird,2,,4,ISV,Streaming-Analytics via API
-Zilliz,2,,4,ISV,Vektor-Datenbank (Milvus)
-Power BI,2,,1,TOOLING,Microsoft BI-Plattform
-Looker,2,,5,TOOLING,Google Cloud BI-Plattform
-Google BigQuery,2,,4,PLATFORM,Cloud DWH von Google
-dremio,2,,6,ISV,SQL Query Engine & Datenvirtualisierung
-AtScale,2,,7,ENABLER,Semantic Layer & OLAP-Engine
-Immuta,2,,11,TOOLING,Data Access & Governance
-Alation,2,,18,ENABLER,Data Cataloging & Governance
-Privacera,2,,5,TOOLING,Datenschutz und Zugriffskontrolle
-Nasdaq,2,Data Enrichment,2,SERVICE,Börsen- und Finanzdatenanbieter
-NYSE,2,,1,SERVICE,Börsen- und Finanzdatenanbieter
-S&P Global,2,,1,SERVICE,Finanzdaten & Ratings
-Factset,2,,2,SERVICE,Markt- und Finanzdatenplattform
-quandl,2,,2,SERVICE,Finanz-/Wirtschaftsdatenplattform
-Precisly,2,,3,ISV,Datenqualität & Geo-Datenmanagement
-SafeGraph,2,,1,SERVICE,Anbieter von Geodaten
-Atlassian,2,,2,TOOLING,"Kollaborations- und DevOps-Plattform (Jira, Confluence)"
-FourSquare,2,,2,SERVICE,Standortdatenanbieter
-sequencebio,2,,1,SERVICE,Biotech-/Forschungsdatenanbieter
-veraset,2,,1,SERVICE,Mobilitäts- und Standortdaten
-NVIDIA,2,,6,ENABLER,KI-Hardware & Softwareplattform
-Salesforce,2,,7,PLATFORM,CRM & Datenplattform (Data Cloud)
-Alteryx,2,,4,ISV,Self-Service Analytics & Data Prep
-Airbyte,2,,1,ISV,Open-Source ELT-Plattform
-Dataiku,2,,8,ISV,AI/ML-Datenanalyseplattform
-Fivetran,2,,7,ISV,Automatisierte ELT-Datenintegration
-Informatica,2,,6,ISV,Datenintegration und Governance
-Merkle,2,,3,SI,Customer Experience & Datenberatung
-Monte Carlo,2,,3,TOOLING,Data Observability Plattform
-Rivery,2,,4,ISV,ELT & Datenintegration
-Twilio,2,,3,ENABLER,Customer Data APIs und Messaging
-Sigma,2,,4,TOOLING,BI-Tool für Live-Query auf Cloud-Daten
-ThoughtSpot,2,,6,TOOLING,Search-basiertes BI-Tool
-Wiiisdom,2,,1,TOOLING,Governance & Testing für BI-Plattformen
-Zuar,2,,1,TOOLING,Automatisierung von BI/Analytics-Prozessen
-1010data,2,,1,ISV,Big-Data-Plattform für Retail & Finance
-Automated Insights,2,,1,TOOLING,NLG für strukturierte Daten
-CapStorm,2,,3,ISV,Salesforce-Datenintegration
-EasyMorph,2,,1,ISV,Low-Code Datenautomatisierung
-Kyligence,2,,4,ISV,OLAP-Plattform auf Apache Kylin
-Kyvos Insights,2,,2,ISV,Cloud OLAP & Aggregation
-Talend,2,,3,ISV,Datenintegration & Datenqualität
-Teradata,2,,5,PLATFORM,Enterprise DWH Plattform
-Nutanix,2,,5,HCP,Hybrid-/Multi-Cloud Infrastruktur
-Evolutio,2,,2,SI,Cloud-/Datenintegrator aus Spanien
-Reply,2,,7,SI,Europäischer IT-Dienstleister & Systemintegrator
-ALTR,2,,2,TOOLING,"Datensicherheit, Tokenisierung, Zugriffskontrolle"
-ServiceNow,2,,2,PLATFORM,Workflow-Plattform mit Analytics und AI
-
-Datavault,3,,1,ENABLER,Plattform für Data Vault Architektur
-acceldata,3,,1,TOOLING,Data Observability & Monitoring
-Datahub,3,,1,ENABLER,Open Source Data Catalog (LinkedIn)
-ActionIQ,3,,1,ISV,Customer Data Platform
-Agile Data Engine,3,,1,ENABLER,CI/CD für Data Warehousing
-AecorSoft,3,,1,ISV,Datenmigration & -integration
-Aible,3,,1,ISV,AutoML & Decision Intelligence Plattform
-Altair,3,,1,ISV,"Simulation, Engineering, Data Analytics"
-Hex,3,,1,TOOLING,Collaborative Analytics Notebooks
-Vaultspeed,3,,1,ENABLER,Automatisierung von Data Vault Modellen
-EonCollective,3,,1,SERVICE,Sicherheits-/Risikoanalyseanbieter
-Hakkoda,3,,1,SI,Snowflake- & Datenintegrationsdienstleister
-ITS Snowflake Solutions,3,,1,SI,Snowflake-Spezialdienstleister
-LeitData,3,,1,SI,Datenarchitektur & Analytics-Beratung
-NTTData,3,,1,SI,Globaler Systemintegrator & SAP-Partner
-SME,3,,1,SI,IT-Services & Beratung
-Atlan,3,,1,ENABLER,"Datenkatalog, Collaboration & Governance"
-coalesce,3,,1,ENABLER,Data Transformation Automation
-Infosys,3,Systems Integrator,1,SI,Globaler Systemintegrator & SAP-Partner
-slalom,3,,1,SI,Beratung mit Fokus auf Data & Cloud
-Exasol,3,,1,PLATFORM,In-Memory-Analytical Database
-Anthropic,3,,1,ENABLER,Generative AI (Claude-Modelle)
-Cohere,3,,1,ENABLER,Generative AI & Embeddings
-LangChain,3,,1,ENABLER,LLM-Orchestrierung & RAG
-LlamaIndex,3,,1,ENABLER,LLM-Schnittstelle für Unternehmensdaten
-TogetherAI,3,,1,ENABLER,Open-Source-LLM Hosting & Inferenz
-Anyscale,3,,1,ENABLER,Ray-basierte AI-Plattform
-FireworksAI,3,,1,ENABLER,Embeddings & Vektor-Management
-Nomic,3,,1,TOOLING,Visualisierung unstrukturierter Daten
-CredalAI,3,,1,ENABLER,Sichere Generative AI auf Unternehmensdaten
-PureInsights,3,,1,ENABLER,Semantische Suche & LLM-Anbindung
-Cloudera,3,,1,PLATFORM,Data Lakehouse & Analytics-Plattform
-b.telligent,3,,1,SI,Data & Analytics Beratung (DACH)
-Guidepoint,3,,1,SERVICE,Datenrecherche & Expertennetzwerk
-HCLTech,3,,1,SI,Globaler IT-Dienstleister
-kyndryl,3,,1,SI,"Ausgliederung von IBM, IT-Services"
-Latbc,3,,1,SI,Cloud-/Datenintegrator LATAM
-Oracle,3,,1,PLATFORM,Enterprise-Datenbank & Analytics
-PCS Security,3,,1,SERVICE,Cybersecurity-Anbieter
-plainID,3,,1,TOOLING,Authorization / Policy-as-Code Plattform
-Red Hat,3,,1,HCP,Container- & Infrastruktur (OpenShift)
-Splunk,3,,1,TOOLING,Log- und Eventdatenanalyse
-Strateq,3,,1,SI,IT-Dienstleister aus ASEAN
-IQVIA,3,,1,SERVICE,Life Sciences Daten- & Analyseanbieter
-Blumetra,3,,1,SI,Snowflake & Data Engineering Beratung
-Blue Altair,3,,1,SI,AI & Data Engineering Beratung
-Ulpia Tech,3,,1,SI,Cloud & Analytics Partner
-AN Info Systems BV,3,,1,SI,Europäischer Systemintegrator
-Apptad,3,,1,SI,Data Analytics Services
-SNP,3,,1,ISV,Datenmigration & SAP-Transformation
-CyberArk,3,,1,TOOLING,Identity & Access Management
-DBeaver,3,,1,TOOLING,Datenbank-Client & Entwicklerwerkzeug
-OneTrust,3,,1,TOOLING,Privacy & Governance Plattform
-Attunity,3,,1,TOOLING,Datenreplikation (jetzt Qlik Replicate)
-NetApp,3,,1,HCP,Speicher-Infrastrukturplattform
-BigID,3,,1,TOOLING,Datenschutz & Data Discovery
-AnjanaData,3,,1,TOOLING,Data Governance Plattform
-Anaplan,3,,1,TOOLING,Cloud-basierte Planung & Budgetierung
-Apigee,3,,1,TOOLING,API-Management & Microservices
-Box,3,,1,TOOLING,Cloud-basierte Dokumenten- und Dateimanagement
-Data Interchange,3,,1,TOOLING,Datenintegration & -transformation
-GitHub,3,,1,TOOLING,Software-Entwicklung & -Management
-Gravitee,3,,1,TOOLING,API-Gateway & Management
-HashiCorp,3,,1,TOOLING,Infrastructure-as-Code & Automation
-Incepta,3,,1,TOOLING,Data Integration & Governance
-Intelizign Lifecycle Services,3,,1,TOOLING,Data Governance & Compliance
-NetSuite,3,,1,TOOLING,Cloud-basierte ERP-Lösung
-OneLogin,3,,1,TOOLING,Identity & Access Management
-PingIdentity,3,,1,TOOLING,Identity & Access Management
-Pitney Bowes,3,,1,TOOLING,Mail & Document Processing
-Restlet,3,,1,TOOLING,API-Management & Microservices
-Sumo Logic,3,,1,TOOLING,Cloud-basierte Log- und Event-Analyse
-Samsung,3,,1,HCP,Hardware- & Softwareplattform
-Micron,3,,1,HCP,Speicher- & Datenbankplattform
-Smart IOPS,3,,1,HCP,Speicher- & Datenbankplattform
-Kioxia,3,,1,HCP,Speicher- & Datenbankplattform
-Western Digital,3,,1,HCP,Speicher- & Datenbankplattform
-ScaleFlux,3,,1,HCP,Speicher- & Datenbankplattform
-Redpanda,3,,1,HCP,Speicher- & Datenbankplattform
-G.V(),3,,1,HCP,Speicher- & Datenbankplattform
-StreamNative,3,,1,HCP,Speicher- & Datenbankplattform
-D2iQ,3,,1,HCP,Speicher- & Datenbankplattform
-Molo17,3,,1,HCP,Speicher- & Datenbankplattform
-DriveScale,3,,1,HCP,Speicher- & Datenbankplattform
-Huawei,3,,1,HCP,Speicher- & Datenbankplattform
-Dell,3,,1,HCP,Speicher- & Datenbankplattform
-Cloudhub360,3,,1,HCP,Datenintegration
-Winshuttle,3,,1,HCP,Datenintegration
-Hasura,3,,1,HCP,Datenintegration
-Liquibase,3,,1,HCP,Datenbankplattform
-vmware,3,,1,HCP,Speicher- & Datenbankplattform
-Xplenty,3,,1,HCP,Datenintegration
-Ory,3,,1,HCP,Identity & Access Management
-Cisco,3,,1,HCP,Infrastrukturplattform
-CData,3,,1,HCP,Datenintegration
-Fortanix,3,,1,HCP,Datenschutz & Datensicherheit
-gluu,3,,1,HCP,Identity & Access Management
-Quest,3,,1,HCP,Datengovernance & -management
-Thales,3,,1,HCP,Datenschutz & Datensicherheit
-aicas,3,,1,HCP,Datenintegration
-InfluxData,3,,1,HCP,Datenintegration
-Opto22,3,,1,HCP,Hardware- & Softwareplattform
-Volt Active Data,3,,1,HCP,Datenintegration
-WeKan Enterprise Solutions,3,,1,HCP,Datenintegration
-aarth,3,,1,HCP,Datenintegration
-DataCurate,3,,1,HCP,Datenintegration
-Gemini Data,3,,1,HCP,no-Code graph platform
-Kineviz,3,,1,HCP,Analyseplattform
-Snowcat Cloud,3,,1,HCP,Datengovernance & -management
-BMC,3,,1,HCP,Datengovernance & -management
-Arista,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
-Brocade,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
-Commvault,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
-EDB,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
-Equinix,3,,1,HCP,Datencenter- & Cloud-Infrastruktur
-Graphcore,3,,1,HCP,Architekturplattform
-iguazio,3,,1,HCP,Datascience
-Intel,3,,1,HCP,Datencenter
-MariaDB,3,,1,HCP,Datenbankplattform
-Model9,3,,1,HCP,Datenintegration
-Rubrik,3,,1,HCP,Datensicherheit
-Superna,3,,1,HCP,Datensicherheit
-Vertica,3,,1,HCP,Datenbankplattform
-Virtuozzo,3,,1,HCP,Container- & Cloud-Infrastruktur
-Wasabi,3,,1,HCP,Cloud-speicher
-OpenAI,3,,1,HCP,Generative AI
-InterSystems,3,,1,HCP,Datenbankplattform
+company_name,level,notes,type,description,degree
+SAP,0,,PLATFORM,Zentrale Datenplattform (SAP BDC),6
+Collibra,1,,ENABLER,Data Governance & Cataloging,29
+Databricks,1,,ISV,"Lakehouse, AI/ML-Plattform",43
+Google Cloud,1,,HCP,"Hyperscaler, Infrastruktur",64
+Confluent,1,,ISV,"Event-Streaming, Kafka-as-a-Service",34
+DataRobot,1,,ISV,AutoML/ML-Ops Plattform,15
+Amazon Web Services,2,,HCP,"Hyperscaler, Infrastruktur",68
+Snowflake,2,,PLATFORM,"Datenplattform (DWH, Data Sharing)",50
+Microsoft Azure,2,,HCP,"Hyperscaler, Infrastruktur",46
+tableau,2,,TOOLING,Visual Analytics Tool,39
+DataOps.Live,2,,ENABLER,DataOps-Plattform,29
+dbt Labs,2,,ENABLER,Transformationslogik / Semantic Layer,13
+Denodo,2,,ISV,Datenvirtualisierung,9
+Hackolade,2,,TOOLING,Datenmodellierung (v. a. NoSQL),5
+Idera,2,,TOOLING,Datenbankmanagement & Tools,3
+Matillion,2,,ISV,ELT-Plattform,16
+MicroStrategy,2,,TOOLING,BI-Plattform,8
+MongoDB,2,,PLATFORM,"Datenplattform (Atlas, Vector Search)",27
+Ohalo,2,,TOOLING,Datenschutz- und Klassifizierungs-Tool,1
+Protegrity,2,,TOOLING,Data Protection & Masking,26
+Reltio,2,,ISV,Master Data Management Plattform,10
+SecuPi,2,,TOOLING,Data Security / Access Control,24
+SnapLogic,2,,ISV,iPaaS / Datenintegration,27
+Starburst,2,,ISV,Datenvirtualisierung / Trino,22
+Hivecell,2,,ISV,Edge-native Datenverarbeitung,1
+Imply,2,,ISV,Echtzeit-Analytics auf Apache Druid,7
+Rockset,2,,ISV,Realtime Indexing Engine,3
+Aerospike,2,,ISV,High-Performance NoSQL DB,22
+Celonis,2,,ISV,Process Mining Plattform,12
+ClickHouse,2,,ISV,Open Source Datenbank für Analytics,10
+Cockroach Labs,2,,ISV,Verteilte SQL-Datenbank (CockroachDB),13
+Couchbase,2,,ISV,NoSQL-Datenbankplattform,19
+Datadog,2,,TOOLING,Monitoring- und Observability-Plattform,29
+Elastic,2,,ISV,Such- & Analyseplattform (Elasticsearch),7
+HiveMQ,2,,ISV,MQTT-Plattform für IoT-Streaming,13
+Materialize,2,,ISV,Streaming SQL-Plattform für Echtzeit-Analytik,2
+Neo4j,2,,ISV,Graphdatenbank,15
+OneHouse,2,,ISV,Lakehouse-Management (Apache Hudi),3
+Pure Storage,2,,TOOLING,Enterprise-Datenspeicherlösungen,35
+Qlik,2,,TOOLING,Datenvisualisierung & BI-Tool,11
+Redis Labs,2,,ISV,In-Memory-Datenbank Redis,12
+SingleStore,2,,ISV,Verteilte SQL-Datenbank,27
+Startree,2,,ISV,Echtzeit-OLAP auf Apache Pinot,9
+SWIM.AI,2,,ISV,Edge-native Echtzeitverarbeitung,1
+Tinybird,2,,ISV,Streaming-Analytics via API,4
+Zilliz,2,,ISV,Vektor-Datenbank (Milvus),11
+Power BI,2,,TOOLING,Microsoft BI-Plattform,4
+Looker,2,,TOOLING,Google Cloud BI-Plattform,10
+Google BigQuery,2,,PLATFORM,Cloud DWH von Google,4
+dremio,2,,ISV,SQL Query Engine & Datenvirtualisierung,29
+AtScale,2,,ENABLER,Semantic Layer & OLAP-Engine,14
+Immuta,2,,TOOLING,Data Access & Governance,12
+Alation,2,,ENABLER,Data Cataloging & Governance,21
+Privacera,2,,TOOLING,Datenschutz und Zugriffskontrolle,6
+Nasdaq,2,Data Enrichment,SERVICE,Börsen- und Finanzdatenanbieter,2
+NYSE,2,,SERVICE,Börsen- und Finanzdatenanbieter,1
+S&P Global,2,,SERVICE,Finanzdaten & Ratings,1
+Factset,2,,SERVICE,Markt- und Finanzdatenplattform,15
+quandl,2,,SERVICE,Finanz-/Wirtschaftsdatenplattform,2
+Precisly,2,,ISV,Datenqualität & Geo-Datenmanagement,21
+SafeGraph,2,,SERVICE,Anbieter von Geodaten,3
+Atlassian,2,,TOOLING,"Kollaborations- und DevOps-Plattform (Jira, Confluence)",2
+FourSquare,2,,SERVICE,Standortdatenanbieter,2
+sequencebio,2,,SERVICE,Biotech-/Forschungsdatenanbieter,1
+veraset,2,,SERVICE,Mobilitäts- und Standortdaten,1
+NVIDIA,2,,ENABLER,KI-Hardware & Softwareplattform,9
+Salesforce,2,,PLATFORM,CRM & Datenplattform (Data Cloud),11
+Alteryx,2,,ISV,Self-Service Analytics & Data Prep,19
+Airbyte,2,,ISV,Open-Source ELT-Plattform,9
+Dataiku,2,,ISV,AI/ML-Datenanalyseplattform,13
+Fivetran,2,,ISV,Automatisierte ELT-Datenintegration,18
+Informatica,2,,ISV,Datenintegration und Governance,15
+Merkle,2,,SI,Customer Experience & Datenberatung,7
+Monte Carlo,2,,TOOLING,Data Observability Plattform,5
+Rivery,2,,ISV,ELT & Datenintegration,8
+Twilio,2,,ENABLER,Customer Data APIs und Messaging,3
+Sigma,2,,TOOLING,BI-Tool für Live-Query auf Cloud-Daten,12
+ThoughtSpot,2,,TOOLING,Search-basiertes BI-Tool,19
+Wiiisdom,2,,TOOLING,Governance & Testing für BI-Plattformen,1
+Zuar,2,,TOOLING,Automatisierung von BI/Analytics-Prozessen,1
+1010data,2,,ISV,Big-Data-Plattform für Retail & Finance,1
+Automated Insights,2,,TOOLING,NLG für strukturierte Daten,1
+CapStorm,2,,ISV,Salesforce-Datenintegration,3
+EasyMorph,2,,ISV,Low-Code Datenautomatisierung,1
+Kyligence,2,,ISV,OLAP-Plattform auf Apache Kylin,4
+Kyvos Insights,2,,ISV,Cloud OLAP & Aggregation,2
+Talend,2,,ISV,Datenintegration & Datenqualität,4
+Teradata,2,,PLATFORM,Enterprise DWH Plattform,26
+Nutanix,2,,HCP,Hybrid-/Multi-Cloud Infrastruktur,6
+Evolutio,2,,SI,Cloud-/Datenintegrator aus Spanien,2
+Reply,2,,SI,Europäischer IT-Dienstleister & Systemintegrator,8
+ALTR,2,,TOOLING,"Datensicherheit, Tokenisierung, Zugriffskontrolle",2
+ServiceNow,2,,PLATFORM,Workflow-Plattform mit Analytics und AI,5
+Datavault,3,,ENABLER,Plattform für Data Vault Architektur,1
+acceldata,3,,TOOLING,Data Observability & Monitoring,1
+Datahub,3,,ENABLER,Open Source Data Catalog (LinkedIn),1
+ActionIQ,3,,ISV,Customer Data Platform,2
+Agile Data Engine,3,,ENABLER,CI/CD für Data Warehousing,1
+AecorSoft,3,,ISV,Datenmigration & -integration,1
+Aible,3,,ISV,AutoML & Decision Intelligence Plattform,1
+Altair,3,,ISV,"Simulation, Engineering, Data Analytics",2
+Hex,3,,TOOLING,Collaborative Analytics Notebooks,2
+Vaultspeed,3,,ENABLER,Automatisierung von Data Vault Modellen,1
+EonCollective,3,,SERVICE,Sicherheits-/Risikoanalyseanbieter,1
+Hakkoda,3,,SI,Snowflake- & Datenintegrationsdienstleister,1
+ITS Snowflake Solutions,3,,SI,Snowflake-Spezialdienstleister,1
+LeitData,3,,SI,Datenarchitektur & Analytics-Beratung,1
+NTTData,3,,SI,Globaler Systemintegrator & SAP-Partner,3
+SME,3,,SI,IT-Services & Beratung,1
+Atlan,3,,ENABLER,"Datenkatalog, Collaboration & Governance",3
+coalesce,3,,ENABLER,Data Transformation Automation,1
+Infosys,3,Systems Integrator,SI,Globaler Systemintegrator & SAP-Partner,5
+slalom,3,,SI,Beratung mit Fokus auf Data & Cloud,1
+Exasol,3,,PLATFORM,In-Memory-Analytical Database,3
+Anthropic,3,,ENABLER,Generative AI (Claude-Modelle),1
+Cohere,3,,ENABLER,Generative AI & Embeddings,2
+LangChain,3,,ENABLER,LLM-Orchestrierung & RAG,3
+LlamaIndex,3,,ENABLER,LLM-Schnittstelle für Unternehmensdaten,2
+TogetherAI,3,,ENABLER,Open-Source-LLM Hosting & Inferenz,1
+Anyscale,3,,ENABLER,Ray-basierte AI-Plattform,1
+FireworksAI,3,,ENABLER,Embeddings & Vektor-Management,1
+Nomic,3,,TOOLING,Visualisierung unstrukturierter Daten,1
+CredalAI,3,,ENABLER,Sichere Generative AI auf Unternehmensdaten,1
+PureInsights,3,,ENABLER,Semantische Suche & LLM-Anbindung,1
+Cloudera,3,,PLATFORM,Data Lakehouse & Analytics-Plattform,7
+b.telligent,3,,SI,Data & Analytics Beratung (DACH),1
+Guidepoint,3,,SERVICE,Datenrecherche & Expertennetzwerk,2
+HCLTech,3,,SI,Globaler IT-Dienstleister,1
+kyndryl,3,,SI,"Ausgliederung von IBM, IT-Services",1
+Latbc,3,,SI,Cloud-/Datenintegrator LATAM,1
+Oracle,3,,PLATFORM,Enterprise-Datenbank & Analytics,6
+PCS Security,3,,SERVICE,Cybersecurity-Anbieter,1
+plainID,3,,TOOLING,Authorization / Policy-as-Code Plattform,2
+Red Hat,3,,HCP,Container- & Infrastruktur (OpenShift),6
+Splunk,3,,TOOLING,Log- und Eventdatenanalyse,5
+Strateq,3,,SI,IT-Dienstleister aus ASEAN,1
+IQVIA,3,,SERVICE,Life Sciences Daten- & Analyseanbieter,1
+Blumetra,3,,SI,Snowflake & Data Engineering Beratung,1
+Blue Altair,3,,SI,AI & Data Engineering Beratung,1
+Ulpia Tech,3,,SI,Cloud & Analytics Partner,1
+AN Info Systems BV,3,,SI,Europäischer Systemintegrator,0
+Apptad,3,,SI,Data Analytics Services,1
+SNP,3,,ISV,Datenmigration & SAP-Transformation,1
+CyberArk,3,,TOOLING,Identity & Access Management,2
+DBeaver,3,,TOOLING,Datenbank-Client & Entwicklerwerkzeug,2
+OneTrust,3,,TOOLING,Privacy & Governance Plattform,1
+Attunity,3,,TOOLING,Datenreplikation (jetzt Qlik Replicate),1
+NetApp,3,,HCP,Speicher-Infrastrukturplattform,4
+BigID,3,,TOOLING,Datenschutz & Data Discovery,1
+AnjanaData,3,,TOOLING,Data Governance Plattform,1
+Anaplan,3,,TOOLING,Cloud-basierte Planung & Budgetierung,1
+Apigee,3,,TOOLING,API-Management & Microservices,1
+Box,3,,TOOLING,Cloud-basierte Dokumenten- und Dateimanagement,1
+Data Interchange,3,,TOOLING,Datenintegration & -transformation,1
+GitHub,3,,TOOLING,Software-Entwicklung & -Management,1
+Gravitee,3,,TOOLING,API-Gateway & Management,1
+HashiCorp,3,,TOOLING,Infrastructure-as-Code & Automation,3
+Incepta,3,,TOOLING,Data Integration & Governance,1
+Intelizign Lifecycle Services,3,,TOOLING,Data Governance & Compliance,1
+NetSuite,3,,TOOLING,Cloud-basierte ERP-Lösung,2
+OneLogin,3,,TOOLING,Identity & Access Management,1
+PingIdentity,3,,TOOLING,Identity & Access Management,1
+Pitney Bowes,3,,TOOLING,Mail & Document Processing,1
+Restlet,3,,TOOLING,API-Management & Microservices,1
+Sumo Logic,3,,TOOLING,Cloud-basierte Log- und Event-Analyse,1
+Samsung,3,,HCP,Hardware- & Softwareplattform,1
+Micron,3,,HCP,Speicher- & Datenbankplattform,1
+Smart IOPS,3,,HCP,Speicher- & Datenbankplattform,1
+Kioxia,3,,HCP,Speicher- & Datenbankplattform,1
+Western Digital,3,,HCP,Speicher- & Datenbankplattform,1
+ScaleFlux,3,,HCP,Speicher- & Datenbankplattform,1
+Redpanda,3,,HCP,Speicher- & Datenbankplattform,3
+G.V(),3,,HCP,Speicher- & Datenbankplattform,1
+StreamNative,3,,HCP,Speicher- & Datenbankplattform,1
+D2iQ,3,,HCP,Speicher- & Datenbankplattform,1
+Molo17,3,,HCP,Speicher- & Datenbankplattform,2
+DriveScale,3,,HCP,Speicher- & Datenbankplattform,1
+Huawei,3,,HCP,Speicher- & Datenbankplattform,1
+Dell,3,,HCP,Speicher- & Datenbankplattform,5
+Cloudhub360,3,,HCP,Datenintegration,1
+Winshuttle,3,,HCP,Datenintegration,1
+Hasura,3,,HCP,Datenintegration,1
+Liquibase,3,,HCP,Datenbankplattform,2
+vmware,3,,HCP,Speicher- & Datenbankplattform,1
+Xplenty,3,,HCP,Datenintegration,1
+Ory,3,,HCP,Identity & Access Management,1
+Cisco,3,,HCP,Infrastrukturplattform,3
+CData,3,,HCP,Datenintegration,3
+Fortanix,3,,HCP,Datenschutz & Datensicherheit,1
+gluu,3,,HCP,Identity & Access Management,1
+Quest,3,,HCP,Datengovernance & -management,1
+Thales,3,,HCP,Datenschutz & Datensicherheit,4
+aicas,3,,HCP,Datenintegration,1
+InfluxData,3,,HCP,Datenintegration,1
+Opto22,3,,HCP,Hardware- & Softwareplattform,1
+Volt Active Data,3,,HCP,Datenintegration,2
+WeKan Enterprise Solutions,3,,HCP,Datenintegration,1
+aarth,3,,HCP,Datenintegration,1
+DataCurate,3,,HCP,Datenintegration,1
+Gemini Data,3,,HCP,no-Code graph platform,1
+Kineviz,3,,HCP,Analyseplattform,1
+Snowcat Cloud,3,,HCP,Datengovernance & -management,1
+BMC,3,,HCP,Datengovernance & -management,2
+Arista,3,,HCP,Datencenter- & Cloud-Infrastruktur,1
+Brocade,3,,HCP,Datencenter- & Cloud-Infrastruktur,1
+Commvault,3,,HCP,Datencenter- & Cloud-Infrastruktur,1
+EDB,3,,HCP,Datencenter- & Cloud-Infrastruktur,1
+Equinix,3,,HCP,Datencenter- & Cloud-Infrastruktur,1
+Graphcore,3,,HCP,Architekturplattform,1
+iguazio,3,,HCP,Datascience,2
+Intel,3,,HCP,Datencenter,4
+MariaDB,3,,HCP,Datenbankplattform,1
+Model9,3,,HCP,Datenintegration,1
+Rubrik,3,,HCP,Datensicherheit,1
+Superna,3,,HCP,Datensicherheit,1
+Vertica,3,,HCP,Datenbankplattform,1
+Virtuozzo,3,,HCP,Container- & Cloud-Infrastruktur,1
+Wasabi,3,,HCP,Cloud-speicher,1
+OpenAI,3,,HCP,Generative AI,2
+InterSystems,3,,HCP,Datenbankplattform,1
+Alexandria,3,,HCP,Datenprovider,1
+BlackRock,3,,HCP,Datenprovider,1
+BMLL,3,,HCP,Datenprovider,1
+CoinMetrics,3,,HCP,Datenprovider,1
+Emmi,3,,HCP,Datenprovider,1
+Goldman Sachs,3,,HCP,Datenprovider,1
+MSCI,3,,HCP,Datenprovider,1
+Nikkei,3,,HCP,Datenprovider,1
+VanEck,3,,HCP,Datenprovider,1
+Vanguard,3,,HCP,Datenprovider,1
+Wilshire,3,,HCP,Datenprovider,1
+Adobe,3,,HCP,,2
+Figma,3,,HCP,,1
+Qualtrics,3,,HCP,,1
+X,3,,HCP,,1
