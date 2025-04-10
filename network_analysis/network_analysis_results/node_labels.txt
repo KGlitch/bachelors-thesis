@@ -7,6 +7,7 @@ DataRobot
 Amazon Web Services
 Snowflake
 Microsoft Azure
+Microsoft
 tableau
 DataOps
 dbt Labs
@@ -181,7 +182,7 @@ Cloudhub360
 Winshuttle
 Hasura
 Liquibase
-vmware
+VMware
 Xplenty
 Ory
 Cisco
@@ -233,17 +234,7 @@ Adobe
 Figma
 Qualtrics
 X
-GoogleBigQuery
-Evolution
-CockroachLabs
-RedisLabs
- Labs
-MonteCarlo
-KyvosInsights
-data.world
 IBM
-Workday
 SAS
-VMware
-Microsoft
-Hex Hat
+Workday
+ Labs

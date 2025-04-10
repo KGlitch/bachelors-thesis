@@ -27,6 +27,9 @@
 <node id="Microsoft Azure">
   <data key="d0">2</data>
 </node>
+<node id="Microsoft">
+  <data key="d0">2</data>
+</node>
 <node id="tableau">
   <data key="d0">2</data>
 </node>
@@ -549,7 +552,7 @@
 <node id="Liquibase">
   <data key="d0">3</data>
 </node>
-<node id="vmware">
+<node id="VMware">
   <data key="d0">3</data>
 </node>
 <node id="Xplenty">
@@ -705,20 +708,16 @@
 <node id="X">
   <data key="d0">3</data>
 </node>
-<node id="GoogleBigQuery"/>
-<node id="Evolution"/>
-<node id="CockroachLabs"/>
-<node id="RedisLabs"/>
+<node id="IBM">
+  <data key="d0">3</data>
+</node>
+<node id="SAS">
+  <data key="d0">3</data>
+</node>
+<node id="Workday">
+  <data key="d0">3</data>
+</node>
 <node id=" Labs"/>
-<node id="MonteCarlo"/>
-<node id="KyvosInsights"/>
-<node id="data.world"/>
-<node id="IBM"/>
-<node id="Workday"/>
-<node id="SAS"/>
-<node id="VMware"/>
-<node id="Microsoft"/>
-<node id="Hex Hat"/>
 <edge source="SAP" target="Google Cloud"/>
 <edge source="SAP" target="Databricks"/>
 <edge source="SAP" target="DataRobot"/>
@@ -758,7 +757,7 @@
 <edge source="Databricks" target="Looker"/>
 <edge source="Databricks" target="Microsoft Azure"/>
 <edge source="Databricks" target="Starburst"/>
-<edge source="Databricks" target="GoogleBigQuery"/>
+<edge source="Databricks" target="Google BigQuery"/>
 <edge source="Databricks" target="dremio"/>
 <edge source="Databricks" target="AtScale"/>
 <edge source="Databricks" target="Immuta"/>
@@ -790,7 +789,7 @@
 <edge source="Databricks" target="Sigma"/>
 <edge source="Databricks" target="ThoughtSpot"/>
 <edge source="Google Cloud" target="DataRobot"/>
-<edge source="Google Cloud" target="GoogleBigQuery"/>
+<edge source="Google Cloud" target="Google BigQuery"/>
 <edge source="Google Cloud" target="Reply"/>
 <edge source="Google Cloud" target="Confluent"/>
 <edge source="Google Cloud" target="Snowflake"/>
@@ -808,7 +807,7 @@
 <edge source="Google Cloud" target="Starburst"/>
 <edge source="Google Cloud" target="Aerospike"/>
 <edge source="Google Cloud" target="ClickHouse"/>
-<edge source="Google Cloud" target="CockroachLabs"/>
+<edge source="Google Cloud" target="Cockroach Labs"/>
 <edge source="Google Cloud" target="Couchbase"/>
 <edge source="Google Cloud" target="Datadog"/>
 <edge source="Google Cloud" target="Elastic"/>
@@ -816,7 +815,7 @@
 <edge source="Google Cloud" target="Neo4j"/>
 <edge source="Google Cloud" target="Pure Storage"/>
 <edge source="Google Cloud" target="Qlik"/>
-<edge source="Google Cloud" target="RedisLabs"/>
+<edge source="Google Cloud" target="Redis Labs"/>
 <edge source="Google Cloud" target="SingleStore"/>
 <edge source="Google Cloud" target="Startree"/>
 <edge source="Google Cloud" target="Tinybird"/>
@@ -833,20 +832,18 @@
 <edge source="Google Cloud" target=" Labs"/>
 <edge source="Google Cloud" target="Informatica"/>
 <edge source="Google Cloud" target="Merkle"/>
-<edge source="Google Cloud" target="MonteCarlo"/>
+<edge source="Google Cloud" target="Monte Carlo"/>
 <edge source="Google Cloud" target="Rivery"/>
 <edge source="Google Cloud" target="Twilio"/>
 <edge source="Google Cloud" target="Sigma"/>
 <edge source="Google Cloud" target="ThoughtSpot"/>
 <edge source="Google Cloud" target="CapStorm"/>
 <edge source="Google Cloud" target="Kyligence"/>
-<edge source="Google Cloud" target="KyvosInsights"/>
+<edge source="Google Cloud" target="Kyvos Insights"/>
 <edge source="Google Cloud" target="Talend"/>
 <edge source="Google Cloud" target="Teradata"/>
 <edge source="Google Cloud" target="Nutanix"/>
 <edge source="Google Cloud" target="Evolutio"/>
-<edge source="Google Cloud" target="Cockroach Labs"/>
-<edge source="Google Cloud" target="Redis Labs"/>
 <edge source="Google Cloud" target="Factset"/>
 <edge source="Google Cloud" target="Airbyte"/>
 <edge source="Confluent" target="Hivecell"/>
@@ -880,10 +877,10 @@
 <edge source="Confluent" target="Teradata"/>
 <edge source="DataRobot" target="NVIDIA"/>
 <edge source="DataRobot" target="Nutanix"/>
-<edge source="DataRobot" target="Evolution"/>
+<edge source="DataRobot" target="Evolutio"/>
 <edge source="DataRobot" target="Microsoft Azure"/>
 <edge source="DataRobot" target="Snowflake"/>
-<edge source="DataRobot" target="GoogleBigQuery"/>
+<edge source="DataRobot" target="Google BigQuery"/>
 <edge source="DataRobot" target="Amazon Web Services"/>
 <edge source="DataRobot" target="tableau"/>
 <edge source="DataRobot" target="AtScale"/>
@@ -1033,6 +1030,9 @@
 <edge source="Microsoft Azure" target="HiveMQ"/>
 <edge source="Microsoft Azure" target="Redis Labs"/>
 <edge source="Microsoft Azure" target="Rivery"/>
+<edge source="Microsoft" target="Zilliz"/>
+<edge source="Microsoft" target="dremio"/>
+<edge source="Microsoft" target="Precisly"/>
 <edge source="tableau" target="Salesforce"/>
 <edge source="tableau" target="Alation"/>
 <edge source="tableau" target="Wiiisdom"/>
@@ -1065,7 +1065,6 @@
 <edge source="tableau" target="Precisly"/>
 <edge source="DataOps" target="Matillion"/>
 <edge source="DataOps" target="Datadog"/>
-<edge source="DataOps" target="data.world"/>
 <edge source="DataOps" target="dbt Labs"/>
 <edge source="DataOps" target="Dataiku"/>
 <edge source="DataOps" target="Fivetran"/>
@@ -1241,7 +1240,7 @@
 <edge source="Cockroach Labs" target="Hasura"/>
 <edge source="Cockroach Labs" target="Liquibase"/>
 <edge source="Cockroach Labs" target="Red Hat"/>
-<edge source="Cockroach Labs" target="vmware"/>
+<edge source="Cockroach Labs" target="VMware"/>
 <edge source="Cockroach Labs" target="Xplenty"/>
 <edge source="Cockroach Labs" target="Ory"/>
 <edge source="Couchbase" target="Looker"/>
@@ -1335,7 +1334,6 @@
 <edge source="SingleStore" target="ThoughtSpot"/>
 <edge source="SingleStore" target="Vaultspeed"/>
 <edge source="Startree" target="Redpanda"/>
-<edge source="Zilliz" target="Microsoft"/>
 <edge source="Zilliz" target="NVIDIA"/>
 <edge source="Zilliz" target="OpenAI"/>
 <edge source="Zilliz" target="Cohere"/>
@@ -1354,10 +1352,9 @@
 <edge source="dremio" target="Alteryx"/>
 <edge source="dremio" target="Dell"/>
 <edge source="dremio" target="Fivetran"/>
-<edge source="dremio" target="Hex Hat"/>
+<edge source="dremio" target="Hex"/>
 <edge source="dremio" target="IBM"/>
 <edge source="dremio" target="Intel"/>
-<edge source="dremio" target="Microsoft"/>
 <edge source="dremio" target="NetApp"/>
 <edge source="dremio" target="Nutanix"/>
 <edge source="dremio" target="plainID"/>
@@ -1394,7 +1391,6 @@
 <edge source="Precisly" target="Dell"/>
 <edge source="Precisly" target="IBM"/>
 <edge source="Precisly" target="Infosys"/>
-<edge source="Precisly" target="Microsoft"/>
 <edge source="Precisly" target="NTTData"/>
 <edge source="Precisly" target="Oracle"/>
 <edge source="Precisly" target="ServiceNow"/>

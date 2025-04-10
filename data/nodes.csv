@@ -8,8 +8,9 @@ DataRobot,1,,ISV,AutoML/ML-Ops Plattform,15
 Amazon Web Services,2,,HCP,"Hyperscaler, Infrastruktur",68
 Snowflake,2,,PLATFORM,"Datenplattform (DWH, Data Sharing)",50
 Microsoft Azure,2,,HCP,"Hyperscaler, Infrastruktur",46
+Microsoft,2,,ISV,Softwareanbieter,3
 tableau,2,,TOOLING,Visual Analytics Tool,39
-DataOps,2,,ENABLER,DataOps-Plattform,29
+DataOps,2,,ENABLER,DataOps-Plattform,28
 dbt Labs,2,,ENABLER,Transformationslogik / Semantic Layer,13
 Denodo,2,,ISV,Datenvirtualisierung,9
 Hackolade,2,,TOOLING,Datenmodellierung (v. a. NoSQL),5
@@ -29,7 +30,7 @@ Rockset,2,,ISV,Realtime Indexing Engine,3
 Aerospike,2,,ISV,High-Performance NoSQL DB,22
 Celonis,2,,ISV,Process Mining Plattform,12
 ClickHouse,2,,ISV,Open Source Datenbank für Analytics,10
-Cockroach Labs,2,,ISV,Verteilte SQL-Datenbank (CockroachDB),13
+Cockroach Labs,2,,ISV,Verteilte SQL-Datenbank (CockroachDB),14
 Couchbase,2,,ISV,NoSQL-Datenbankplattform,19
 Datadog,2,,TOOLING,Monitoring- und Observability-Plattform,29
 Elastic,2,,ISV,Such- & Analyseplattform (Elasticsearch),7
@@ -39,7 +40,7 @@ Neo4j,2,,ISV,Graphdatenbank,15
 OneHouse,2,,ISV,Lakehouse-Management (Apache Hudi),3
 Pure Storage,2,,TOOLING,Enterprise-Datenspeicherlösungen,35
 Qlik,2,,TOOLING,Datenvisualisierung & BI-Tool,11
-Redis Labs,2,,ISV,In-Memory-Datenbank Redis,12
+Redis Labs,2,,ISV,In-Memory-Datenbank Redis,13
 SingleStore,2,,ISV,Verteilte SQL-Datenbank,27
 Startree,2,,ISV,Echtzeit-OLAP auf Apache Pinot,9
 SWIM.AI,2,,ISV,Edge-native Echtzeitverarbeitung,1
@@ -47,7 +48,7 @@ Tinybird,2,,ISV,Streaming-Analytics via API,4
 Zilliz,2,,ISV,Vektor-Datenbank (Milvus),11
 Power BI,2,,TOOLING,Microsoft BI-Plattform,4
 Looker,2,,TOOLING,Google Cloud BI-Plattform,10
-Google BigQuery,2,,PLATFORM,Cloud DWH von Google,4
+Google BigQuery,2,,PLATFORM,Cloud DWH von Google,7
 dremio,2,,ISV,SQL Query Engine & Datenvirtualisierung,29
 AtScale,2,,ENABLER,Semantic Layer & OLAP-Engine,14
 Immuta,2,,TOOLING,Data Access & Governance,12
@@ -72,7 +73,7 @@ Dataiku,2,,ISV,AI/ML-Datenanalyseplattform,13
 Fivetran,2,,ISV,Automatisierte ELT-Datenintegration,18
 Informatica,2,,ISV,Datenintegration und Governance,15
 Merkle,2,,SI,Customer Experience & Datenberatung,7
-Monte Carlo,2,,TOOLING,Data Observability Plattform,5
+Monte Carlo,2,,TOOLING,Data Observability Plattform,6
 Rivery,2,,ISV,ELT & Datenintegration,8
 Twilio,2,,ENABLER,Customer Data APIs und Messaging,3
 Sigma,2,,TOOLING,BI-Tool für Live-Query auf Cloud-Daten,12
@@ -84,11 +85,11 @@ Automated Insights,2,,TOOLING,NLG für strukturierte Daten,1
 CapStorm,2,,ISV,Salesforce-Datenintegration,3
 EasyMorph,2,,ISV,Low-Code Datenautomatisierung,1
 Kyligence,2,,ISV,OLAP-Plattform auf Apache Kylin,4
-Kyvos Insights,2,,ISV,Cloud OLAP & Aggregation,2
+Kyvos Insights,2,,ISV,Cloud OLAP & Aggregation,3
 Talend,2,,ISV,Datenintegration & Datenqualität,4
 Teradata,2,,PLATFORM,Enterprise DWH Plattform,26
 Nutanix,2,,HCP,Hybrid-/Multi-Cloud Infrastruktur,6
-Evolutio,2,,SI,Cloud-/Datenintegrator aus Spanien,2
+Evolutio,2,,SI,Cloud-/Datenintegrator aus Spanien,3
 Reply,2,,SI,Europäischer IT-Dienstleister & Systemintegrator,8
 ALTR,2,,TOOLING,"Datensicherheit, Tokenisierung, Zugriffskontrolle",2
 ServiceNow,2,,PLATFORM,Workflow-Plattform mit Analytics und AI,5
@@ -100,7 +101,7 @@ Agile Data Engine,3,,ENABLER,CI/CD für Data Warehousing,1
 AecorSoft,3,,ISV,Datenmigration & -integration,1
 Aible,3,,ISV,AutoML & Decision Intelligence Plattform,1
 Altair,3,,ISV,"Simulation, Engineering, Data Analytics",2
-Hex,3,,TOOLING,Collaborative Analytics Notebooks,2
+Hex,3,,TOOLING,Collaborative Analytics Notebooks,3
 Vaultspeed,3,,ENABLER,Automatisierung von Data Vault Modellen,1
 EonCollective,3,,SERVICE,Sicherheits-/Risikoanalyseanbieter,1
 Hakkoda,3,,SI,Snowflake- & Datenintegrationsdienstleister,1
@@ -182,7 +183,7 @@ Cloudhub360,3,,SI,Datenintegration & Cloud-Beratung,1
 Winshuttle,3,,ISV,Datenmanagement & Prozessautomation (SAP-nah),1
 Hasura,3,,ISV,API/GraphQL-Plattform,1
 Liquibase,3,,ISV,Datenbank Change & Release Management,2
-vmware,3,,HCP,Speicher- & Datenbankplattform,1
+VMware,3,,HCP,Speicher- & Datenbankplattform,3
 Xplenty,3,,ISV,Datenintegration (ELT Tool),1
 Ory,3,,ISV,Identity & Access Management Plattform,1
 Cisco,3,,HCP,Infrastrukturplattform,3
@@ -234,3 +235,6 @@ Adobe,3,,ISV,Creative Cloud / Data Platform,2
 Figma,3,,ISV,Collaborative Design Plattform,1
 Qualtrics,3,,ISV,Customer & Experience Data Plattform (SAP Tochter,1
 X,3,,SERVICE,Social Media Datenanbieter,1
+IBM,3,,PLATFORM,Data & AI Plattform Anbieter (Watson; Cloud Pak; Db2; etc.),7
+SAS,3,,ISV,Analytics- & AI-Software Plattform,4
+Workday,3,,ISV,Cloud HCM & Finance Software Plattform,2
