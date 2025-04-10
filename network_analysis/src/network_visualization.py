@@ -50,7 +50,7 @@ with open(os.path.join(OUTPUT_DIR, 'node_labels.txt'), 'w') as f:
         f.write(f"{node}\n")
 
 # Set up the plot
-plt.figure(figsize=(20, 15))  # Increased figure size for better separation
+plt.figure(figsize=(25, 20))
 
 # Detect communities using the Louvain method
 partition = community.best_partition(G)
@@ -74,7 +74,7 @@ for edge in G.edges():
 for comm in communities:
     if len(community_graphs[comm].nodes()) > 0:
         # Get position for this community
-        comm_pos = nx.spring_layout(community_graphs[comm], k=2.0, iterations=100, seed=42)
+        comm_pos = nx.spring_layout(community_graphs[comm], k=4.0, iterations=300, seed=42)
         pos.update(comm_pos)
 
 # Arrange communities in a circular layout
@@ -96,7 +96,7 @@ for comm in communities:
 
 # Calculate node sizes based on degree, but with a more reasonable scale
 max_degree = max(dict(G.degree()).values())
-node_sizes = [min(G.degree(node) * 100, 2000) for node in G.nodes()]
+node_sizes = [min(G.degree(node) * 25, 1500) for node in G.nodes()]
 
 # Set node colors based on community
 node_colors = [partition[node] for node in G.nodes()]
@@ -106,8 +106,8 @@ nx.draw(G, pos,
         with_labels=True,
         node_color=node_colors,
         node_size=node_sizes,
-        font_size=10,
-        font_weight='bold',
+        font_size=8,
+        font_weight='normal',
         arrows=False,
         edge_color='gray',
         width=0.5,

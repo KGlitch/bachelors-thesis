@@ -30,7 +30,7 @@
 <node id="tableau">
   <data key="d0">2</data>
 </node>
-<node id="DataOps.Live">
+<node id="DataOps">
   <data key="d0">2</data>
 </node>
 <node id="dbt Labs">
@@ -706,7 +706,6 @@
   <data key="d0">3</data>
 </node>
 <node id="GoogleBigQuery"/>
-<node id="S&amp;PGlobal"/>
 <node id="Evolution"/>
 <node id="CockroachLabs"/>
 <node id="RedisLabs"/>
@@ -733,7 +732,7 @@
 <edge source="Collibra" target="Microsoft Azure"/>
 <edge source="Collibra" target="tableau"/>
 <edge source="Collibra" target="Confluent"/>
-<edge source="Collibra" target="DataOps.Live"/>
+<edge source="Collibra" target="DataOps"/>
 <edge source="Collibra" target="dbt Labs"/>
 <edge source="Collibra" target="Denodo"/>
 <edge source="Collibra" target="Hackolade"/>
@@ -767,7 +766,7 @@
 <edge source="Databricks" target="Privacera"/>
 <edge source="Databricks" target="Nasdaq"/>
 <edge source="Databricks" target="NYSE"/>
-<edge source="Databricks" target="S&amp;PGlobal"/>
+<edge source="Databricks" target="S&amp;P Global"/>
 <edge source="Databricks" target="Factset"/>
 <edge source="Databricks" target="quandl"/>
 <edge source="Databricks" target="Precisly"/>
@@ -954,7 +953,7 @@
 <edge source="Amazon Web Services" target="SafeGraph"/>
 <edge source="Snowflake" target="Salesforce"/>
 <edge source="Snowflake" target="Dataiku"/>
-<edge source="Snowflake" target="DataOps.Live"/>
+<edge source="Snowflake" target="DataOps"/>
 <edge source="Snowflake" target="dremio"/>
 <edge source="Snowflake" target="Fivetran"/>
 <edge source="Snowflake" target="Immuta"/>
@@ -1064,31 +1063,31 @@
 <edge source="tableau" target="SingleStore"/>
 <edge source="tableau" target="Startree"/>
 <edge source="tableau" target="Precisly"/>
-<edge source="DataOps.Live" target="Matillion"/>
-<edge source="DataOps.Live" target="Datadog"/>
-<edge source="DataOps.Live" target="data.world"/>
-<edge source="DataOps.Live" target="dbt Labs"/>
-<edge source="DataOps.Live" target="Dataiku"/>
-<edge source="DataOps.Live" target="Fivetran"/>
-<edge source="DataOps.Live" target="Sigma"/>
-<edge source="DataOps.Live" target="EonCollective"/>
-<edge source="DataOps.Live" target="Hakkoda"/>
-<edge source="DataOps.Live" target="ITS Snowflake Solutions"/>
-<edge source="DataOps.Live" target="LeitData"/>
-<edge source="DataOps.Live" target="NTTData"/>
-<edge source="DataOps.Live" target="SME"/>
-<edge source="DataOps.Live" target="Alation"/>
-<edge source="DataOps.Live" target="Atlan"/>
-<edge source="DataOps.Live" target="coalesce"/>
-<edge source="DataOps.Live" target="Hex"/>
-<edge source="DataOps.Live" target="Immuta"/>
-<edge source="DataOps.Live" target="Informatica"/>
-<edge source="DataOps.Live" target="Infosys"/>
-<edge source="DataOps.Live" target="Monte Carlo"/>
-<edge source="DataOps.Live" target="SecuPi"/>
-<edge source="DataOps.Live" target="Starburst"/>
-<edge source="DataOps.Live" target="slalom"/>
-<edge source="DataOps.Live" target="Talend"/>
+<edge source="DataOps" target="Matillion"/>
+<edge source="DataOps" target="Datadog"/>
+<edge source="DataOps" target="data.world"/>
+<edge source="DataOps" target="dbt Labs"/>
+<edge source="DataOps" target="Dataiku"/>
+<edge source="DataOps" target="Fivetran"/>
+<edge source="DataOps" target="Sigma"/>
+<edge source="DataOps" target="EonCollective"/>
+<edge source="DataOps" target="Hakkoda"/>
+<edge source="DataOps" target="ITS Snowflake Solutions"/>
+<edge source="DataOps" target="LeitData"/>
+<edge source="DataOps" target="NTTData"/>
+<edge source="DataOps" target="SME"/>
+<edge source="DataOps" target="Alation"/>
+<edge source="DataOps" target="Atlan"/>
+<edge source="DataOps" target="coalesce"/>
+<edge source="DataOps" target="Hex"/>
+<edge source="DataOps" target="Immuta"/>
+<edge source="DataOps" target="Informatica"/>
+<edge source="DataOps" target="Infosys"/>
+<edge source="DataOps" target="Monte Carlo"/>
+<edge source="DataOps" target="SecuPi"/>
+<edge source="DataOps" target="Starburst"/>
+<edge source="DataOps" target="slalom"/>
+<edge source="DataOps" target="Talend"/>
 <edge source="dbt Labs" target="Starburst"/>
 <edge source="dbt Labs" target="Alation"/>
 <edge source="dbt Labs" target="SingleStore"/>
@@ -1378,6 +1377,7 @@
 <edge source="Alation" target="Reply"/>
 <edge source="Alation" target="Sigma"/>
 <edge source="Alation" target="ThoughtSpot"/>
+<edge source="S&amp;P Global" target="Factset"/>
 <edge source="Factset" target="Alexandria"/>
 <edge source="Factset" target="BlackRock"/>
 <edge source="Factset" target="BMLL"/>

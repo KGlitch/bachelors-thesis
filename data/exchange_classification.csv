@@ -6,3 +6,6 @@ SI,PLATFORM,Knowledge Transfer
 ISV,ISV,Co-Branding/Marketing
 ISV,ENABLER,Co-Branding/Marketing
 SI,SI,Knowledge Transfer
+SERVICE,ISV,Data Integration
+SERVICE,PLATFORM,Data Marketplace
+ENABLER,ISV,Knowledge Transfer

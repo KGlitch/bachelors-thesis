@@ -11,7 +11,7 @@ Collibra,Snowflake,Technology,,2.0,Data Integration
 Collibra,Microsoft Azure,Technology,,2.0,
 Collibra,tableau,Technology,,2.0,
 Collibra,Confluent,Technology,,2.0,Co-Branding/Marketing
-Collibra,DataOps.Live,Technology,,2.0,
+Collibra,DataOps,Technology,,2.0,
 Collibra,dbt Labs,Technology,,2.0,
 Collibra,Denodo,Technology,,2.0,Co-Branding/Marketing
 Collibra,Hackolade,Technology,,2.0,
@@ -67,17 +67,17 @@ Databricks,Immuta,Technology,Governance,2.0,
 Databricks,Alation,Technology,Governance,2.0,Co-Branding/Marketing
 Databricks,Privacera,Technology,Governance,2.0,
 Databricks,Collibra,Technology,Governance,2.0,Co-Branding/Marketing
-Databricks,Nasdaq,Technology,DataIntegration,2.0,
-Databricks,NYSE,Technology,DataIntegration,2.0,
-Databricks,S&PGlobal,Technology,DataIntegration,2.0,
-Databricks,Factset,Technology,DataIntegration,2.0,
-Databricks,quandl,Technology,DataIntegration,2.0,
+Databricks,Nasdaq,Technology,DataIntegration,2.0,Data Integration
+Databricks,NYSE,Technology,DataIntegration,2.0,Data Integration
+Databricks,S&P Global,Technology,DataIntegration,2.0,Data Integration
+Databricks,Factset,Technology,DataIntegration,2.0,Data Integration
+Databricks,quandl,Technology,DataIntegration,2.0,Data Integration
 Databricks,Precisly,Technology,DataIntegration,2.0,Co-Branding/Marketing
-Databricks,SafeGraph,Technology,DataIntegration,2.0,
+Databricks,SafeGraph,Technology,DataIntegration,2.0,Data Integration
 Databricks,Atlassian,Technology,DataIntegration,2.0,
-Databricks,FourSquare,Technology,DataIntegration,2.0,
-Databricks,sequencebio,Technology,DataIntegration,2.0,
-Databricks,veraset,Technology,DataIntegration,2.0,
+Databricks,FourSquare,Technology,DataIntegration,2.0,Data Integration
+Databricks,sequencebio,Technology,DataIntegration,2.0,Data Integration
+Databricks,veraset,Technology,DataIntegration,2.0,Data Integration
 Databricks,Salesforce,Technology,DataIntegration,2.0,Data Integration
 Databricks,Matillion,Strategic Alliance,DataIntegration,2.0,Co-Branding/Marketing
 Databricks,MongoDB,Technology,Database,2.0,Data Integration
@@ -214,7 +214,7 @@ Salesforce,Snowflake,Technology,Zero Copy,3.0,
 Salesforce,tableau,Market,Zero Copy,3.0,
 Salesforce,Datadog,Technology,Cloud Products Partner,3.0,
 Snowflake,Dataiku,Technology,Cloud Products Partner,3.0,Data Integration
-Snowflake,DataOps.Live,Technology,Cloud Products Partner,3.0,Data Integration
+Snowflake,DataOps,Technology,Cloud Products Partner,3.0,Data Integration
 Snowflake,dremio,Technology,Cloud Products Partner,3.0,Data Integration
 Snowflake,Fivetran,Technology,Cloud Products Partner,3.0,Data Integration
 Snowflake,Google Cloud,Technology,Cloud Products Partner,3.0,
@@ -322,7 +322,7 @@ Matillion,Alation,Technology,,3.0,Co-Branding/Marketing
 Matillion,ALTR,Technology,,3.0,
 Matillion,Amazon Web Services,Technology,,3.0,
 Matillion,Dataiku,Technology,,3.0,Co-Branding/Marketing
-Matillion,DataOps.Live,Technology,,3.0,Co-Branding/Marketing
+Matillion,DataOps,Technology,,3.0,Co-Branding/Marketing
 Matillion,Sigma,Technology,,3.0,
 Matillion,ThoughtSpot,Technology,,3.0,
 Matillion,Google BigQuery,Technology,,3.0,Data Integration
@@ -347,12 +347,12 @@ Couchbase,Hackolade,Technology,,3.0,
 Couchbase,Looker,Technology,,3.0,
 Couchbase,Informatica,Technology,,3.0,Co-Branding/Marketing
 Couchbase,Cisco,Technology,,4.0,
-Couchbase,CData,Technology,,4.0,
-Couchbase,Fortanix,Technology,,4.0,
-Couchbase,gluu,Technology,,4.0,
+Couchbase,CData,Technology,,4.0,Co-Branding/Marketing
+Couchbase,Fortanix,Technology,,4.0,Co-Branding/Marketing
+Couchbase,gluu,Technology,,4.0,Co-Branding/Marketing
 Couchbase,Hackolade,Technology,,4.0,
-Couchbase,Molo17,Technology,,4.0,
-Couchbase,Quest,Technology,,4.0,
+Couchbase,Molo17,Technology,,4.0,Knowledge Transfer
+Couchbase,Quest,Technology,,4.0,Co-Branding/Marketing
 Couchbase,Red Hat,Technology,,4.0,
 Couchbase,Thales,Technology,,4.0,
 Immuta,Google BigQuery,Technology,,3.0,
@@ -377,7 +377,7 @@ Datadog,Snowflake,Technology,,3.0,
 Datadog,Atlassian,Technology,,3.0,
 Datadog,Cockroach Labs,Technology,,3.0,
 Datadog,Couchbase,Technology,,3.0,
-Datadog,DataOps.Live,Technology,,3.0,
+Datadog,DataOps,Technology,,3.0,
 Datadog,Denodo,Technology,,3.0,
 Datadog,Fivetran,Technology,,3.0,
 Datadog,HiveMQ,Technology,,3.0,
@@ -394,31 +394,31 @@ Datadog,SnapLogic,Technology,,3.0,
 Datadog,Starburst,Technology,,3.0,
 Datadog,Startree,Technology,,3.0,
 Datadog,Zilliz,Technology,,3.0,
-DataOps.Live,data.world,Technology,,4.0,
-DataOps.Live,dbt Labs,Technology,,3.0,
-DataOps.Live,Dataiku,Technology,,3.0,Co-Branding/Marketing
-DataOps.Live,Fivetran,Technology,,3.0,Co-Branding/Marketing
-DataOps.Live,Sigma,Technology,,3.0,
-DataOps.Live,EonCollective,Technology,,4.0,
-DataOps.Live,Hakkoda,Technology,,4.0,Knowledge Transfer
-DataOps.Live,ITS Snowflake Solutions,Technology,,4.0,Knowledge Transfer
-DataOps.Live,LeitData,Technology,,4.0,Knowledge Transfer
-DataOps.Live,NTTData,Technology,,3.0,Knowledge Transfer
-DataOps.Live,SME,Technology,,3.0,Knowledge Transfer
-DataOps.Live,Alation,Technology,,3.0,
-DataOps.Live,Atlan,Technology,,3.0,
-DataOps.Live,coalesce,Technology,,4.0,
-DataOps.Live,Dataiku,Technology,,3.0,Co-Branding/Marketing
-DataOps.Live,Hex,Technology,,4.0,
-DataOps.Live,Immuta,Technology,,3.0,
-DataOps.Live,Informatica,Technology,,3.0,Co-Branding/Marketing
-DataOps.Live,Infosys,Technology,,3.0,Knowledge Transfer
-DataOps.Live,Monte Carlo,Technology,,3.0,
-DataOps.Live,Matillion,Technology,,3.0,Co-Branding/Marketing
-DataOps.Live,SecuPi,Technology,,3.0,
-DataOps.Live,Starburst,Technology,,3.0,Co-Branding/Marketing
-DataOps.Live,slalom,Technology,,4.0,Knowledge Transfer
-DataOps.Live,Talend,Technology,,3.0,Co-Branding/Marketing
+DataOps,data.world,Technology,,4.0,
+DataOps,dbt Labs,Technology,,3.0,
+DataOps,Dataiku,Technology,,3.0,Co-Branding/Marketing
+DataOps,Fivetran,Technology,,3.0,Co-Branding/Marketing
+DataOps,Sigma,Technology,,3.0,
+DataOps,EonCollective,Technology,,4.0,
+DataOps,Hakkoda,Technology,,4.0,Knowledge Transfer
+DataOps,ITS Snowflake Solutions,Technology,,4.0,Knowledge Transfer
+DataOps,LeitData,Technology,,4.0,Knowledge Transfer
+DataOps,NTTData,Technology,,3.0,Knowledge Transfer
+DataOps,SME,Technology,,3.0,Knowledge Transfer
+DataOps,Alation,Technology,,3.0,
+DataOps,Atlan,Technology,,3.0,
+DataOps,coalesce,Technology,,4.0,
+DataOps,Dataiku,Technology,,3.0,Co-Branding/Marketing
+DataOps,Hex,Technology,,4.0,
+DataOps,Immuta,Technology,,3.0,
+DataOps,Informatica,Technology,,3.0,Co-Branding/Marketing
+DataOps,Infosys,Technology,,3.0,Knowledge Transfer
+DataOps,Monte Carlo,Technology,,3.0,
+DataOps,Matillion,Technology,,3.0,Co-Branding/Marketing
+DataOps,SecuPi,Technology,,3.0,
+DataOps,Starburst,Technology,,3.0,Co-Branding/Marketing
+DataOps,slalom,Technology,,4.0,Knowledge Transfer
+DataOps,Talend,Technology,,3.0,Co-Branding/Marketing
 Denodo,Altair,Technology,,4.0,Co-Branding/Marketing
 Denodo,Alteryx,Technology,,4.0,Co-Branding/Marketing
 MicroStrategy,Exasol,Technology,,4.0,
@@ -443,11 +443,11 @@ Protegrity,Red Hat,Technology,,4.0,
 Protegrity,Snowflake,Technology,,4.0,
 Protegrity,Splunk,Technology,,4.0,
 Protegrity,Strateq,Technology,,4.0,Knowledge Transfer
-Reltio,IQVIA,Technology,,4.0,
+Reltio,IQVIA,Technology,,4.0,Data Integration
 Reltio,Blumetra,Technology,,4.0,Knowledge Transfer
 Reltio,Blue Altair,Technology,,4.0,Knowledge Transfer
 Reltio,Ulpia Tech,Technology,,4.0,Knowledge Transfer
-Reltio,AN Info Systems BV,Technology,,4.0,
+Reltio,AN Info Systems BV,Technology,,4.0,Knowledge Transfer
 Reltio,Apptad,Technology,,4.0,Knowledge Transfer
 SecuPi,Microsoft Azure,Technology,,3.0,
 SecuPi,Snowflake,Technology,,3.0,
@@ -468,11 +468,11 @@ SecuPi,AnjanaData,Technology,,4.0,
 SecuPi,Looker,Technology,,4.0,
 SecuPi,Reply,Technology,,4.0,Knowledge Transfer
 SecuPi,NTTData,Technology,,4.0,Knowledge Transfer
-SnapLogic,Snowflake,Technology,,4.0,
+SnapLogic,Snowflake,Technology,,4.0,Data Integration
 SnapLogic,Box,Technology,,4.0,
 SnapLogic,Anaplan,Technology,,4.0,
 SnapLogic,Apigee,Technology,,4.0,
-SnapLogic,Cloudera,Technology,,4.0,
+SnapLogic,Cloudera,Technology,,4.0,Data Integration
 SnapLogic,Data Interchange,Technology,,4.0,
 SnapLogic,GitHub,Technology,,4.0,
 SnapLogic,Gravitee,Technology,,4.0,
@@ -485,7 +485,7 @@ SnapLogic,OneLogin,Technology,,4.0,
 SnapLogic,PingIdentity,Technology,,4.0,
 SnapLogic,Pitney Bowes,Technology,,4.0,
 SnapLogic,Restlet,Technology,,4.0,
-SnapLogic,ServiceNow,Technology,,4.0,
+SnapLogic,ServiceNow,Technology,,4.0,Data Integration
 SnapLogic,Splunk,Technology,,4.0,
 SnapLogic,Sumo Logic,Technology,,4.0,
 SnapLogic,tableau,Technology,,4.0,
@@ -501,48 +501,48 @@ Aerospike,Smart IOPS,Technology,,4.0,
 Aerospike,Kioxia,Technology,,4.0,
 Aerospike,Western Digital,Technology,,4.0,
 Aerospike,ScaleFlux,Technology,,4.0,
-Aerospike,Redpanda,Technology,,4.0,
-Aerospike,G.V(),Technology,,4.0,
-Aerospike,StreamNative,Technology,,4.0,
+Aerospike,Redpanda,Technology,,4.0,Co-Branding/Marketing
+Aerospike,G.V(),Technology,,4.0,Co-Branding/Marketing
+Aerospike,StreamNative,Technology,,4.0,Co-Branding/Marketing
 Aerospike,Red Hat,Technology,,4.0,
-Aerospike,D2iQ,Technology,,4.0,
-Aerospike,Molo17,Technology,,4.0,
-Aerospike,DriveScale,Technology,,4.0,
+Aerospike,D2iQ,Technology,,4.0,Co-Branding/Marketing
+Aerospike,Molo17,Technology,,4.0,Knowledge Transfer
+Aerospike,DriveScale,Technology,,4.0,Co-Branding/Marketing
 Aerospike,HashiCorp,Technology,,4.0,
 Aerospike,Huawei,Technology,,4.0,
 Aerospike,Dell,Technology,,4.0,
 Celonis,IBM,Technology,,4.0,
-Celonis,Cloudhub360,Technology,,4.0,
+Celonis,Cloudhub360,Technology,,4.0,Knowledge Transfer
 Celonis,CyberArk,Technology,,4.0,
-Celonis,Oracle,Technology,,4.0,
-Celonis,Salesforce,Technology,,4.0,
-Celonis,ServiceNow,Technology,,4.0,
-Celonis,Snowflake,Technology,,4.0,
+Celonis,Oracle,Technology,,4.0,Data Integration
+Celonis,Salesforce,Technology,,4.0,Data Integration
+Celonis,ServiceNow,Technology,,4.0,Data Integration
+Celonis,Snowflake,Technology,,4.0,Data Integration
 Celonis,Splunk,Technology,,4.0,
-Celonis,Winshuttle,Technology,,4.0,
-Cockroach Labs,Elastic,Technology,,4.0,
-Cockroach Labs,Hasura,Technology,,4.0,
-Cockroach Labs,Liquibase,Technology,,4.0,
+Celonis,Winshuttle,Technology,,4.0,Co-Branding/Marketing
+Cockroach Labs,Elastic,Technology,,4.0,Co-Branding/Marketing
+Cockroach Labs,Hasura,Technology,,4.0,Co-Branding/Marketing
+Cockroach Labs,Liquibase,Technology,,4.0,Co-Branding/Marketing
 Cockroach Labs,Red Hat,Technology,,4.0,
-Cockroach Labs,Snowflake,Technology,,4.0,
+Cockroach Labs,Snowflake,Technology,,4.0,Data Integration
 Cockroach Labs,vmware,Technology,,4.0,
-Cockroach Labs,Xplenty,Technology,,4.0,
-Cockroach Labs,Ory,Technology,,4.0,
+Cockroach Labs,Xplenty,Technology,,4.0,Co-Branding/Marketing
+Cockroach Labs,Ory,Technology,,4.0,Co-Branding/Marketing
 Cockroach Labs,Google Cloud,Technology,,4.0,
-HiveMQ,aicas,Technology,,4.0,
+HiveMQ,aicas,Technology,,4.0,Co-Branding/Marketing
 HiveMQ,Amazon Web Services,Technology,,4.0,
-HiveMQ,InfluxData,Technology,,4.0,
+HiveMQ,InfluxData,Technology,,4.0,Co-Branding/Marketing
 HiveMQ,Microsoft Azure,Technology,,4.0,
-HiveMQ,Opto22,Technology,,4.0,
-HiveMQ,Snowflake,Technology,,4.0,
-HiveMQ,Volt Active Data,Technology,,4.0,
-HiveMQ,WeKan Enterprise Solutions,Technology,,4.0,
-Neo4j,aarth,Technology,,4.0,
-Neo4j,DataCurate,Technology,,4.0,
-Neo4j,Gemini Data,Technology,,4.0,
+HiveMQ,Opto22,Technology,,4.0,Co-Branding/Marketing
+HiveMQ,Snowflake,Technology,,4.0,Data Integration
+HiveMQ,Volt Active Data,Technology,,4.0,Co-Branding/Marketing
+HiveMQ,WeKan Enterprise Solutions,Technology,,4.0,Knowledge Transfer
+Neo4j,aarth,Technology,,4.0,Knowledge Transfer
+Neo4j,DataCurate,Technology,,4.0,Co-Branding/Marketing
+Neo4j,Gemini Data,Technology,,4.0,Co-Branding/Marketing
 Neo4j,Hackolade,Technology,,4.0,
-Neo4j,Kineviz,Technology,,4.0,
-Neo4j,Snowcat Cloud,Technology,,4.0,
+Neo4j,Kineviz,Technology,,4.0,Co-Branding/Marketing
+Neo4j,Snowcat Cloud,Technology,,4.0,Knowledge Transfer
 Neo4j,tableau,Technology,,4.0,
 Neo4j,Thales,Technology,,4.0,
 Neo4j,IBM,Technology,,4.0,
@@ -575,8 +575,8 @@ Pure Storage,Vertica,Technology,,4.0,
 Pure Storage,Virtuozzo,Technology,,4.0,
 Pure Storage,VMware,Technology,,4.0,
 Pure Storage,Wasabi,Technology,,4.0,
-Redis Labs,Databricks,Technology,,4.0,
-Redis Labs,Infosys,Technology,,4.0,
+Redis Labs,Databricks,Technology,,4.0,Co-Branding/Marketing
+Redis Labs,Infosys,Technology,,4.0,Knowledge Transfer
 Redis Labs,Intel,Technology,,4.0,
 Redis Labs,Microsoft Azure,Technology,,4.0,
 Redis Labs,Red Hat,Technology,,4.0,
@@ -584,43 +584,43 @@ Redis Labs,VMware,Technology,,4.0,
 Redis Labs,Google Cloud,Technology,,4.0,
 Redis Labs,HashiCorp,Technology,,4.0,
 SingleStore,tableau,Technology,,4.0,
-SingleStore,OpenAI,Technology,,4.0,
-SingleStore,CData,Technology,,4.0,
-SingleStore,LangChain,Technology,,4.0,
-SingleStore,Redpanda,Technology,,4.0,
-SingleStore,Alteryx,Technology,,4.0,
-SingleStore,Collibra,Technology,,4.0,
-SingleStore,Airbyte,Technology,,4.0,
+SingleStore,OpenAI,Technology,,4.0,Knowledge Transfer
+SingleStore,CData,Technology,,4.0,Co-Branding/Marketing
+SingleStore,LangChain,Technology,,4.0,Knowledge Transfer
+SingleStore,Redpanda,Technology,,4.0,Co-Branding/Marketing
+SingleStore,Alteryx,Technology,,4.0,Co-Branding/Marketing
+SingleStore,Collibra,Technology,,4.0,Knowledge Transfer
+SingleStore,Airbyte,Technology,,4.0,Co-Branding/Marketing
 SingleStore,DBeaver,Technology,,4.0,
-SingleStore,Dataiku,Technology,,4.0,
+SingleStore,Dataiku,Technology,,4.0,Co-Branding/Marketing
 SingleStore,Datadog,Technology,,4.0,
-SingleStore,Denodo,Technology,,4.0,
-SingleStore,Fivetran,Technology,,4.0,
+SingleStore,Denodo,Technology,,4.0,Co-Branding/Marketing
+SingleStore,Fivetran,Technology,,4.0,Co-Branding/Marketing
 SingleStore,IBM,Technology,,4.0,
-SingleStore,Informatica,Technology,,4.0,
+SingleStore,Informatica,Technology,,4.0,Co-Branding/Marketing
 SingleStore,Intel,Technology,,4.0,
-SingleStore,Liquibase,Technology,,4.0,
+SingleStore,Liquibase,Technology,,4.0,Co-Branding/Marketing
 SingleStore,MicroStrategy,Technology,,4.0,
 SingleStore,Qlik,Technology,,4.0,
 SingleStore,ThoughtSpot,Technology,,4.0,
-SingleStore,Vaultspeed,Technology,,4.0,
-SingleStore,dbt Labs,Technology,,4.0,
-Startree,Databricks,Technology,,4.0,
+SingleStore,Vaultspeed,Technology,,4.0,Knowledge Transfer
+SingleStore,dbt Labs,Technology,,4.0,Knowledge Transfer
+Startree,Databricks,Technology,,4.0,Co-Branding/Marketing
 Startree,Datadog,Technology,,4.0,
-Startree,Redpanda,Technology,,4.0,
+Startree,Redpanda,Technology,,4.0,Co-Branding/Marketing
 Startree,tableau,Technology,,4.0,
 Zilliz,Microsoft,Technology,,4.0,
-Zilliz,NVIDIA,Technology,,4.0,
-Zilliz,OpenAI,Technology,,4.0,
-Zilliz,Cohere,Technology,,4.0,
-Zilliz,LangChain,Technology,,4.0,
-Zilliz,LlamaIndex,Technology,,4.0,
-dremio,Airbyte,Technology,,4.0,
-dremio,Alteryx,Technology,,4.0,
-dremio,Collibra,Technology,,4.0,
-dremio,dbt Labs,Technology,,4.0,
+Zilliz,NVIDIA,Technology,,4.0,Knowledge Transfer
+Zilliz,OpenAI,Technology,,4.0,Knowledge Transfer
+Zilliz,Cohere,Technology,,4.0,Knowledge Transfer
+Zilliz,LangChain,Technology,,4.0,Knowledge Transfer
+Zilliz,LlamaIndex,Technology,,4.0,Knowledge Transfer
+dremio,Airbyte,Technology,,4.0,Co-Branding/Marketing
+dremio,Alteryx,Technology,,4.0,Co-Branding/Marketing
+dremio,Collibra,Technology,,4.0,Knowledge Transfer
+dremio,dbt Labs,Technology,,4.0,Knowledge Transfer
 dremio,Dell,Technology,,4.0,
-dremio,Fivetran,Technology,,4.0,
+dremio,Fivetran,Technology,,4.0,Co-Branding/Marketing
 dremio,Hex Hat,Technology,,4.0,
 dremio,IBM,Technology,,4.0,
 dremio,Intel,Technology,,4.0,
@@ -639,11 +639,11 @@ dremio,ThoughtSpot,Technology,,4.0,
 AtScale,tableau,Technology,,4.0,
 AtScale,Looker,Technology,,4.0,
 AtScale,Power BI,Technology,,4.0,
-AtScale,DataRobot,Technology,,4.0,
-AtScale,Dataiku,Technology,,4.0,
-AtScale,Snowflake,Technology,,4.0,
-AtScale,InterSystems,Technology,,4.0,
-Factset,DataRobot,Technology,,4.0,
+AtScale,DataRobot,Technology,,4.0,Knowledge Transfer
+AtScale,Dataiku,Technology,,4.0,Knowledge Transfer
+AtScale,Snowflake,Technology,,4.0,Data Integration
+AtScale,InterSystems,Technology,,4.0,Knowledge Transfer
+Factset,DataRobot,Technology,,4.0,Data Integration
 Factset,Google Cloud,Technology,,4.0,
 Factset,Alexandria,Technology,,4.0,
 Factset,BlackRock,Technology,,4.0,
@@ -656,65 +656,66 @@ Factset,Nikkei,Technology,,4.0,
 Factset,VanEck,Technology,,4.0,
 Factset,Vanguard,Technology,,4.0,
 Factset,Wilshire,Technology,,4.0,
-Precisly,BMC,Technology,,4.0,
-Precisly,Cloudera,Technology,,4.0,
-Precisly,Collibra,Technology,,4.0,
-Precisly,Confluent,Technology,,4.0,
-Precisly,Databricks,Technology,,4.0,
+Factset,S&P Global,Technology,,4.0,
+Precisly,BMC,Technology,,4.0,Co-Branding/Marketing
+Precisly,Cloudera,Technology,,4.0,Data Integration
+Precisly,Collibra,Technology,,4.0,Knowledge Transfer
+Precisly,Confluent,Technology,,4.0,Co-Branding/Marketing
+Precisly,Databricks,Technology,,4.0,Co-Branding/Marketing
 Precisly,Dell,Technology,,4.0,
 Precisly,IBM,Technology,,4.0,
-Precisly,Infosys,Technology,,4.0,
-Precisly,Infosys,Technology,,4.0,
-Precisly,Neo4j,Technology,,4.0,
+Precisly,Infosys,Technology,,4.0,Knowledge Transfer
+Precisly,Infosys,Technology,,4.0,Knowledge Transfer
+Precisly,Neo4j,Technology,,4.0,Co-Branding/Marketing
 Precisly,Microsoft,Technology,,4.0,
-Precisly,NTTData,Technology,,4.0,
-Precisly,Oracle,Technology,,4.0,
-Precisly,ServiceNow,Technology,,4.0,
-Precisly,Snowflake,Technology,,4.0,
+Precisly,NTTData,Technology,,4.0,Knowledge Transfer
+Precisly,Oracle,Technology,,4.0,Data Integration
+Precisly,ServiceNow,Technology,,4.0,Data Integration
+Precisly,Snowflake,Technology,,4.0,Data Integration
 Precisly,Splunk,Technology,,4.0,
 Precisly,tableau,Technology,,4.0,
-Precisly,Teradata,Technology,,4.0,
-SafeGraph,Snowflake,Technology,,4.0,
+Precisly,Teradata,Technology,,4.0,Data Integration
+SafeGraph,Snowflake,Technology,,4.0,Data Marketplace
 SafeGraph,Amazon Web Services,Technology,,4.0,
-Alteryx,Databricks,Technology,,4.0,
-Alteryx,Adobe,Technology,,4.0,
+Alteryx,Databricks,Technology,,4.0,Co-Branding/Marketing
+Alteryx,Adobe,Technology,,4.0,Co-Branding/Marketing
 Alteryx,ThoughtSpot,Technology,,4.0,
-Alteryx,Cloudera,Technology,,4.0,
-Alteryx,DataRobot,Technology,,4.0,
-Alteryx,Exasol,Technology,,4.0,
+Alteryx,Cloudera,Technology,,4.0,Data Integration
+Alteryx,DataRobot,Technology,,4.0,Co-Branding/Marketing
+Alteryx,Exasol,Technology,,4.0,Data Integration
 Alteryx,NetSuite,Technology,,4.0,
-Alteryx,Oracle,Technology,,4.0,
+Alteryx,Oracle,Technology,,4.0,Data Integration
 Alteryx,Qlik,Technology,,4.0,
-Alteryx,Salesforce,Technology,,4.0,
-Alteryx,Teradata,Technology,,4.0,
-Airbyte,Databricks,Technology,,4.0,
+Alteryx,Salesforce,Technology,,4.0,Data Integration
+Alteryx,Teradata,Technology,,4.0,Data Integration
+Airbyte,Databricks,Technology,,4.0,Co-Branding/Marketing
 Airbyte,Google Cloud,Technology,,4.0,
-Airbyte,Snowflake,Technology,,4.0,
-Airbyte,Zilliz,Technology,,4.0,
-Airbyte,dbt Labs,Technology,,4.0,
-Dataiku,Teradata,Technology,,4.0,
-Fivetran,Teradata,Technology,,4.0,
-Fivetran,Collibra,Technology,,4.0,
-Fivetran,Databricks,Technology,,4.0,
+Airbyte,Snowflake,Technology,,4.0,Data Integration
+Airbyte,Zilliz,Technology,,4.0,Co-Branding/Marketing
+Airbyte,dbt Labs,Technology,,4.0,Knowledge Transfer
+Dataiku,Teradata,Technology,,4.0,Data Integration
+Fivetran,Teradata,Technology,,4.0,Data Integration
+Fivetran,Collibra,Technology,,4.0,Knowledge Transfer
+Fivetran,Databricks,Technology,,4.0,Co-Branding/Marketing
 Fivetran,Looker,Technology,,4.0,
-Fivetran,dbt Labs,Technology,,4.0,
+Fivetran,dbt Labs,Technology,,4.0,Knowledge Transfer
 Fivetran,Sigma,Technology,,4.0,
 Fivetran,ThoughtSpot,Technology,,4.0,
-Informatica,Oracle,Technology,,4.0,
-Informatica,Teradata,Technology,,4.0,
-Informatica,Salesforce,Technology,,4.0,
+Informatica,Oracle,Technology,,4.0,Data Integration
+Informatica,Teradata,Technology,,4.0,Data Integration
+Informatica,Salesforce,Technology,,4.0,Data Integration
 Informatica,IBM,Technology,,4.0,
-Informatica,Cloudera,Technology,,4.0,
+Informatica,Cloudera,Technology,,4.0,Data Integration
 Informatica,Workday,Technology,,4.0,
-Informatica,Neo4j,Technology,,4.0,
-Merkle,Adobe,Technology,,4.0,
-Merkle,Salesforce,Technology,,4.0,
-Merkle,Figma,Technology,,4.0,
-Merkle,Qualtrics,Technology,,4.0,
-Rivery,Databricks,Technology,,4.0,
+Informatica,Neo4j,Technology,,4.0,Co-Branding/Marketing
+Merkle,Adobe,Technology,,4.0,Knowledge Transfer
+Merkle,Salesforce,Technology,,4.0,Knowledge Transfer
+Merkle,Figma,Technology,,4.0,Knowledge Transfer
+Merkle,Qualtrics,Technology,,4.0,Knowledge Transfer
+Rivery,Databricks,Technology,,4.0,Co-Branding/Marketing
 Rivery,Microsoft Azure,Technology,,4.0,
 Rivery,Sigma,Technology,,4.0,
-Rivery,X,Technology,,4.0,
+Rivery,X,Technology,,4.0,Data Integration
 Sigma,Databricks,Technology,,4.0,
 Sigma,Alation,Technology,,4.0,
 Sigma,Atlan,Technology,,4.0,
@@ -728,18 +729,18 @@ ThoughtSpot,dbt Labs,Technology,,4.0,
 ThoughtSpot,Dell,Technology,,4.0,
 ThoughtSpot,Fivetran,Technology,,4.0,
 ThoughtSpot,SingleStore,Technology,,4.0,
-Teradata,ActionIQ,Technology,,4.0,
+Teradata,ActionIQ,Technology,,4.0,Data Integration
 Teradata,Dell,Technology,,4.0,
-Teradata,CData,Technology,,4.0,
+Teradata,CData,Technology,,4.0,Data Integration
 Teradata,Cisco,Technology,,4.0,
 Teradata,Cloudera,Technology,,4.0,
-Teradata,Confluent,Technology,,4.0,
+Teradata,Confluent,Technology,,4.0,Data Integration
 Teradata,Idera,Technology,,4.0,
-Teradata,iguazio,Technology,,4.0,
+Teradata,iguazio,Technology,,4.0,Data Integration
 Teradata,NetApp,Technology,,4.0,
-Teradata,NVIDIA,Technology,,4.0,
+Teradata,NVIDIA,Technology,,4.0,Data Integration
 Teradata,Qlik,Technology,,4.0,
 Teradata,SAS,Technology,,4.0,
 Teradata,Thales,Technology,,4.0,
 Teradata,ThoughtSpot,Technology,,4.0,
-Teradata,Volt Active Data,Technology,,4.0,
+Teradata,Volt Active Data,Technology,,4.0,Data Integration

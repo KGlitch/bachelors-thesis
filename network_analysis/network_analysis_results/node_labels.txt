@@ -8,7 +8,7 @@ Amazon Web Services
 Snowflake
 Microsoft Azure
 tableau
-DataOps.Live
+DataOps
 dbt Labs
 Denodo
 Hackolade
@@ -234,7 +234,6 @@ Figma
 Qualtrics
 X
 GoogleBigQuery
-S&PGlobal
 Evolution
 CockroachLabs
 RedisLabs
