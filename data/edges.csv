@@ -129,7 +129,7 @@ Google Cloud,NVIDIA,Technology,DataCenter,2.0,Infrastructure Integration
 Google Cloud,Alteryx,Technology,DataAnalytics,2.0,Infrastructure Integration
 Google Cloud,Dataiku,Technology,DataIntegration,2.0,Infrastructure Integration
 Google Cloud,Fivetran,Technology,DataReplication,2.0,Infrastructure Integration
-Google Cloud, Labs,Technology,DataTransformation,2.0,
+Google Cloud,dbt Labs,Technology,DataTransformation,2.0,Infrastructure Integration
 Google Cloud,Informatica,Technology,DataManagement,2.0,Infrastructure Integration
 Google Cloud,Merkle,Technology,DataIntegration,2.0,Knowledge Transfer
 Google Cloud,Monte Carlo,Technology,DataQuality,2.0,Infrastructure Integration

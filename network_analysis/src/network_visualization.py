@@ -50,7 +50,7 @@ with open(os.path.join(OUTPUT_DIR, 'node_labels.txt'), 'w') as f:
         f.write(f"{node}\n")
 
 # Set up the plot
-plt.figure(figsize=(25, 20))
+plt.figure(figsize=(20, 15))
 
 # Detect communities using the Louvain method
 partition = community.best_partition(G)
@@ -122,7 +122,7 @@ legend_elements = [Line2D([0], [0], marker='o', color='w', label=f'Community {i}
 plt.legend(handles=legend_elements, title='Communities', bbox_to_anchor=(1.05, 1), loc='upper left')
 
 # Add title
-plt.title('Company Partnership Network', pad=20, size=16)
+#plt.title('Company Partnership Network', pad=20, size=16)
 
 # Adjust layout to prevent label cutoff
 plt.tight_layout()
